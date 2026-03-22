@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {I}MỞ ĐẦU (INTRODUCTION)}{5}{section.1}%
+\contentsline {subsection}{\numberline {I.1}Bối cảnh nghiên cứu}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {I.2}Mục tiêu nghiên cứu}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {I.3}Phạm vi và giới hạn nghiên cứu}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {II}CƠ SỞ LÝ THUYẾT}{5}{section.2}%
+\contentsline {subsection}{\numberline {II.1}Bài toán tối ưu hóa Mean-Variance (Markowitz)}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {II.2}Lý thuyết Copula}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {II.2.1}Định lý Sklar}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {II.2.2}Các loại mô hình}{5}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {II.3}Ứng dụng mô phỏng Monte Carlo từ Copula}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {III}PHƯƠNG PHÁP NGHIÊN CỨU}{5}{section.3}%
+\contentsline {subsection}{\numberline {III.1}Thu thập và xử lý dữ liệu}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {III.2}Quy trình phân tích dữ liệu}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {IV}PHÂN TÍCH MÔ PHỎNG VÀ KẾT QUẢ}{5}{section.4}%
+\contentsline {subsection}{\numberline {IV.1}Phân tích đơn biến}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {IV.2}Phân tích biến phụ thuộc}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {IV.3}Áp dụng mô hình Copula}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {IV.4}Mô hình mô phỏng Monte Carlo}{5}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {IV.4.1}Thiết kế mô hình mô phỏng Monte Carlo}{5}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {IV.4.2}Chiến lược triển khai mô phỏng với 10.000 kịch bản}{5}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {IV.5}Tối ưu hóa danh mục đầu tư}{5}{subsection.4.5}%
+\contentsline {section}{\numberline {V}Ý NGHĨA PHƯƠNG PHÁP QUẢN TRỊ }{5}{section.5}%
+\contentsline {subsection}{\numberline {V.1}Giải thích kết quả}{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {V.2}Ý nghĩa cho doanh nghiệp}{5}{subsection.5.2}%
+\contentsline {subsection}{\numberline {V.3}Ý nghĩa cho nghiên cứu học thuật}{5}{subsection.5.3}%
+\contentsline {section}{\numberline {VI}KẾT LUẬN VÀ HƯỚNG NGHIÊN CỨU TƯƠNG LAI}{5}{section.6}%
+\contentsline {subsection}{\numberline {VI.1}Tóm tắt kết quả chính}{5}{subsection.6.1}%
+\contentsline {subsection}{\numberline {VI.2}Đóng góp học thuật}{5}{subsection.6.2}%
+\contentsline {subsection}{\numberline {VI.3}Hướng nghiên cứu trong tương lai}{5}{subsection.6.3}%
