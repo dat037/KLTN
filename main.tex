@@ -1,0 +1,118 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry, xcolor}
+\usepackage{graphicx, listings}
+\usepackage{pdfpages}
+\usepackage[most]{tcolorbox}
+\usepackage{biblatex}
+\usepackage{booktabs} % Gói lệnh giúp bảng đẹp hơn
+\usepackage{array}    % Hỗ trợ định dạng cột
+\addbibresource{ref.bib}
+% Căn lề
+\geometry{a4paper, top=2.5cm, bottom=2.5cm, left=3cm, right=2cm}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{blue},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\renewcommand{\thesection}{\Roman{section}}
+\lstset{style=mystyle}
+\usepackage{hyperref}
+\begin{document}
+	\begin{tikzpicture}[remember picture,overlay,inner sep=0,outer sep=0]
+
+    % Vẽ khung chính
+    \draw[blue!70!black,line width=4pt]
+        ([xshift=-1.5cm,yshift=-2cm]current page.north east) coordinate (A) --
+        ([xshift=1.5cm,yshift=-2cm]current page.north west) coordinate (B) --
+        ([xshift=1.5cm,yshift=2cm]current page.south west) coordinate (C) --
+        ([xshift=-1.5cm,yshift=2cm]current page.south east) coordinate (D) -- cycle;
+
+    % Hàm vẽ họa tiết
+    \foreach \shiftA/\shiftB in {0.5cm/0.5cm, -0.3cm/0.3cm} {
+        \draw
+            ([yshift=\shiftA,xshift=-\shiftB]A) -- ([yshift=\shiftA,xshift=\shiftB]B) --
+            ([yshift=-\shiftA,xshift=\shiftB]B) -- ([yshift=-\shiftA,xshift=-\shiftB]B) --
+            ([yshift=\shiftA,xshift=-\shiftB]C) -- ([yshift=\shiftA,xshift=\shiftB]C) --
+            ([yshift=-\shiftA,xshift=\shiftB]C) -- ([yshift=-\shiftA,xshift=-\shiftB]D) --
+            ([yshift=\shiftA,xshift=-\shiftB]D) -- ([yshift=\shiftA,xshift=\shiftB]D) --
+            ([yshift=-\shiftA,xshift=\shiftB]A) -- ([yshift=-\shiftA,xshift=-\shiftB]A) --
+            ([yshift=\shiftA,xshift=-\shiftB]A);
+    }
+\end{tikzpicture}
+
+
+	% Căn giữa toàn bộ nội dung
+	\begin{center}
+		\textbf{ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH}\\
+		\textbf{TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN}\\
+		\textbf{KHOA TOÁN - TIN HỌC}\\
+		\includegraphics[scale=0.35]{icon KHTN.png}
+    
+	\vspace{10pt}
+
+		{\LARGE \textbf{BÁO CÁO}}\\[0.5cm]
+		{\Large \textbf{ĐỀ TÀI:}}\\ 
+		{\Large \textbf{}}\\[1cm]
+		
+		\textbf{KHÓA LUẬN TỐT NGHIỆP}\\
+		\textbf{Năm học: 2025 - 2026}\\[2cm]
+		
+		% Bố trí nội dung 2 cột
+		\begin{tabular}{p{7cm} p{9cm}}
+			\textbf{GIẢNG VIÊN HƯỚNG DẪN} & \textbf{ SINH VIÊN THỰC HIỆN} \\[0.5cm]
+			ThS. Nguyễn Hữu Toàn 
+            & 
+			\begin{tabular}[t]{l} % Danh sách sinh viên bên trong 1 tabular nhỏ
+			Phan Hoàng Đạt - 22110037.
+			\end{tabular}\\
+		\end{tabular}
+	\end{center}
+	
+	\vfill % Đẩy nội dung phía dưới xuống cuối trang
+	\begin{center}
+		\textbf{Hồ Chí Minh -- 2026}
+	\end{center}
+	
+	% Kết thúc trang ngay sau nội dung này
+	\newpage
+
+	\begin{center}
+		\LARGE \textbf{Lời cam đoan}\\
+	\end{center}
+	Tôi xin cam đoan rằng, báo cáo này là sản phẩm được thực hiện bởi tôi, được thực hiện dựa trên sự hướng dẫn của giáo viên hướng dẫn và các tài liệu tham khảo được trích dẫn đầy đủ. Mọi dữ liệu, số liệu và kết quả trình bày trong luận văn đều trung thực và chưa từng được sử dụng trong bất kỳ công trình nào trước đây, trừ khi được chỉ rõ trong phần tham khảo.\\\\
+    Tôi xin chịu trách nhiệm hoàn toàn về tính trung thực và chính xác của nội dung bài báo cáo.
+	\begin{center}
+		\LARGE \textbf{Lời cảm ơn}\\
+	\end{center}
+	Quá trình học môn học này là một giai đoạn rất quan trọng. Nó là tiền đề nhằm trang bị cho em những kỹ năng nghiên cứu, những kiến thức quý báu, tạo bước đệm cho quá trình sau này.\\\\
+	Trước hết, em xin chân thành cảm ơn ban lãnh đạo khoa đã tạo điều kiện học tập tốt nhất với môi trường học tập hiện đại, trang thiết bị đầy đủ, giúp em tiếp cận với các công nghệ và phương pháp thực hành tiên tiến. \\\\
+	Đặc biệt em xin chân thành cảm ơn giáo viên hướng dẫn của chúng tôi, Ths. Nguyễn Hữu Toàn, vì sự hỗ trợ và hướng dẫn tận tình trong suốt môn học cũng như là quá trình thực hiện báo cáo. Em cũng muốn bày tỏ lòng biết ơn đến gia đình và bạn bè, những người đã luôn ủng hộ và khích lệ chúng tôi trong mọi hoàn cảnh. \\\\
+	Mặc dù đã cố gắng hết mình, nhưng bài báo cáo chắc chắn không tránh khỏi những thiếu sót. Rất mong nhận được những ý kiến đóng góp từ thầy để bài báo cáo được hoàn thiện hơn. \\
+
+\newpage
+
+\tableofcontents  % Tạo mục lục tự động
+\newpage
+\newpage
+\end{document}
