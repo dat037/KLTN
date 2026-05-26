@@ -1,0 +1,7 @@
+Thuật toán này dựa trên việc mô phỏng phân phối Student $t$ đa biến. Để tạo một vectơ $X \sim t_d(\nu, 0, P)$, quy trình tuân theo các bước cụ thể:
+\begin{itemize}
+    \item Tạo vectơ $Z \sim N_d(0, P)$ như ở thuật toán Gauss.
+    \item Tạo độc lập một biến trộn $W \sim Ig(\nu/2, \nu/2)$ thuộc phân phối nghịch đảo Gamma, hoặc tạo biến trộn từ phân phối khi bình phương thông qua hệ thức $\nu/W \sim \chi_\nu^2$.
+    \item Tiến hành đặt $X = \sqrt{W}Z$.
+    \item Trả về vectơ kết quả sau cùng $U = (t_\nu(X_1), \dots, t_\nu(X_d))^T$, trong đó $t_\nu$ là hàm phân phối Student $t$ đơn biến với $\nu$ bậc tự do.
+\end{itemize}

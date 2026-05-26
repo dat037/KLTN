@@ -1,0 +1,6 @@
+Gauss Copula được trích xuất từ phân phối chuẩn đa biến. Thuật toán tuân thủ quy trình sau:
+\begin{itemize}
+    \item Thực hiện phân rã Cholesky ma trận tương quan $P$ để thu được nhân tử Cholesky $P^{1/2}$.
+    \item Tạo vectơ $Z = (Z_1, \dots, Z_d)^T$ có phân phối chuẩn đa biến $N_d(0, P)$ bằng cách đặt $Z = P^{1/2}\epsilon$, với $\epsilon$ là vectơ các biến chuẩn tắc độc lập.
+    \item Trả về vectơ kết quả cuối cùng $U = (\Phi(Z_1), \dots, \Phi(Z_d))^T$, trong đó $\Phi$ là hàm phân phối chuẩn tắc đơn biến.
+\end{itemize}

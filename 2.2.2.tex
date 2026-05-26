@@ -1,0 +1,11 @@
+\paragraph{Các Copula cơ bản:}
+Copula độc lập ($\Pi$) xuất hiện khi các biến ngẫu nhiên liên tục là độc lập nếu và chỉ nếu cấu trúc phụ thuộc của chúng được mô tả bởi công thức $ \Pi(u_1, \dots, u_d) = \prod_{i=1}^{d} u_i $. Copula đồng biến ($M$) là giới hạn trên Fréchet, được định nghĩa là $M(u_1, \dots, u_d) = \min\{u_1, \dots, u_d\}$, đại diện cho sự phụ thuộc thuận hoàn hảo khi các biến là hàm tăng nghiêm ngặt của nhau. Copula nghịch biến ($W$) là giới hạn dưới Fréchet, xác định bởi $W(u_1, u_2) = \max\{u_1 + u_2 - 1, \, 0\}$, chỉ áp dụng cho trường hợp hai chiều và đại diện cho sự phụ thuộc nghịch hoàn hảo.
+
+\paragraph{Các Copula ẩn:}
+Gauss Copula được trích xuất từ phân phối chuẩn đa biến và được tham số hóa bởi ma trận tương quan. Đặc điểm quan trọng là nó không có phụ thuộc đuôi, nghĩa là các sự kiện cực đoan có xu hướng xảy ra độc lập trong các biến. Ngược lại, Student $t$ Copula được trích xuất từ phân phối $t$ đa biến. Khác với Gauss Copula, $t$ Copula có phụ thuộc đuôi ở cả hai phía, khiến nó phù hợp hơn để mô phỏng các rủi ro cực đoan xảy ra đồng thời.
+
+\paragraph{Các Copula hiển (tường minh):}
+Đặc điểm chính của nhóm Copula hiển là chúng có một công thức giải tích đơn giản, khác với Copula ẩn vốn phải trải qua tính toán tích phân từ phân phối đa biến. Chúng ta có thể đặt các giá trị $u_1, \dots, u_d$ trực tiếp vào công thức để tính ra kết quả. Cấu trúc hàm sinh của đa số các Copula hiển phổ biến thuộc học Archimedean Copulas, được xây dựng dựa trên một hàm số đơn biến $\phi$ gọi là hàm sinh, công thức và tính chất chuyên sâu sẽ được phân tích ở các mục sau.
+
+\paragraph{Các biến thể nâng cao:}
+Skewed $t$ Copula (Copula $t$ lệch) là một phiên bản không đối xứng của $t$ Copula, cho phép các mức độ phụ thuộc đuôi khác nhau ở các góc đối diện của phân phối. Grouped $t$ Copula (Copula $t$ phân nhóm) cho phép các nhóm tài sản khác nhau trong một danh mục có các mức độ phụ thuộc đuôi khác nhau thông qua việc tham số hóa bậc tự do $\nu$ khác nhau. Galambos Copula là một ví dụ về Copula cực đoan, mô tả cấu trúc phụ thuộc của các giá trị cực đại đa biến. Việc lựa chọn giữa các loại Copula này rất quan trọng vì chúng dẫn đến các đánh giá rủi ro khác nhau, đặc biệt là khi tính toán xác suất xảy ra các biến cố cực đoan đồng thời.

@@ -1,0 +1,14 @@
+Tương quan hạng là các thước đo phụ thuộc vô hướng chỉ phụ thuộc vào Copula của phân phối đa biến mà không bị ảnh hưởng bởi các phân phối biên. Các thuộc tính chung bao gồm tính bất biến đối với các phân phối biên liên tục dưới các phép biến đổi đồng tăng nghiêm ngặt; phạm vi giá trị luôn nằm ở đoạn $[-1, 1]$; trạng thái cực đoan đạt giá trị $1$ khi các biến là đồng biến và đạt $-1$ khi chúng nghịch biến; và thuộc tính độc lập khi hai biến độc lập sẽ có tương quan hạng bằng $0$ (tuy nhiên giá trị bằng $0$ không nhất thiết hàm ý sự độc lập). Đối với nhóm phân phối elip và các Copula hỗn hợp phương sai chuẩn, hệ số Kendall's tau có mối quan hệ trực tiếp lý tưởng với tham số tương quan tuyến tính $\rho$ qua hệ thức:
+$$\rho_\tau(X_1, X_2) = \frac{2}{\pi} \arcsin(\rho)$$
+Mối liên hệ chức năng này rất mạnh mẽ, cho phép các nhà quản lý rủi ro có thể ước lượng ma trận tương quan $\rho$ một cách vững chắc từ mẫu dữ liệu thực tế, ngay cả khi gặp phải hiện tượng đuôi nặng hoặc phương sai vô hạn, vốn là những trường hợp mà cách tính tương quan tuyến tính trực tiếp hoạt động kém hiệu quả.
+
+Bên cạnh Kendall's Tau, Spearman's Rho ($\rho_s$) là một thước đo quan trọng khác dựa trên sự biến đổi xác suất của các biến ngẫu nhiên qua các hàm biên phân phối liên tục, cụ thể $\rho_s(X_1, X_2) = \rho(F_1(X_1), F_2(X_2))$, biểu diễn bằng tích phân qua Copula như sau:
+$$\rho_s(X_1, X_2) = 12 \int_{0}^{1} \int_{0}^{1} (C(u_1, u_2) - u_1 u_2) du_1 du_2$$
+Đối với Gauss Copula, Spearman's rho có công thức dạng đóng $\rho_s(X_1, X_2) = \frac{6}{\pi} \arcsin\left(\frac{\rho}{2}\right)$, mang lại giá trị thực nghiệm rất gần với tham số $\rho$ ($\rho_s \approx \rho$) với sai số tối đa không quá $0.0181$. Tuy nhiên, đối với các Copula hỗn hợp chuẩn phức tạp khác như Student $t$ Copula, hiện chưa có hệ thức đóng đơn giản tương tự cho Spearman's rho, dù các kiểm định mô phỏng cho thấy độ chênh lệch xấp xỉ vẫn ở mức nhỏ không đáng kể.
+
+\paragraph{Kendall's Tau ($\rho_\tau$):}
+Thước đo này đo lường mức độ hòa hợp giữa các cặp biến ngẫu nhiên. Hai điểm $(x_1, x_2)$ và $(\tilde{x}_1, \tilde{x}_2)$ được gọi là hòa hợp nếu $(x_1 - \tilde{x}_1)(x_2 - \tilde{x}_2) > 0$ and bất hòa nếu tích này nhỏ hơn $0$. Công thức tính được xác định qua biểu thức:
+$$\rho_\tau(X_1, X_2) = P((X_1 - \bar{X}_1)(X_2 - \bar{X}_2) > 0) - P((X_1 - \bar{X}_1)(X_2 - \bar{X}_2) < 0)$$
+Trong đó $(\bar{X}_1, \bar{X}_2)$ là bản sao độc lập của $(X_1, X_2)$. Khi tính toán qua Copula, công thức trở thành:
+$$\rho_\tau(X_1, X_2) = 4 \int_{0}^{1} \int_{0}^{1} C(u_1, u_2) dC(u_1, u_2) - 1$$
+Ứng dụng của Kendall's Tau thường được dùng để hiệu chuẩn các tham số của Copula elip hoặc Copula Archimedean.

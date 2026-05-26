@@ -1,0 +1,25 @@
+Trong quản trị rủi ro định lượng, các hệ số phụ thuộc đuôi là thước đo mức độ phụ thuộc giữa các biến ở các cực đoan đồng thời của một phân phối đa biến. Đây là các đại lượng không đổi khi phụ thuộc vào Copula của cặp biến ngẫu nhiên đó.
+
+\paragraph{Định nghĩa các hệ số:}
+Có hai hệ số chính được sử dụng để đo lường sự phụ thuộc tại các vùng cực đoan:
+\begin{itemize}
+    \item Hệ số phụ thuộc đuôi trên ($\lambda_u$) đo lường xác suất một biến vượt qua một ngưỡng phân vị rất cao, với điều kiện biến kia cũng đã vượt qua ngưỡng đó. Công thức được xác định là giới hạn:
+    $$\lambda_u = \lim_{q \to 1^-} P(X_2 > F_2^{-1}(q) | X_1 > F_1^{-1}(q))$$
+    Nếu $\lambda_u > 0$, cặp biến số có sự phụ thuộc đuôi trên (phụ thuộc cực đoan); nếu $\lambda_u = 0$, chúng độc lập tiệm cận ở đuôi trên.
+    \item Hệ số phụ thuộc đuôi dưới ($\lambda_l$) tương tự đo lường xác suất một biến nhận giá trị cực thấp khi biến kia cũng đang ở vùng cực thấp. Công thức là:
+    $$\lambda_l = \lim_{q \to 0^+} P(X_2 \le F_2^{-1}(q) | X_1 \le F_1^{-1}(q))$$
+    Đối với các Copula có tính đối xứng xuyên tâm như Gauss hay $t$, ta luôn có $\lambda_l = \lambda_u$.
+\end{itemize}
+
+\paragraph{Đặc điểm của các loại Copula phổ biến:}
+Mỗi loại Copula mang lại các đặc tính phụ thuộc đuôi rất khác nhau, ảnh hưởng trực tiếp đến việc đánh giá rủi ro hệ thống:
+\begin{itemize}
+    \item Gauss: $\lambda_u = \lambda_l = 0$. Đặc điểm rủi ro là độc lập tiệm cận ở cả hai đuôi, có thể đánh giá thấp rủi ro các biến cố cực đoan xảy ra cùng lúc.
+    \item Student $t$: $\lambda_u = \lambda_l > 0$. Đặc điểm rủi ro là có phụ thuộc đuôi ở cả hai phía, phụ thuộc tăng khi bậc tự do $\nu$ giảm hoặc tương quan $\rho$ tăng.
+    \item Gumbel: $\lambda_u = 2 - 2^{1/\theta}$, $\lambda_l = 0$. Đặc điểm rủi ro là chỉ phụ thuộc đuôi trên, thường dùng mô hình hóa các khoản thua lỗ lớn đồng thời.
+    \item Clayton: $\lambda_u = 0$, $\lambda_l = 2^{-1/\theta}$. Đặc điểm rủi ro là chỉ phụ thuộc đuôi dưới.
+    \item Frank: $\lambda_u = \lambda_l = 0$. Đặc điểm rủi ro là không có phụ thuộc đuôi ở bất kỳ phía nào.
+\end{itemize}
+
+\paragraph{Ý nghĩa trong quản trị rủi ro:}
+Sự độc lập tiệm cận của Gauss Copula cho thấy việc sử dụng Gauss Copula cho sự kiện rủi ro cao, ngay cả khi có hệ số tương quan rất lớn, khi tiến sâu vào vùng đuôi cực đoan, các biến cố trong mô hình Gaussian có xu hướng xảy ra độc lập, dẫn đến việc đánh giá thấp xác suất xảy ra khủng hoảng đồng thời. Ngược lại, việc sử dụng Student $t$ Copula được ưa chuộng hơn trong thực tế vì nó ghi nhận hiện tượng xảy ra các tài sản cùng sụt giảm mạnh. Ví dụ, xác suất xảy ra biến cố cực đoan đồng thời trong mô hình $t$ có thể cao gấp nhiều lần so với mô hình Gaussian. Đối với phân phối elip, trọng tâm phụ thuộc đuôi được quyết định bởi đuôi của biến trộn; nếu biến trộn có phân phối đuôi nặng (như nghịch đảo Gamma trong trường hợp phân phối $t$), chúng ta sẽ thu được phụ thuộc đuôi.

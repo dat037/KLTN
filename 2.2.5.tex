@@ -1,0 +1,14 @@
+Sự phụ thuộc hoàn hảo được mô tả thông qua hai trạng thái cực đoan của cấu trúc phụ thuộc: sự đồng biến và sự nghịch biến. Các khái niệm này liên quan chặt chẽ đến các giới hạn Fréchet của Copula.
+
+\paragraph{Sự đồng biến (Phụ thuộc thuận hoàn hảo):}
+Các biến ngẫu nhiên $X_1, \dots, X_d$ được gọi là đồng biến nếu chúng có Copula là giới hạn trên Fréchet:
+$$M(u_1, \dots, u_d) = \min\{u_1, \dots, u_d\}$$
+Đặc điểm hình học chỉ ra rằng các điểm dữ liệu tuân theo cấu trúc đồng biến sẽ nằm hoàn toàn trên một đường chéo tăng trong không gian đa biến. Về tính chất toán học, các biến số đồng biến thực chất là các hàm tăng của cùng một biến ngẫu nhiên duy nhất $Z$. Đối với các biến có hàm phân phối liên tục, $X_i$ và $X_j$ là đồng biến khi và chỉ khi tồn tại một phép biến đổi tăng ngặt $T$ sao cho $X_j = T(X_i)$ hầu chắc chắn. Một đặc tính quan trọng của rủi ro đồng biến là giá trị phân vị có tính cộng tính, tức là Var của tổng của rủi ro đồng biến bằng tổng các Var của từng rủi rơ thành phần.
+
+\paragraph{Sự nghịch biến (Phụ thuộc nghịch hoàn hảo):}
+Hai biến ngẫu nhiên $X_1$ và $X_2$ được gọi là nghịch biến nếu chúng có Copula là giới hạn dưới Fréchet:
+$$W(u_1, u_2) = \max\{u_1 + u_2 - 1, \, 0\}$$
+Đặc điểm của trường hợp này là biến này là hàm giảm nghiêm ngặt của biến kia hầu chắc chắn. Tuy nhiên, cấu trúc này có hạn chế về chiều: khác với sự đồng biến, khái niệm nghịch biến không thể mở rộng cho không gian ba chiều trở lên ($d > 2$). Giới hạn dưới Fréchet $W$ không còn là một Copula hợp lệ khi số chiều lớn hơn hai.
+
+\paragraph{Ý nghĩa trong quản trị rủi ro:}
+Mọi Copula bất kỳ $C(u_1, \dots, u_d)$ luôn nằm trong khoảng giới hạn Fréchet $W \le C \le M$ (với $W$ chỉ áp dụng cho hai chiều). Trong kỹ thuật Stress-testing, sự đồng biến thường đại diện cho kịch bản rủi ro tập trung cao nhất đối với các thước đo rủi ro hiệp biến như Expected Shortfall (ES), vì khi đó đa dạng hóa không mang lại lợi ích giảm rủi ro. Đối với mối quan hệ tương quan tuyến tính, hệ số tương quan tuyến tính đạt giá trị cực đại khi các biến đồng biến và đạt giá trị cực tiểu khi chúng nghịch biến (với điều kiện các biến có cùng kiểu phân phối).

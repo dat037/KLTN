@@ -1,0 +1,6 @@
+Phân phối Meta cung cấp giải pháp thuật toán tích hợp để liên kết cấu trúc của một hàm Copula $C$ với các phân phối biên $F_1, \dots, F_d$ tùy ý. Về mặt thực hành tính toán, quy trình mô phỏng bao gồm hai bước nền tảng:
+\begin{itemize}
+    \item Bước đầu tiên là phát sinh thành công một vectơ ngẫu nhiên biến đều tiêu chuẩn $U = (U_1, \dots, U_d)^T$ dựa trên thuật toán lấy mẫu của Copula $C$ đã lựa chọn.
+    \item Bước tiếp theo sử dụng phép biến đổi phân vị nghịch đảo bằng cách thiết lập giá trị thực tế $X_i = F_i^{-1}(U_i)$ với mọi $i = 1, \dots, d$.
+\end{itemize}
+Vectơ đầu ra $X = (X_1, \dots, X_d)^T$ được tạo thành đảm bảo phản ánh chuẩn xác các đặc tính biên mong muốn gắn liền với cấu trúc phụ thuộc gốc từ hệ hàm Copula đã chọn.

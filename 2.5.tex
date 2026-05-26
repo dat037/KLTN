@@ -1,0 +1,35 @@
+Họ Copula Archimedean là một nhóm các cấu trúc phụ thuộc được sử dụng rộng rãi trong các ứng dụng tài chính và quản trị rủi ro nhờ vào công thức dạng đóng đơn giản và khả năng nắm bắt các loại phụ thuộc khác nhau.
+
+\paragraph{Định nghĩa và hàm sinh:}
+Một Copula Archimedean hai chiều được xác định thông qua một hàm số $\phi$ gọi là hàm sinh, công thức tổng quát là:
+$$C(u_1, u_2) = \phi^{[-1]}(\phi(u_1) + \phi(u_2))$$
+Trong đó $\phi$ là hàm liên tục, giảm nghiêm ngặt và lồi trên thỏa mãn $\phi(1) = 0$. Ký hiệu $\phi^{[-1]}$ được định nghĩa là một nghịch đảo giả của $\phi$, có dạng:
+$$\phi^{[-1]} = \left\{ \begin{aligned}
+&\phi^{-1}(t), &&0 \le t \le \phi(0) \\
+&0, &&\phi(0) < t \le \infty
+\end{aligned} \right.$$
+Nếu $\phi(0) = \infty$, hàm sinh được gọi là nghiêm ngặt và ta có thể dùng hàm nghịch đảo thông thường $\phi^{-1}$.
+
+\paragraph{Các ví dụ phổ biến:}
+\begin{itemize}
+    \item Gumbel Copula: Có hàm sinh $\phi(t) = (-\ln t)^\theta$, với $\theta \ge 1$. Nó đặc trưng bởi phụ thuộc đuôi trên.
+    \item Clayton Copula: Có hàm sinh $\phi(t) = \frac{1}{\theta}(t^{-\theta} - 1)$ với $\theta > 0$ (trong trường hợp nghiêm ngặt). Nó đặc trưng bởi phụ thuộc đuôi dưới.
+    \item Frank Copula: Có hàm sinh là $\phi(t) = -\ln\left(\frac{e^{-\theta t}-1}{e^{-\theta}-1}\right)$, với $\theta \in R$. Đây là loại Copula Archimedean duy nhất có tính đối xứng tâm và không phụ thuộc đuôi ở bất kỳ phía nào.
+    \item Copula Clayton tổng quát: Có hàm sinh là $\phi(t) = \theta^{-\delta}(t^{-\theta}-1)^\delta$, với $\theta > 0, \delta \ge 1$. Đây là một biến thể hai tham số có thể phụ thuộc ở cả hai đuôi.
+\end{itemize}
+
+\paragraph{Mở rộng đa biến và tính trao đổi được:}
+Mở rộng một Copula Archimedean $d$ chiều có thể được xây dựng theo công thức:
+$$C(u_1, \dots, u_d) = \phi^{-1}(\phi(u_1) + \dots + \phi(u_d))$$
+Điều kiện tồn tại để công thức này tạo thành một Copula hợp lệ trong mọi số chiều $d$ là hàm nghịch đảo $\phi^{-1}$ phải có tính đơn điệu hoàn toàn. Về tính trao đổi được, các Copula Archimedean đa biến tiêu chuẩn có tính trao đổi được, nghĩa là vai trò của các biến là như nhau. Tuy nhiên, ta có thể xây dựng các phiên bản không trao đổi được bằng cách áp dụng đệ quy các hàm sinh khác nhau để tạo cấu trúc phân nhóm.
+
+\paragraph{Copula LT-Archimedean:}
+Đây là một nhóm con quan trọng được xây dựng dựa trên biến đổi Laplace-Stieltjes (LT) của một hàm phân phối $G$. Hàm nghịch đảo của hàm sinh $\phi^{-1}$ chính là biến đổi Laplace của $G$. Cách tiếp cận này cho phép mô phỏng dễ dàng bằng cách sử dụng một biến nguyên trộn $V$ có phân phối $G$ (ví dụ: phân phối Gamma cho Clayton, hoặc phân phối ổn định định hướng cho Gumbel). Ứng dụng của nó rất hữu ích trong mô hình hóa rủi ro tín dụng danh mục, nơi biến $V$ đóng vai trò là yếu tố rủi ro chung.
+
+\paragraph{Thước đo phụ thuộc:}
+Các thước đo rủi ro có thể được tính trực tiếp từ hàm sinh $\phi$:
+\begin{itemize}
+    \item Hệ số Kendall's tau ($\rho_\tau$) được tính theo công thức:
+    $$\rho_\tau = 1 + 4\int_{0}^{1} \frac{\phi(t)}{\phi'(t)} dt$$
+    \item Phụ thuộc đuôi: Các hệ số $\lambda_u$ và $\lambda_l$ được xác định dựa trên tham số $\theta$ của từng loại (ví dụ: $\lambda_u = 2 - 2^{1/\theta}$ cho Gumbel).
+\end{itemize}

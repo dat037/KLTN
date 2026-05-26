@@ -1,0 +1,14 @@
+Phương pháp này sử dụng biến đổi Laplace-Stieltjes để tạo ra các Copula có tính trao đổi trong mọi số chiều. Quy trình thực hiện gồm các bước:
+\begin{itemize}
+    \item Tạo một biến ngẫu nhiên $V$ có hàm phân phối $G$ sao cho biến đổi Laplace-Stieltjes $\hat{G}$ của nó chính là nghịch đảo của hàm sinh Copula $\phi = \hat{G}^{-1}$.
+    \item Tạo các biến ngẫu nhiên đều tiêu chuẩn độc lập $X_1, \dots, X_d$.
+    \item Trả về vectơ kết quả được tính theo biểu thức:
+    $$U = \left(\hat{G}\left(-\frac{\ln(X_1)}{V}\right), \dots, \hat{G}\left(-\frac{\ln(X_d)}{V}\right)\right)^T$$
+\end{itemize}
+
+Đối với các trường hợp cụ thể, cấu trúc của biến trộn $V$ được xác định riêng biệt cho từng loại Copula:
+\begin{itemize}
+    \item Với Clayton Copula: biến $V$ được mô phỏng từ phân phối Gamma $\text{Ga}(1/\theta, 1)$.
+    \item Với Gumbel Copula: biến $V$ được mô phỏng từ phân phối ổn định dương.
+    \item Với Frank Copula: $V$ là biến ngẫu nhiên rời rạc có hàm khối xác suất được tính theo công thức $p(k) = (1 - e^{-\theta})^k / (k\theta)$.
+\end{itemize}

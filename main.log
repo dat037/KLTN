@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  24 MAR 2026 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  27 MAY 2026 02:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1098,17 +1098,16 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 41.
 Package biblatex Info: Reference segment=0 on input line 41.
 Package hyperref Info: Link coloring OFF on input line 41.
-(main.out) (main.out)
+ (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<icon KHTN.png, id=158, 597.9138pt x 597.9138pt>
+<icon KHTN.png, id=234, 597.9138pt x 597.9138pt>
 File: icon KHTN.png Graphic file (type png)
 <use icon KHTN.png>
 Package pdftex.def Info: icon KHTN.png  used on input line 70.
@@ -1152,21 +1151,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
-[2] (main.toc)
+[2] (main.toc [3]
+Overfull \hbox (2.99927pt too wide) detected at line 80
+\T5/cmr/bx/n/12 VII 
+ []
+
+)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3]
-Overfull \hbox (10.66881pt too wide) in paragraph at lines 150--150
+ [4] (1.1.1.tex) (1.1.2.tex) (2.1.1.tex [5]) (2.1.2.tex [6]) (2.1.3.tex) (2.2.1.tex [7] [8]
+Overfull \hbox (29.57118pt too wide) detected at line 24
+\OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; [] ; u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 )
+ []
+
+) (2.2.2.tex [9]) (2.2.3.tex) (2.2.4.tex [10]) (2.2.5.tex [11]) (2.3.1.tex [12]) (2.3.2.tex [13]) (2.3.3.tex [14]) (2.4.1.tex [15]) (2.4.2.tex) [16] (2.5.tex [17]) (3.tex) (3.1.tex [18]) (3.2.tex) (3.3.tex) (3.4.tex [19]) (3.5.tex)
+Overfull \hbox (18.4469pt too wide) in paragraph at lines 192--192
 []\T5/cmr/bx/n/17.28 K˜T LUŠN V€ H×ÎNG NGHI–N CÙU T×ÌNG
  []
 
-[4]
-Overfull \vbox (119.81207pt too high) has occurred while \output is active []
+[20] [21]
 
- [5]
-
-LaTeX Warning: Empty bibliography on input line 155.
+LaTeX Warning: Empty bibliography on input line 197.
 
 (main.aux)
  ***********
@@ -1174,23 +1180,23 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A6A602AF06B9803D37CFA89C5964803F;6249.
+(rerunfilecheck)             Checksum: A10246CDE54B92703AC3E6102D00664A;10635.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35935 strings out of 467870
- 713861 string characters out of 5428423
- 1569534 words of memory out of 5000000
- 64257 multiletter control sequences out of 15000+600000
- 640182 words of font info for 66 fonts, out of 8000000 for 9000
+ 36170 strings out of 467870
+ 717641 string characters out of 5428423
+ 1574558 words of memory out of 5000000
+ 64351 multiletter control sequences out of 15000+600000
+ 642464 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,14n,108p,730b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb>
-Output written on main.pdf (5 pages, 276331 bytes).
+ 98i,14n,108p,1389b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb>
+Output written on main.pdf (21 pages, 482721 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 500 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 546 words of extra memory for PDF output out of 10000 (max. 10000000)
 
