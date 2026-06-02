@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1779810747.55311 "main.bcf" "main.bbl" "main" 1779823756.09162 0
-  "main.bcf" 1779823755 108544 a1cf62a81dfbc037a8a34329d741260f "pdflatex"
+["biber main"] 1779810747.55311 "main.bcf" "main.bbl" "main" 1779976106.48919 0
+  "main.bcf" 1779976105 108544 a1cf62a81dfbc037a8a34329d741260f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1779823749.31681 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1779823756.09337 0
+["pdflatex"] 1779976098.61786 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1779976106.49055 0
   "1.1.1.tex" 1779812307 1725 68e83c8d9204cb6fd338d99f45523326 ""
   "1.1.2.tex" 1779812338 504 5c3fcc844d6c47fbf2c30319f3ea6dec ""
   "2.1.1.tex" 1779818255 4156 4bbdc3188757748b0ed570eb4d7b485e ""
@@ -240,14 +240,14 @@
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767723746 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1767073485 14064 ab5f344d43e4a13ec6928177bfbcd31a ""
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767723820 13323460 e32495a5c57f539cb45045759671e157 ""
-  "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" 1779823740 8767 2b7bfedb38d6e615843803be2bc67bcc ""
+  "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" 1779976080 8768 5b8a9c7f2f09dc0f6eab75238f907a3f ""
   "icon KHTN.png" 1769974894 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1779823755 11484 022a1ad3db3612cf5e85fd76e3f7382a "pdflatex"
+  "main.aux" 1779976105 11485 34629ffe8ce550d2b1ab3327fb4cacff "pdflatex"
   "main.bbl" 1779810832 486 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.out" 1779823755 10635 a10246cde54b92703ac3e6102d00664a "pdflatex"
-  "main.run.xml" 1779823755 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
-  "main.tex" 1779823740 8767 2b7bfedb38d6e615843803be2bc67bcc ""
-  "main.toc" 1779823755 7759 46f72a25c7338f0f39787c91f0e63a6d "pdflatex"
+  "main.out" 1779976105 10643 0bf934d963a2a2f613020b373246cf3f "pdflatex"
+  "main.run.xml" 1779976105 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
+  "main.tex" 1779976080 8768 5b8a9c7f2f09dc0f6eab75238f907a3f ""
+  "main.toc" 1779976105 7760 821dd955246fde0ed90a3ff405de86ee "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

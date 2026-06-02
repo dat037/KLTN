@@ -77,7 +77,7 @@
 \contentsline {subsection}{\numberline {VI.1}Giải thích kết quả}{21}{subsection.6.1}%
 \contentsline {subsection}{\numberline {VI.2}Ý nghĩa cho doanh nghiệp}{21}{subsection.6.2}%
 \contentsline {subsection}{\numberline {VI.3}Ý nghĩa cho nghiên cứu học thuật}{21}{subsection.6.3}%
-\contentsline {section}{\numberline {VII}KẾT LUẬN VÀ HƯỚNG NGHIÊN CỨU TƯƠNG LAI}{21}{section.7}%
+\contentsline {section}{\numberline {VII} KẾT LUẬN VÀ HƯỚNG NGHIÊN CỨU TƯƠNG LAI}{21}{section.7}%
 \contentsline {subsection}{\numberline {VII.1}Tóm tắt kết quả chính}{21}{subsection.7.1}%
 \contentsline {subsection}{\numberline {VII.2}Đóng góp học thuật}{21}{subsection.7.2}%
 \contentsline {subsection}{\numberline {VII.3}Hướng nghiên cứu trong tương lai}{21}{subsection.7.3}%
