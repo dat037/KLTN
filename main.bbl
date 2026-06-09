@@ -16,5 +16,115 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{arratia2014computational}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c887f79a4a591736ba1a435ee01e97c8}{%
+           family={Arratia},
+           familyi={A\bibinitperiod},
+           given={Argimiro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{publisher}{1}{%
+        {Atlantis Press}%
+      }
+      \strng{namehash}{c887f79a4a591736ba1a435ee01e97c8}
+      \strng{fullhash}{c887f79a4a591736ba1a435ee01e97c8}
+      \strng{fullhashraw}{c887f79a4a591736ba1a435ee01e97c8}
+      \strng{bibnamehash}{c887f79a4a591736ba1a435ee01e97c8}
+      \strng{authorbibnamehash}{c887f79a4a591736ba1a435ee01e97c8}
+      \strng{authornamehash}{c887f79a4a591736ba1a435ee01e97c8}
+      \strng{authorfullhash}{c887f79a4a591736ba1a435ee01e97c8}
+      \strng{authorfullhashraw}{c887f79a4a591736ba1a435ee01e97c8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-94-6239-069-0}
+      \field{series}{Atlantis Studies in Computational Finance and Financial Engineering}
+      \field{title}{Computational Finance: An Introductory Course with R}
+      \field{volume}{1}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.2991/978-94-6239-070-6
+      \endverb
+    \endentry
+    \entry{macquarie2024exercise}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2cd735e96a5c0a0416cbc397b7815c59}{%
+           family={{Macquarie University}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Macquarie Business School, Department of Actuarial Studies}%
+        {Business Analytics}%
+      }
+      \strng{namehash}{2cd735e96a5c0a0416cbc397b7815c59}
+      \strng{fullhash}{2cd735e96a5c0a0416cbc397b7815c59}
+      \strng{fullhashraw}{2cd735e96a5c0a0416cbc397b7815c59}
+      \strng{bibnamehash}{2cd735e96a5c0a0416cbc397b7815c59}
+      \strng{authorbibnamehash}{2cd735e96a5c0a0416cbc397b7815c59}
+      \strng{authornamehash}{2cd735e96a5c0a0416cbc397b7815c59}
+      \strng{authorfullhash}{2cd735e96a5c0a0416cbc397b7815c59}
+      \strng{authorfullhashraw}{2cd735e96a5c0a0416cbc397b7815c59}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Session 2, 2024. Updated Friday 2nd August, 2024}
+      \field{title}{ACST3060/ACST8085: Quantitative Methods for Risk Analysis -- Exercise Booklet}
+      \field{year}{2024}
+    \endentry
+    \entry{mcneil2015quantitative}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=231761997efdbb6990d66a96c3623423}{%
+           family={McNeil},
+           familyi={M\bibinitperiod},
+           given={Alexander\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f1fff0c159b27e10b5aac97a148b11f4}{%
+           family={Frey},
+           familyi={F\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1cb1372ef5a179bf72e7bc72d0a9c941}{%
+           family={Embrechts},
+           familyi={E\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Princeton}%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{49d811ebdb242945d91e030441495bea}
+      \strng{fullhash}{49d811ebdb242945d91e030441495bea}
+      \strng{fullhashraw}{49d811ebdb242945d91e030441495bea}
+      \strng{bibnamehash}{49d811ebdb242945d91e030441495bea}
+      \strng{authorbibnamehash}{49d811ebdb242945d91e030441495bea}
+      \strng{authornamehash}{49d811ebdb242945d91e030441495bea}
+      \strng{authorfullhash}{49d811ebdb242945d91e030441495bea}
+      \strng{authorfullhashraw}{49d811ebdb242945d91e030441495bea}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Revised}
+      \field{isbn}{978-0-691-16627-8}
+      \field{series}{Princeton Series in Finance}
+      \field{title}{Quantitative Risk Management: Concepts, Techniques and Tools}
+      \field{year}{2015}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

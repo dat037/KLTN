@@ -463,6 +463,12 @@ INPUT 3.4.tex
 INPUT .\3.5.tex
 INPUT .\3.5.tex
 INPUT 3.5.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vnti12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vncsc10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vntt12.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -492,5 +498,11 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vnbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vncsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vncsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vnr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vnr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vnti12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vnti12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vntt12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\vntex\vnr\vntt12.pfb
