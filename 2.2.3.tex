@@ -1,7 +1,5 @@
 Phân phối meta là các hàm phân phối đa biến được xây dựng bằng cách kết hợp một Copula cụ thể với các phân phối biên tùy ý. Cơ sở xây dựng dựa trên định lý Sklar, nếu ta chọn một Copula $C$ và các hàm phân phối biên $F_1, \dots, F_d$ thì hàm phân phối đa biến $F$ được xác định bởi công thức:
 $$F(x_1, \dots, x_d) = C(F_1(x_1), \dots, F_d(x_d))$$
-Hàm số này chắc chắn là một hàm phân phối đồng thời hợp lệ với các biến chính là $F_1, \dots, F_d$.
-
-Các ví dụ điển hình bao gồm phân phối Meta-Gaussian, sử dụng Gauss Copula kết hợp với các phân phối biên bất kỳ. Phân phối Meta-$t$ sử dụng $t$ Copula kết hợp với các biến tùy ý; phân phối này thường được quan tâm hơn Meta-Gaussian vì nó có khả năng mô tả phụ thuộc đuôi. Ngoài ra còn có phân phối Meta-Clayton và Meta-Gumbel được tạo ra bằng cách sử dụng Copula Clayton hoặc Gumbel với các phân phối biên do người dùng tự lựa chọn. 
-
+Hàm số này chắc chắn là một hàm phân phối đồng thời hợp lệ với các biến chính là $F_1, \dots, F_d$.\\
+Các ví dụ điển hình bao gồm phân phối Meta-Gaussian, sử dụng Gauss Copula kết hợp với các phân phối biên bất kỳ. Phân phối Meta-$t$ sử dụng $t$ Copula kết hợp với các biến tùy ý; phân phối này thường được quan tâm hơn Meta-Gaussian vì nó có khả năng mô tả phụ thuộc đuôi. Ngoài ra còn có phân phối Meta-Clayton và Meta-Gumbel được tạo ra bằng cách sử dụng Copula Clayton hoặc Gumbel với các phân phối biên do người dùng tự lựa chọn.\\
 Ưu điểm của cấu trúc này trong quản trị rủi ro nằm ở tính linh hoạt, cho phép nhà quản lý rủi ro tách việc mô hình hóa hành vi của từng tài sản riêng lẻ khỏi việc mô hình hóa cấu trúc phụ thuộc (Copula). Bên cạnh đó, nó hỗ trợ phân tích độ nhạy một cách tối ưu; phương pháp này cho phép thực hiện các thử nghiệm kiểm tra sức chịu tải bằng cách thay đổi Copula (ví dụ: dịch chuyển từ Meta-Gaussian không có phụ thuộc đuôi sang Meta-$t$ có phụ thuộc đuôi mạnh) trong khi vẫn giữ nguyên các phân phối biên để xem rủi ro tổng thể thay đổi như thế nào.

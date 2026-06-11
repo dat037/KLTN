@@ -1,7 +1,7 @@
-\paragraph{Copula sống sót (survival copulas):}
+\paragraph{Copula sống sót:}
 Trong khi một Copula thông thường kết nối các hàm phân phối tích lũy, Copula sống sót ($\hat{C}$) kết nối các hàm sống sót biên để tạo thành hàm sống sót đồng thời thông qua công thức:
 $$\bar{F}(x_1, \dots, x_d) = \hat{C}(\bar{F}_1(x_1), \dots, \bar{F}_d(x_d))$$
-Về mặt toán học, nếu vectơ $U$ có phân phối Copula $C$, thì Copula sống sót của $C$ chính là hàm phân phối của vectơ $1-U$. Mối liên hệ trong trường hợp hai chiều được biểu diễn như sau:
+Về mặt toán học, nếu vectơ $U$ có phân phối Copula $C$, thì Copula sống sót của $C$ chính là hàm phân phối của vectơ $1-U$, trong đó $U:=(F_1(X_1), \dots, F_d(X_d))$. Mối liên hệ trong trường hợp hai chiều được biểu diễn như sau:
 $$\hat{C}(1-u_1, 1-u_2) = 1 - u_1 - u_2 + C(u_1, u_2)$$
 
 \paragraph{Tính đối xứng xuyên tâm:}
@@ -9,7 +9,13 @@ Một vectơ ngẫu nhiên được gọi là đối xứng xuyên tâm quanh đ
 
 \paragraph{Phân phối có điều kiện của Copula:}
 Đặc tính này cho phép tính xác suất để một biến vượt qua một ngưỡng nhất định khi biết giá trị cụ thể của biến kia (trên thang đo phân vị). Trong hai chiều, hàm phân phối có điều kiện của $U_2$ khi biết $U_1 = u_1$ được tính bằng đạo hàm riêng:
-$$C_{U_2|U_1}(u_2|u_1) = \frac{\partial}{\partial u_1} C(u_1, u_2)$$
+\begin{equation}
+\begin{aligned}
+C_{U_2 \mid U_1}(u_2 \mid u_1)= P(U_2 \leq u_2 \mid U_1 = u_1) \\
+&= \lim_{\delta \to 0}
+\frac{C(u_1 + \delta, u_2) - C(u_1, u_2)}{\delta} = \frac{\partial}{\partial u_1} C(u_1, u_2).
+\end{aligned}
+\end{equation}
 
 \paragraph{Mật độ Copula:}
 Hầu hết các Copula tham số thường dùng đều có mật độ (ngoại trừ các trường hợp phụ thuộc hoàn hảo như tính đồng điệu). Mật độ Copula được xác định bằng đạo hàm bậc $d$ của hàm $C(u_1, \dots, u_d)$ theo tất cả các thành phần. Mật độ này rất quan trọng trong việc ước lượng tham số bằng phương pháp tối đa hóa xác suất. Hình ảnh mật độ giúp trực quan hóa cấu trúc phụ thuộc; ví dụ, mật độ của $t$ Copula tập trung nhiều khối lượng xác suất ở các góc hơn so với Gauss Copula do có hiện tượng phụ thuộc đuôi.

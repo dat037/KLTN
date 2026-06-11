@@ -1,7 +1,7 @@
 Phụ thuộc đuôi của các Copula hỗn hợp chuẩn là một yếu tố then chốt để hiểu cách các biến cố cực đoan liên kết với nhau trong quản trị rủi ro.
 
 \paragraph{Đặc tính chung và tính đối xứng:}
-Các Copula hỗn hợp phương sai chuẩn có tính đối xứng xuyên tâm. Do đó, hệ số phụ thuộc đuôi trên ($\lambda_u$) và đuôi dưới ($\lambda_l$) luôn bằng nhau: $\lambda_u = \lambda_l = \lambda$. Vì các Copula này thường có tính trao đổi được, hệ số phụ thuộc đuôi có thể được tính đơn giản qua giới hạn xác suất có điều kiện: $\lambda = 2 \lim_{q \to 1^-} P(U_2 \le q | U_1 = q)$.
+Các Copula hỗn hợp phương sai chuẩn có tính đối xứng xuyên tâm. Do đó, hệ số phụ thuộc đuôi trên ($\lambda_u$) và đuôi dưới ($\lambda_l$) luôn bằng nhau: $\lambda_u = \lambda_l = \lambda$. Vì các Copula này thường có tính trao đổi được, hệ số phụ thuộc đuôi có thể được tính đơn giản qua giới hạn xác suất có điều kiện: $\lambda = 2 \lim_{q \to 0^+} P(U_2 \le q | U_1 = q)$.
 
 \paragraph{Sự khác biệt giữa các Copula Gauss và Copula Student $t$:}
 \begin{itemize}
@@ -12,14 +12,8 @@ Các Copula hỗn hợp phương sai chuẩn có tính đối xứng xuyên tâm
 \end{itemize}
 
 \paragraph{Vai trò của biến trộn $W$:}
-Yếu tố quyết định một Copula hỗn hợp phương sai chuẩn có phụ thuộc đuôi hay không nằm ở đuôi của phân phối biến trộn $W$:
-\begin{itemize}
-    \item Nếu $W$ có phân phối với đuôi lũy thừa (như nghịch đảo Gamma trong trường hợp phân phối $t$), Copula sẽ có phụ thuộc đuôi.
-    \item Ngược lại, nếu $W$ không có đuôi lũy thừa (như trong phân phối Hyperbolic), Copula sẽ độc lập tiệm cận ở các đuôi, tương tự như Copula Gauss.
-\end{itemize}
+Yếu tố quyết định một Copula hỗn hợp phương sai chuẩn có phụ thuộc đuôi hay không nằm ở đuôi của phân phối biến trộn $W$: Nếu $W$ có phân phối với đuôi lũy thừa (như nghịch đảo Gamma trong trường hợp phân phối $t$), Copula sẽ có phụ thuộc đuôi.Ngược lại, nếu $W$ không có đuôi lũy thừa (như trong phân phối Hyperbolic), Copula sẽ độc lập tiệm cận ở các đuôi, tương tự như Copula Gauss.
 
 \paragraph{Các biến thể nâng cao:}
-\begin{itemize}
-    \item Skewed $t$ Copula (Copula $t$ lệch): Cho phép các mức độ phụ thuộc đuôi khác nhau ở các góc đối diện của phân phối (ví dụ: rủi ro cùng sụt giảm mạnh hơn là cùng tăng mạnh), phá vỡ tính đối xứng xuyên tâm.
-    \item Grouped $t$ Copula (Copula $t$ phân nhóm): Cho phép các nhóm tài sản khác nhau trong một danh mục có các mức độ phụ thuộc đuôi khác nhau (thông qua các tham số số $\nu$ riêng biệt cho từng nhóm).
-\end{itemize}
+Ngoai ra, còn có các biến thể nâng cao của Copula $t$ được thiết kế để mô hình hóa các cấu trúc phụ thuộc phức tạp hơn: Skewed $t$ Copula (Copula $t$ lệch): Cho phép các mức độ phụ thuộc đuôi khác nhau ở các góc đối diện của phân phối (ví dụ: rủi ro cùng sụt giảm mạnh hơn là cùng tăng mạnh), phá vỡ tính đối xứng xuyên tâm. Và Grouped $t$ Copula (Copula $t$ phân nhóm): Cho phép các nhóm tài sản khác nhau trong một danh mục có các mức độ phụ thuộc đuôi khác nhau (thông qua các tham số số $\nu$ riêng biệt cho từng nhóm).
+

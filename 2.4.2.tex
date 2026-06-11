@@ -1,11 +1,11 @@
 Tương quan hạng của các Copula hỗn hợp chuẩn là các thước đo phụ thuộc vô hướng chỉ phụ thuộc vào cấu trúc phụ thuộc (Copula) mà không bị ảnh hưởng bởi các phân phối biên.
 
 \paragraph{Kendall's Tau ($\rho_\tau$):}
-Đây là thước đo quan trọng nhất đối với các Copula hỗn hợp phương sai chuẩn vì nó có mối quan hệ trực tiếp và đơn giản với tham số tương quan. Công thức tổng quát như ở mục 2.3.2, đối với hầu hết các Copula hỗn hợp phương sai chuẩn (thuộc họ phân phối elip), mối quan hệ giữa Kendall's tau và tham số tương quan tuyến tính $\rho$ được xác định bởi:
+Đây là thước đo quan trọng nhất đối với các Copula hỗn hợp phương sai chuẩn vì nó có mối quan hệ trực tiếp và đơn giản với tham số tương quan. Công thức tổng quát như ở mục II.3.2, đối với hầu hết các Copula hỗn hợp phương sai chuẩn (thuộc họ phân phối elip), mối quan hệ giữa Kendall's Tau và tham số tương quan tuyến tính $\rho$ được xác định bởi:
 $$\rho_\tau(X_1, X_2) = \frac{2}{\pi} \arcsin(\rho)$$
-Phạm vi áp dụng của công thức này áp dụng chính xác cho cả Gauss Copula và Student $t$ Copula. Ý nghĩa ước lượng của mối quan hệ này rất mạnh mẽ; nhà quản lý rủi ro có thể ước lượng ma trận tương quan $\rho$ một cách mạnh mẽ từ Kendall's tau mẫu, ngay cả khi dữ liệu có đuôi nặng hoặc phương sai vô hạn, vốn là những trường hợp mà tương quan tuyến tính tính toán trực tiếp hoạt động kém hiệu quả.
+Phạm vi áp dụng của công thức này áp dụng chính xác cho cả Gauss Copula và Student $t$ Copula. Ý nghĩa ước lượng của mối quan hệ này rất mạnh mẽ; nhà quản lý rủi ro có thể ước lượng ma trận tương quan $\rho$ một cách mạnh mẽ từ Kendall's Tau mẫu, ngay cả khi dữ liệu có đuôi nặng hoặc phương sai vô hạn, vốn là những trường hợp mà tương quan tuyến tính tính toán trực tiếp hoạt động kém hiệu quả.
 
 \paragraph{Spearman's Rho ($\rho_s$):}
-Mối quan hệ Spearman's rho với tham số tương quan phức tạp hơn và không đồng nhất giữa các loại Copula hỗn hợp chuẩn. Đối với Gauss Copula, Spearman's rho có công thức dạng đóng:
+Mối quan hệ Spearman's Rho với tham số tương quan phức tạp hơn và không đồng nhất giữa các loại Copula hỗn hợp chuẩn. Đối với Gauss Copula, Spearman's rho có công thức dạng đóng:
 $$\rho_s(X_1, X_2) = \frac{6}{\pi} \arcsin\left(\frac{\rho}{2}\right)$$
 Giá trị này rất gần với tham số $\rho$ ($\rho_s \approx \rho$) với sai số tối đa không quá $0.0181$. Đối với các Copula hỗn hợp chuẩn khác (như $t$ Copula), mối quan hệ trên không nhất thiết đúng cho tất cả các phân phối elip. Hiện chưa có công thức đơn giản tương tự cho $t$ Copula, mặc dù các nghiên cứu mô phỏng cho thấy sai số xấp xỉ $\rho_s \approx \rho$ ở mức không đáng kể, dù lớn hơn so với trường hợp Gauss.
