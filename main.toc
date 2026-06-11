@@ -25,7 +25,7 @@
 \contentsline {paragraph}{Phân phối có điều kiện của Copula:}{11}{section*.12}%
 \contentsline {paragraph}{Mật độ Copula:}{11}{section*.13}%
 \contentsline {paragraph}{Tính trao đổi được:}{11}{section*.14}%
-\contentsline {paragraph}{Đặc tính co giãn của Copula giá trị cực trị:}{12}{section*.15}%
+\contentsline {paragraph}{Đặc tính co giãn của Copula giá trị cực trị:}{11}{section*.15}%
 \contentsline {subsubsection}{\numberline {II.2.5}Sự phụ thuộc hoàn hảo}{12}{subsubsection.2.2.5}%
 \contentsline {paragraph}{Sự đồng biến (Phụ thuộc thuận hoàn hảo):}{12}{section*.16}%
 \contentsline {paragraph}{Sự nghịch biến (Phụ thuộc nghịch hoàn hảo):}{12}{section*.17}%
@@ -44,23 +44,23 @@
 \contentsline {subsection}{\numberline {II.4}Các Copula hỗn hợp chuẩn}{15}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {II.4.1}Phụ thuộc đuôi}{15}{subsubsection.2.4.1}%
 \contentsline {paragraph}{Đặc tính chung và tính đối xứng:}{15}{section*.26}%
-\contentsline {paragraph}{Sự khác biệt giữa các Copula Gauss và Copula Student $t$:}{16}{section*.27}%
+\contentsline {paragraph}{Sự khác biệt giữa các Copula Gauss và Copula Student $t$:}{15}{section*.27}%
 \contentsline {paragraph}{Vai trò của biến trộn $W$:}{16}{section*.28}%
 \contentsline {paragraph}{Các biến thể nâng cao:}{16}{section*.29}%
 \contentsline {subsubsection}{\numberline {II.4.2}Tương quan hạng}{16}{subsubsection.2.4.2}%
 \contentsline {paragraph}{Kendall's Tau ($\rho _\tau $):}{16}{section*.30}%
-\contentsline {paragraph}{Spearman's Rho ($\rho _s$):}{17}{section*.31}%
+\contentsline {paragraph}{Spearman's Rho ($\rho _s$):}{16}{section*.31}%
 \contentsline {subsection}{\numberline {II.5}Các Copula Archimedean}{17}{subsection.2.5}%
 \contentsline {paragraph}{Định nghĩa và hàm sinh:}{17}{section*.32}%
 \contentsline {paragraph}{Các ví dụ phổ biến:}{17}{section*.33}%
-\contentsline {paragraph}{Mở rộng đa biến và tính trao đổi được:}{18}{section*.34}%
-\contentsline {paragraph}{Copula LT-Archimedean:}{18}{section*.35}%
+\contentsline {paragraph}{Mở rộng đa biến và tính trao đổi được:}{17}{section*.34}%
+\contentsline {paragraph}{Copula LT-Archimedean:}{17}{section*.35}%
 \contentsline {paragraph}{Thước đo phụ thuộc:}{18}{section*.36}%
 \contentsline {section}{\numberline {III}Ứng dụng mô phỏng Monte Carlo từ Copula}{18}{section.3}%
-\contentsline {subsection}{\numberline {III.1}Quy trình chung cho phân phối Meta}{19}{subsection.3.1}%
+\contentsline {subsection}{\numberline {III.1}Quy trình chung cho phân phối Meta}{18}{subsection.3.1}%
 \contentsline {subsection}{\numberline {III.2}Mô phỏng Gauss Copula}{19}{subsection.3.2}%
 \contentsline {subsection}{\numberline {III.3}Mô phỏng t Copula}{19}{subsection.3.3}%
-\contentsline {subsection}{\numberline {III.4}Mô phỏng Copula Archimedean (LT-Archimedean)}{20}{subsection.3.4}%
+\contentsline {subsection}{\numberline {III.4}Mô phỏng Copula Archimedean (LT-Archimedean)}{19}{subsection.3.4}%
 \contentsline {subsection}{\numberline {III.5}Các thuật toán nâng cao cho phân phối hỗn hợp chuẩn}{20}{subsection.3.5}%
 \contentsline {section}{\numberline {IV}PHƯƠNG PHÁP NGHIÊN CỨU}{21}{section.4}%
 \contentsline {subsection}{\numberline {IV.1}Thu thập và xử lý dữ liệu}{21}{subsection.4.1}%

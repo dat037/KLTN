@@ -9,14 +9,13 @@ Một vectơ ngẫu nhiên được gọi là đối xứng xuyên tâm quanh đ
 
 \paragraph{Phân phối có điều kiện của Copula:}
 Đặc tính này cho phép tính xác suất để một biến vượt qua một ngưỡng nhất định khi biết giá trị cụ thể của biến kia (trên thang đo phân vị). Trong hai chiều, hàm phân phối có điều kiện của $U_2$ khi biết $U_1 = u_1$ được tính bằng đạo hàm riêng:
-\begin{equation}
-\begin{aligned}
-C_{U_2 \mid U_1}(u_2 \mid u_1)= P(U_2 \leq u_2 \mid U_1 = u_1) \\
-&= \lim_{\delta \to 0}
-\frac{C(u_1 + \delta, u_2) - C(u_1, u_2)}{\delta} = \frac{\partial}{\partial u_1} C(u_1, u_2).
-\end{aligned}
-\end{equation}
-
+\[
+C_{U_2 \mid U_1}(u_2 \mid u_1)
+= P(U_2 \leq u_2 \mid U_1 = u_1)
+= \lim_{\delta \to 0}
+\frac{C(u_1 + \delta, u_2) - C(u_1, u_2)}{\delta}
+= \frac{\partial}{\partial u_1} C(u_1, u_2)
+\]
 \paragraph{Mật độ Copula:}
 Hầu hết các Copula tham số thường dùng đều có mật độ (ngoại trừ các trường hợp phụ thuộc hoàn hảo như tính đồng điệu). Mật độ Copula được xác định bằng đạo hàm bậc $d$ của hàm $C(u_1, \dots, u_d)$ theo tất cả các thành phần. Mật độ này rất quan trọng trong việc ước lượng tham số bằng phương pháp tối đa hóa xác suất. Hình ảnh mật độ giúp trực quan hóa cấu trúc phụ thuộc; ví dụ, mật độ của $t$ Copula tập trung nhiều khối lượng xác suất ở các góc hơn so với Gauss Copula do có hiện tượng phụ thuộc đuôi.
 

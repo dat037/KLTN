@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  11 JUN 2026 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  12 JUN 2026 01:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,12 +1165,7 @@ Overfull \hbox (29.57118pt too wide) detected at line 23
 \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; [] ; u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 )
  []
 
-) (2.2.2.tex [9]) (2.2.3.tex) [10] (2.2.4.tex
-Overfull \hbox (2.71764pt too wide) detected at line 18
-[][][][][]
- []
-
-) [11] (2.2.5.tex) (2.3.1.tex [12]) (2.3.2.tex [13]) (2.3.3.tex [14]) (2.4.1.tex [15]) (2.4.2.tex [16]) (2.5.tex [17]) (3.tex) [18] (3.1.tex) (3.2.tex) (3.3.tex) (3.4.tex [19]) (3.5.tex)
+) (2.2.2.tex [9]) (2.2.3.tex) [10] (2.2.4.tex) (2.2.5.tex [11]) (2.3.1.tex [12]) (2.3.2.tex [13]) (2.3.3.tex [14]) (2.4.1.tex [15]) (2.4.2.tex) (2.5.tex [16] [17]) (3.tex) (3.1.tex) (3.2.tex [18]) (3.3.tex) (3.4.tex) (3.5.tex [19])
 Overfull \hbox (22.76584pt too wide) in paragraph at lines 193--193
 [] \T5/cmr/bx/n/17.28 K˜T LUŠN V€ H×ÎNG NGHI–N CÙU T×ÌNG
  []
@@ -1191,17 +1186,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36433 strings out of 467870
- 723194 string characters out of 5428423
- 1574805 words of memory out of 5000000
+ 36432 strings out of 467870
+ 723186 string characters out of 5428423
+ 1574804 words of memory out of 5000000
  64602 multiletter control sequences out of 15000+600000
  644404 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,14n,108p,1389b,1347s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vncsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (22 pages, 511658 bytes).
+Output written on main.pdf (22 pages, 511044 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
  546 words of extra memory for PDF output out of 10000 (max. 10000000)
 
