@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  9 JUN 2026 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  10 JUN 2026 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1099,7 +1099,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
+ (main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                mcneil2005quantitative
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 41.
 Package biblatex Info: Reference segment=0 on input line 41.
 Package hyperref Info: Link coloring OFF on input line 41.
@@ -1160,7 +1168,11 @@ Overfull \hbox (2.99927pt too wide) detected at line 80
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [4] (1.1.1.tex) (1.1.2.tex) (2.1.1.tex [5]) (2.1.2.tex [6]) (2.1.3.tex) (2.2.1.tex [7] [8]
+ [4] (1.1.1.tex) (1.1.2.tex) (2.1.1.tex [5]) (2.1.2.tex [6]
+
+LaTeX Warning: Citation 'mcneil2005quantitative' on page 7 undefined on input line 4.
+
+) (2.1.3.tex) (2.2.1.tex [7] [8]
 Overfull \hbox (29.57118pt too wide) detected at line 24
 \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; [] ; u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 )
  []
@@ -1186,17 +1198,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36430 strings out of 467870
- 723124 string characters out of 5428423
- 1574805 words of memory out of 5000000
- 64600 multiletter control sequences out of 15000+600000
+ 36431 strings out of 467870
+ 723134 string characters out of 5428423
+ 1574851 words of memory out of 5000000
+ 64601 multiletter control sequences out of 15000+600000
  644404 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,14n,108p,1389b,1347s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vncsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (22 pages, 510718 bytes).
+Output written on main.pdf (22 pages, 510975 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
+ 530 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)
  546 words of extra memory for PDF output out of 10000 (max. 10000000)
 

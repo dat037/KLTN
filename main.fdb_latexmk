@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber main"] 1781015012.30323 "main.bcf" "main.bbl" "main" 1781015146.80822 0
-  "main.bcf" 1781015145 108776 7d64070fdfa742d0afdc7bb0e4b67143 "pdflatex"
-  "ref.bib" 1781014379 1606 ee87d808d7af8c93809170d4d5ee175f ""
+["biber main"] 1781109988.04381 "main.bcf" "main.bbl" "main" 1781110077.3081 0
+  "main.bcf" 1781110076 108930 5c8ca5660a36d99f55d46578d2adc3e3 "pdflatex"
+  "ref.bib" 1781109962 1224 b6e3ad112a6ef1e31992192a1df8cd44 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1781015140.49506 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1781015146.80968 0
+["pdflatex"] 1781110071.37397 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1781110077.30935 0
   "1.1.1.tex" 1781014997 1753 de508325f13b3499630f831adff2e375 ""
   "1.1.2.tex" 1779812338 504 5c3fcc844d6c47fbf2c30319f3ea6dec ""
-  "2.1.1.tex" 1781014997 4216 2f4f9d5809b648a3a79b39e68684fac1 ""
-  "2.1.2.tex" 1779818337 3302 521ea31bbdeff7f4041586ba1bb78830 ""
+  "2.1.1.tex" 1781110069 4248 b22637840298172d387a079cb70697d1 ""
+  "2.1.2.tex" 1781109961 3331 0b875ffa2f277f22357af3ded4d9d899 ""
   "2.1.3.tex" 1779813368 875 41d19a36e3c24b31e65e0b5ae90fab7f ""
   "2.2.1.tex" 1779822177 8205 f8efed71fd46a5f49c290a4c0063591c ""
   "2.2.2.tex" 1779822177 2899 4736afd8d8a47c2851435316537e9c1e ""
@@ -250,12 +250,12 @@
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767723820 13323460 e32495a5c57f539cb45045759671e157 ""
   "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" 1779976080 8768 5b8a9c7f2f09dc0f6eab75238f907a3f ""
   "icon KHTN.png" 1769974894 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1781015145 12007 5ae4fc5cfe1ec3d4c2a729c53bf65f51 "pdflatex"
-  "main.bbl" 1781015127 5034 6b378745e9d1495aff6f24e5290c338f "biber main"
-  "main.out" 1781015145 10643 0bf934d963a2a2f613020b373246cf3f "pdflatex"
-  "main.run.xml" 1781015145 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
+  "main.aux" 1781110076 12177 a2d289f7da7eed926aa26bddbc402558 "pdflatex"
+  "main.bbl" 1781109994 5070 ffd2c50e1e32f7b5f047830236a2b9a2 "biber main"
+  "main.out" 1781110076 10643 0bf934d963a2a2f613020b373246cf3f "pdflatex"
+  "main.run.xml" 1781110076 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
   "main.tex" 1779976080 8768 5b8a9c7f2f09dc0f6eab75238f907a3f ""
-  "main.toc" 1781015145 7760 821dd955246fde0ed90a3ff405de86ee "pdflatex"
+  "main.toc" 1781110076 7760 821dd955246fde0ed90a3ff405de86ee "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
