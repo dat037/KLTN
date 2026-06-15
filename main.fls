@@ -463,12 +463,24 @@ INPUT 3.4.tex
 INPUT .\3.5.tex
 INPUT .\3.5.tex
 INPUT 3.5.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vnti12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vncsc10.tfm
+INPUT .\4.1.tex
+INPUT .\4.1.tex
+INPUT 4.1.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vntt12.tfm
+INPUT .\4.2.tex
+INPUT .\4.2.tex
+INPUT 4.2.tex
+INPUT .\4.3.tex
+INPUT .\4.3.tex
+INPUT 4.3.tex
+INPUT .\4.4.tex
+INPUT .\4.4.tex
+INPUT 4.4.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vnti12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vncsc10.tfm
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
