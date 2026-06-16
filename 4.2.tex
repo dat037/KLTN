@@ -1,0 +1,8 @@
+Kiểm định Jarque-Bera được thiết lập như một công cụ kiểm tra giả thuyết số học chính thức thuộc nhóm các kiểm định mô-men tổng quát. Bản chất của phương pháp này là đánh giá đồng thời liệu hệ số bất đối xứng và hệ số nhọn của dữ liệu có nhất quán với các đặc tính lý thuyết của mô hình phân phối chuẩn Gaussian hay không. Trong không gian lý thuyết, một phân phối chuẩn hoàn hảo luôn sở hữu hệ số bất đối xứng bằng không và hệ số nhọn bằng ba. Thống kê kiểm định Jarque-Bera, ký hiệu là $T$, được cấu trúc dựa trên cỡ mẫu $n$ phối hợp cùng hai hệ số hình dáng đã được xác định thông qua công thức tổng quát:
+$$T = \frac{n}{6} \left( b^2 + \frac{1}{4}(k - 3)^2 \right)$$Dưới giả thuyết không ($H_0$) cho rằng dữ liệu tuân theo phân phối chuẩn, đại lượng thống kê $T$ sẽ có phân phối Chi-bình phương ($\chi^2$) tiệm cận với hai bậc tự do.
+
+\paragraph{Quy tắc quyết định:}
+\begin{itemize}
+    \item Bác bỏ tính chuẩn: Nếu giá trị hệ số nhọn mẫu khác biệt lớn so với 3 hoặc hệ số bất đối xứng mẫu khác biệt lớn so với 0, giá trị $T$ sẽ tăng cao, dẫn đến việc bác bỏ giả thuyết về phân phối chuẩn.
+    \item Giá trị p (p-value): Thông thường, nếu p-value nhỏ hơn ngưỡng ý nghĩa (ví dụ: 0.05), giả thuyết không sẽ bị bác bỏ
+\end{itemize}

@@ -1,0 +1,5 @@
+\begin{itemize}
+    \item Dữ liệu sử dụng trong nghiên cứu này là chuỗi dữ liệu lịch sử giá đóng cửa hàng ngày của bốn cổ phiếu công nghệ bao gồm: Apple Inc. ($AAPL$), Microsoft Corp. ($MSFT$), Amazon.com Inc. ($AMZN$), và Alphabet Inc. ($GOOGL$). Dữ liệu được trích xuất từ tập dữ liệu \texttt{all\_stocks\_5yr.csv}, bao gồm các thông tin giao dịch lịch sử trong giai đoạn 5 năm từ ngày 08/02/2013 đến ngày 07/02/2018. Tổng số quan sát thu được là 1.259 ngày giao dịch cho mỗi cổ phiếu. Chuỗi giá đóng cửa này sau đó được xử lý bằng cách chuyển đổi sang tỷ suất sinh lợi logarit hàng ngày để phục vụ cho các bước kiểm định và mô hình hóa tiếp theo.
+    \item Công thức tính tỷ suất sinh lợi: Để loại bỏ xu hướng thời gian và đảm bảo tính dừng của chuỗi dữ liệu, giá đóng cửa của các cổ phiếu được chuyển đổi sang chuỗi tỷ suất sinh lợi logarit hàng ngày ($R_{i,t}$) theo công thức:$$R_{i,t} = \ln\left(\frac{P_{i,t}}{P_{i,t-1}}\right)$$
+    Trong đó $P_{i,t}$ và $P_{i,t-1}$ lần lượt là giá đóng cửa của cổ phiếu $i$ tại ngày $t$ và $t-1$.
+\end{itemize}
