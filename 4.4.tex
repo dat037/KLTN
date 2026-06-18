@@ -1,0 +1,15 @@
+Để giải quyết bài toán tối ưu hóa danh mục đầu tư và đánh giá rủi ro, quy trình phân tích dữ liệu trong nghiên cứu được cấu trúc thành các bước tuần tự như sau:\\
+\textbf{Bước 1: Phân tích thống kê mô tả đơn biến}\\
+Chuỗi tỷ suất sinh lợi của từng cổ phiếu được kiểm tra các đặc tính phân phối thống kê cơ bản thông qua các chỉ số:  trung bình, độ lệch chuẩn, độ lệch và độ nhọn. Đặc biệt, hệ số nhọn được tính toán để xác nhận tính chất ``đuôi béo'' và ``đỉnh nhọn''. Đây là một trong những sự thật định hình thường thấy trong chuỗi thời gian tài chính, làm cơ sở vững chắc cho việc áp dụng hàm Copula thay vì dựa vào giả định phân phối chuẩn truyền thống.\\
+\textbf{Bước 2: Phân tích cấu trúc phụ thuộc}\\
+Để đo lường sự phụ thuộc phi tuyến giữa các cổ phiếu, nghiên cứu sử dụng ma trận tương quan hạng Spearman thay vì tương quan Pearson thông thường. Sự phụ thuộc ở phần đuôi phân phối (khi thị trường xảy ra biến động mạnh) cũng được đánh giá qua hệ số tương quan đuôi thực nghiệm tại các mức phân vị cực trị nhằm dự báo nguy cơ hội tụ rủi ro.\\
+\textbf{Bước 3: Tối ưu hóa danh mục theo mô hình Markowitz}\\
+Dựa trên ma trận hiệp phương sai và lợi nhuận kỳ vọng của các tài sản, thuật toán SLSQP (Sequential Least SQuares Programming) được sử dụng để giải bài toán tối ưu hóa có ràng buộc. Mục tiêu là tìm ra bộ tỷ trọng phân bổ vốn $(w_1, w_2, w_3, w_4)$ sao cho tỷ số Sharpe đạt giá trị cực đại. Các ràng buộc bao gồm: không bán khống ($w_i \geq 0$) và tổng tỷ trọng các tài sản bằng 100\% ($\sum w_i = 1$).\\
+\textbf{Bước 4: Ước lượng Copula và mô phỏng Monte Carlo}\\
+Dựa vào bộ tỷ trọng tối ưu tìm được, nghiên cứu triển khai mô phỏng Monte Carlo với 10.000 kịch bản ngẫu nhiên. Quá trình này bao gồm:
+\begin{itemize}
+    \item Sinh ma trận số ngẫu nhiên từ phân phối chuẩn đa biến dựa trên ma trận tương quan hạng Spearman.
+    \item Chuyển đổi các giá trị ngẫu nhiên này sang phân phối đồng nhất $U[0,1]$ bằng hàm phân phối tích lũy chuẩn.
+    \item Sử dụng phép nghịch đảo phân vị thực nghiệm của chuỗi dữ liệu gốc để khôi phục lại các đặc tính phân phối thực tế của từng tài sản (nhằm tôn trọng tuyệt đối đặc tính đuôi nặng của dữ liệu lịch sử).
+    \item Tổng hợp tỷ suất sinh lợi danh mục cho 10.000 kịch bản và tính toán chỉ số Giá trị rủi ro ($Var_{95\%}$) nhằm định lượng kịch bản tổn thất cực đoan nhất có thể xảy ra.
+\end{itemize}
