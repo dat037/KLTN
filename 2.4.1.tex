@@ -7,7 +7,9 @@ Các Copula hỗn hợp phương sai chuẩn có tính đối xứng xuyên tâm
 \begin{itemize}
     \item Gauss Copula: Có đặc tính độc lập tiệm cận, nghĩa là $\lambda = 0$. Dù hệ số tương quan có cao đến đâu, khi tiến sâu vào vùng đuôi cực đoan, các biến cố có xu hướng xảy ra độc lập. Việc sử dụng Copula này có thể dẫn đến việc đánh giá thấp rủi ro hệ thống trong các cuộc khủng hoảng.
     \item Student $t$ Copula: Có phụ thuộc đuôi ($\lambda > 0$) ở cả hai phía. Hệ số này phụ thuộc vào bậc tự do ($\nu$) và tương quan ($\rho$) theo công thức:
-    $$\lambda = 2t_{\nu+1}\left( -\sqrt{\frac{(\nu+1)(1-\rho)}{1+\rho}} \right)$$
+    \bea
+    \lambda = 2t_{\nu+1}\left( -\sqrt{\frac{(\nu+1)(1-\rho)}{1+\rho}} \right)
+    \eea
     Phụ thuộc đuôi sẽ tăng lên khi bậc tự do $\nu$ giảm (đuôi nặng hơn) hoặc hệ số tương quan $\rho$ tăng. Ngay cả khi tương quan bằng $0$ hoặc âm, Copula $t$ vẫn có thể phụ thuộc đuôi dương.
 \end{itemize}
 

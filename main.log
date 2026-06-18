@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  16 JUN 2026 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  18 JUN 2026 17:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,26 +1003,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1100,9 +1100,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
-Package hyperref Info: Link coloring OFF on input line 41.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+Package hyperref Info: Link coloring OFF on input line 43.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1110,44 +1110,44 @@ Package hyperref Info: Link coloring OFF on input line 41.
 <icon KHTN.png, id=254, 597.9138pt x 597.9138pt>
 File: icon KHTN.png Graphic file (type png)
 <use icon KHTN.png>
-Package pdftex.def Info: icon KHTN.png  used on input line 70.
+Package pdftex.def Info: icon KHTN.png  used on input line 72.
 (pdftex.def)             Requested size: 209.27296pt x 209.27296pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (23.99997pt too wide) in paragraph at lines 82--90
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 84--92
  [][] 
  []
 
 [1
 
 {C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./icon KHTN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--114
 
  []
 
@@ -1161,25 +1161,25 @@ Overfull \hbox (2.99927pt too wide) detected at line 90
 \openout6 = `main.toc'.
 
  [4] (1.1.1.tex) (1.1.2.tex) (2.1.1.tex [5]) (2.1.2.tex [6]) (2.1.3.tex) (2.2.1.tex [7] [8]
-Overfull \hbox (29.57118pt too wide) detected at line 23
+Overfull \hbox (29.57118pt too wide) detected at line 29
 \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; [] ; u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 )
  []
 
-) (2.2.2.tex [9]) (2.2.3.tex) [10] (2.2.4.tex) (2.2.5.tex [11]) (2.3.1.tex [12]) (2.3.2.tex [13]) (2.3.3.tex [14]) (2.4.1.tex [15]) (2.4.2.tex) (2.5.tex [16] [17]) (2.6.tex [18]) (3.tex) (3.1.tex [19]) (3.2.tex) (3.3.tex) (3.4.tex [20]) (3.5.tex)
-Overfull \hbox (21.72614pt too wide) in paragraph at lines 176--176
+) (2.2.2.tex [9]) (2.2.3.tex) [10] (2.2.4.tex) (2.2.5.tex [11]) (2.3.1.tex [12]) (2.3.2.tex [13]) (2.3.3.tex [14]) (2.4.1.tex [15]) (2.4.2.tex [16]) (2.5.tex [17]) (2.6.tex [18]) (3.tex) [19] (3.1.tex) (3.2.tex [20]) (3.3.tex) (3.4.tex) (3.5.tex [21])
+Overfull \hbox (21.72614pt too wide) in paragraph at lines 178--178
 []\T5/cmr/bx/n/17.28 CÅC TIñU CHù KIöM ^^^¿NH VÄ PH◊ÃNG PHÅP
  []
 
-(4.1.tex [21]) (4.2.tex) (4.3.tex
+(4.1.tex [22]) (4.2.tex) (4.3.tex
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 2.
  (C:\Program Files\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [22]) (4.4.tex) (4.5.tex) (4.6.tex)
-Overfull \hbox (22.76584pt too wide) in paragraph at lines 204--204
+) [23]) (4.4.tex) (4.5.tex) (4.6.tex)
+Overfull \hbox (22.76584pt too wide) in paragraph at lines 206--206
 [] \T5/cmr/bx/n/17.28 KòT LUäN VÄ H◊ŒNG NGHIñN CŸU T◊ÃNG
  []
 
-[23] [24] [25] (main.aux)
+[24] [25] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1191,17 +1191,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36492 strings out of 467870
- 724112 string characters out of 5428423
- 1575805 words of memory out of 5000000
- 64628 multiletter control sequences out of 15000+600000
+ 36528 strings out of 467870
+ 724481 string characters out of 5428423
+ 1575851 words of memory out of 5000000
+ 64630 multiletter control sequences out of 15000+600000
  644404 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,14n,108p,1389b,1347s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vncsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (25 pages, 538906 bytes).
+Output written on main.pdf (25 pages, 543492 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
  586 words of extra memory for PDF output out of 10000 (max. 10000000)
 

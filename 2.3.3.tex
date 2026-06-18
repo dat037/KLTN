@@ -4,10 +4,14 @@ Trong quản trị rủi ro định lượng, các hệ số phụ thuộc đuô
 Có hai hệ số chính được sử dụng để đo lường sự phụ thuộc tại các vùng cực đoan:
 \begin{itemize}
     \item Hệ số phụ thuộc đuôi trên ($\lambda_u$) đo lường xác suất một biến vượt qua một ngưỡng phân vị rất cao, với điều kiện biến kia cũng đã vượt qua ngưỡng đó. Công thức được xác định là giới hạn:
-    $$\lambda_u = \lim_{q \to 1^-} P(X_2 > F_2^{-1}(q) | X_1 > F_1^{-1}(q))$$
+    \bea
+    \lambda_u = \lim_{q \to 1^-} P(X_2 > F_2^{-1}(q) | X_1 > F_1^{-1}(q))
+    \eea
     Nếu $\lambda_u > 0$, cặp biến số có sự phụ thuộc đuôi trên (phụ thuộc cực đoan); nếu $\lambda_u = 0$, chúng độc lập tiệm cận ở đuôi trên.
     \item Hệ số phụ thuộc đuôi dưới ($\lambda_l$) tương tự đo lường xác suất một biến nhận giá trị cực thấp khi biến kia cũng đang ở vùng cực thấp. Công thức là:
-    $$\lambda_l = \lim_{q \to 0^+} P(X_2 \le F_2^{-1}(q) | X_1 \le F_1^{-1}(q))$$
+    \bea
+    \lambda_l = \lim_{q \to 0^+} P(X_2 \le F_2^{-1}(q) | X_1 \le F_1^{-1}(q))
+    \eea
     Đối với các Copula có tính đối xứng xuyên tâm như Gauss hay $t$, ta luôn có $\lambda_l = \lambda_u$.
 \end{itemize}
 

@@ -1,6 +1,19 @@
 Trong nghiên cứu tài chính hiện đại, việc giả định chuỗi tỷ suất sinh lợi tuân theo phân phối chuẩn đối xứng thường xuyên bị thách thức bởi các biến động thực tế trên thị trường. Sau khi thiết lập quy trình mô phỏng các kịch bản, việc đánh giá hình dáng phân phối xác suất của các tài sản đóng vai trò quyết định, trong đó hai đại lượng thống kê mô tả cốt lõi được sử dụng là hệ số bất đối xứng và hệ số nhọn.\\
-Hệ số bất đối xứng, ký hiệu là $S$, đo lường mức độ lệch của phân phối xác suất so với hình dáng đối xứng hoàn hảo của phân phối chuẩn qua công thức toán học:$$S = \mathbb{E}\left[ \left( \frac{X - \mu}{\sigma} \right)^3 \right]$$Khi hệ số này bằng không, phân phối đạt trạng thái đối xứng lý tưởng. Ngược lại, một chuỗi tỷ suất sinh lợi có hệ số bất đối xứng âm sẽ có phần đuôi bên trái dài hơn, hàm ý rằng các biến cố sụt giảm mạnh mang tính chất cực đoan xuất hiện với tần suất cao. Trong khi đó, hệ số bất đối xứng dương lại thể hiện phân phối lệch phải, nơi các cơ hội tăng trưởng đột biến chiếm ưu thế trên thị trường.\\
+Hệ số bất đối xứng, ký hiệu là $S$, đo lường mức độ lệch của phân phối xác suất so với hình dáng đối xứng hoàn hảo của phân phối chuẩn qua công thức toán học:
+\bea
+S = \mathbb{E}\left[ \left( \frac{X - \mu}{\sigma} \right)^3 \right]
+\eea Khi hệ số này bằng không, phân phối đạt trạng thái đối xứng lý tưởng. Ngược lại, một chuỗi tỷ suất sinh lợi có hệ số bất đối xứng âm sẽ có phần đuôi bên trái dài hơn, hàm ý rằng các biến cố sụt giảm mạnh mang tính chất cực đoan xuất hiện với tần suất cao. Trong khi đó, hệ số bất đối xứng dương lại thể hiện phân phối lệch phải, nơi các cơ hội tăng trưởng đột biến chiếm ưu thế trên thị trường.\\
 Để ước lượng giá trị này từ tập dữ liệu thực tế, hệ số bất đối xứng mẫu ($b$) được xác định bởi công thức:
-$$b = \frac{\frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^3}{\left( \frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^2 \right)^{3/2}}$$Bên cạnh độ lệch, hệ số nhọn, ký hiệu là $K$, đóng vai trò quan trọng trong việc xác định độ tập trung của đỉnh phân phối và độ dày của hai vùng đuôi đối với cả dữ liệu thực tế lẫn dữ liệu sau khi mô phỏng. Đại lượng này được xác định bằng biểu thức:$$K = \mathbb{E}\left[ \left( \frac{X - \mu}{\sigma} \right)^4 \right]$$Để tính toán từ dữ liệu thực tế, hệ số nhọn mẫu, ký hiệu là $k$, được xác định bởi công thức:
-$$k = \frac{\frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^4}{\left( \frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^2 \right)^2}$$,,Đối với một phân phối chuẩn lý thuyết, giá trị của hệ số nhọn luôn cố định bằng ba. Nhằm thuận tiện cho việc so sánh, các nhà nghiên cứu thường sử dụng khái niệm hệ số nhọn dư, được tính bằng cách lấy hệ số nhọn tổng trừ đi ba. Đối với các chuỗi số liệu tài chính, hệ số nhọn dư thường lớn hơn không, tạo nên hiện tượng phân phối có đỉnh nhọn và đuôi béo. Đặc tính này cảnh báo rằng xác suất xảy ra các cú sốc lớn trên thị trường cao hơn rất nhiều so với những gì mô hình phân phối chuẩn dự báo. Do đó, việc đo lường hai đại lượng này giúp kiểm chứng xem cấu trúc dữ liệu sinh ra từ thuật toán mô phỏng Monte Carlo dựa trên Copula ở chương trước có tái lập thành công hiện tượng đuôi béo này hay không.
+\bea
+b = \frac{\frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^3}{\left( \frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^2 \right)^{3/2}}
+\eea
+Bên cạnh độ lệch, hệ số nhọn, ký hiệu là $K$, đóng vai trò quan trọng trong việc xác định độ tập trung của đỉnh phân phối và độ dày của hai vùng đuôi đối với cả dữ liệu thực tế lẫn dữ liệu sau khi mô phỏng. Đại lượng này được xác định bằng biểu thức:
+\bea
+K = \mathbb{E}\left[ \left( \frac{X - \mu}{\sigma} \right)^4 \right]
+\eea
+Để tính toán từ dữ liệu thực tế, hệ số nhọn mẫu, ký hiệu là $k$, được xác định bởi công thức:
+\bea
+k = \frac{\frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^4}{\left( \frac{1}{n} \sum_{i=1}^n (X_i - \bar{X})^2 \right)^2}
+\eea
+Đối với một phân phối chuẩn lý thuyết, giá trị của hệ số nhọn luôn cố định bằng ba. Nhằm thuận tiện cho việc so sánh, các nhà nghiên cứu thường sử dụng khái niệm hệ số nhọn dư, được tính bằng cách lấy hệ số nhọn tổng trừ đi ba. Đối với các chuỗi số liệu tài chính, hệ số nhọn dư thường lớn hơn không, tạo nên hiện tượng phân phối có đỉnh nhọn và đuôi béo. Đặc tính này cảnh báo rằng xác suất xảy ra các cú sốc lớn trên thị trường cao hơn rất nhiều so với những gì mô hình phân phối chuẩn dự báo. Do đó, việc đo lường hai đại lượng này giúp kiểm chứng xem cấu trúc dữ liệu sinh ra từ thuật toán mô phỏng Monte Carlo dựa trên Copula ở chương trước có tái lập thành công hiện tượng đuôi béo này hay không.
  
