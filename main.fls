@@ -400,6 +400,9 @@ INPUT 1.1.1.tex
 INPUT .\1.1.2.tex
 INPUT .\1.1.2.tex
 INPUT 1.1.2.tex
+INPUT .\1.1.3.tex
+INPUT .\1.1.3.tex
+INPUT 1.1.3.tex
 INPUT .\2.1.1.tex
 INPUT .\2.1.1.tex
 INPUT 2.1.1.tex

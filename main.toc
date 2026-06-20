@@ -2,68 +2,68 @@
 \contentsline {subsection}{\numberline {I.1}Bối cảnh nghiên cứu}{5}{subsection.1.1}%
 \contentsline {subsection}{\numberline {I.2}Mục tiêu nghiên cứu}{5}{subsection.1.2}%
 \contentsline {subsection}{\numberline {I.3}Phạm vi và giới hạn nghiên cứu}{5}{subsection.1.3}%
-\contentsline {section}{\numberline {II}CƠ SỞ LÝ THUYẾT}{5}{section.2}%
-\contentsline {subsection}{\numberline {II.1}Bài toán tối ưu hóa Mean-Variance (Markowitz)}{5}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {II.1.1}Quy tắc trung bình-phương sai và đa dạng hóa}{5}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {II.1.2}Danh mục đầu tư rủi ro tối thiểu (MVP)}{6}{subsubsection.2.1.2}%
+\contentsline {section}{\numberline {II}CƠ SỞ LÝ THUYẾT}{6}{section.2}%
+\contentsline {subsection}{\numberline {II.1}Bài toán tối ưu hóa Mean-Variance (Markowitz)}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {II.1.1}Quy tắc trung bình-phương sai và đa dạng hóa}{6}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {II.1.2}Danh mục đầu tư rủi ro tối thiểu (MVP)}{7}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {II.1.3}Danh mục đầu tư có tài sản phi rủi ro}{7}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {II.2}Copula và sự phụ thuộc đuôi}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {II.2.1}Các Copula}{7}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {II.2}Copula và sự phụ thuộc đuôi}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {II.2.1}Các Copula}{8}{subsubsection.2.2.1}%
 \contentsline {paragraph}{Các thuộc tính cơ bản:}{8}{section*.2}%
 \contentsline {paragraph}{Định lý Sklar:}{8}{section*.3}%
 \contentsline {paragraph}{Tính bất biến:}{9}{section*.4}%
-\contentsline {paragraph}{Giới hạn Fréchet:}{9}{section*.5}%
-\contentsline {subsubsection}{\numberline {II.2.2}Các ví dụ của Copula}{9}{subsubsection.2.2.2}%
-\contentsline {paragraph}{Các Copula cơ bản:}{9}{section*.6}%
+\contentsline {paragraph}{Giới hạn Fréchet:}{10}{section*.5}%
+\contentsline {subsubsection}{\numberline {II.2.2}Các ví dụ của Copula}{10}{subsubsection.2.2.2}%
+\contentsline {paragraph}{Các Copula cơ bản:}{10}{section*.6}%
 \contentsline {paragraph}{Các Copula ẩn:}{10}{section*.7}%
 \contentsline {paragraph}{Các Copula hiển (tường minh):}{10}{section*.8}%
 \contentsline {paragraph}{Các biến thể nâng cao:}{10}{section*.9}%
-\contentsline {subsubsection}{\numberline {II.2.3}Phân phối meta}{10}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {II.2.3}Phân phối meta}{11}{subsubsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {II.2.4}Các đặc tính khác của Copula}{11}{subsubsection.2.2.4}%
 \contentsline {paragraph}{Copula sống sót:}{11}{section*.10}%
 \contentsline {paragraph}{Tính đối xứng xuyên tâm:}{11}{section*.11}%
 \contentsline {paragraph}{Phân phối có điều kiện của Copula:}{11}{section*.12}%
-\contentsline {paragraph}{Mật độ Copula:}{11}{section*.13}%
-\contentsline {paragraph}{Tính trao đổi được:}{11}{section*.14}%
+\contentsline {paragraph}{Mật độ Copula:}{12}{section*.13}%
+\contentsline {paragraph}{Tính trao đổi được:}{12}{section*.14}%
 \contentsline {paragraph}{Đặc tính co giãn của Copula giá trị cực trị:}{12}{section*.15}%
 \contentsline {subsubsection}{\numberline {II.2.5}Sự phụ thuộc hoàn hảo}{12}{subsubsection.2.2.5}%
 \contentsline {paragraph}{Sự đồng biến (Phụ thuộc thuận hoàn hảo):}{12}{section*.16}%
 \contentsline {paragraph}{Sự nghịch biến (Phụ thuộc nghịch hoàn hảo):}{12}{section*.17}%
-\contentsline {paragraph}{Ý nghĩa trong quản trị rủi ro:}{12}{section*.18}%
-\contentsline {subsection}{\numberline {II.3}Các thước đo sự phụ thuộc đuôi}{12}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {II.3.1}Tương quan tuyến tính}{12}{subsubsection.2.3.1}%
-\contentsline {paragraph}{Định nghĩa và cơ sở toán học:}{12}{section*.19}%
+\contentsline {paragraph}{Ý nghĩa trong quản trị rủi ro:}{13}{section*.18}%
+\contentsline {subsection}{\numberline {II.3}Các thước đo sự phụ thuộc đuôi}{13}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {II.3.1}Tương quan tuyến tính}{13}{subsubsection.2.3.1}%
+\contentsline {paragraph}{Định nghĩa và cơ sở toán học:}{13}{section*.19}%
 \contentsline {paragraph}{Các đặc tính chính:}{13}{section*.20}%
 \contentsline {paragraph}{Hạn chế và những cạm bẫy:}{13}{section*.21}%
-\contentsline {subsubsection}{\numberline {II.3.2}Tương quan hạng}{13}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {II.3.2}Tương quan hạng}{14}{subsubsection.2.3.2}%
 \contentsline {paragraph}{Kendall's Tau ($\rho _\tau $):}{14}{section*.22}%
-\contentsline {subsubsection}{\numberline {II.3.3}Các hệ số phụ thuộc đuôi}{14}{subsubsection.2.3.3}%
-\contentsline {paragraph}{Định nghĩa các hệ số:}{14}{section*.23}%
+\contentsline {subsubsection}{\numberline {II.3.3}Các hệ số phụ thuộc đuôi}{15}{subsubsection.2.3.3}%
+\contentsline {paragraph}{Định nghĩa các hệ số:}{15}{section*.23}%
 \contentsline {paragraph}{Đặc điểm của các loại Copula phổ biến:}{15}{section*.24}%
-\contentsline {paragraph}{Ý nghĩa trong quản trị rủi ro:}{15}{section*.25}%
-\contentsline {subsection}{\numberline {II.4}Các Copula hỗn hợp chuẩn}{15}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {II.4.1}Phụ thuộc đuôi}{15}{subsubsection.2.4.1}%
-\contentsline {paragraph}{Đặc tính chung và tính đối xứng:}{15}{section*.26}%
+\contentsline {paragraph}{Ý nghĩa trong quản trị rủi ro:}{16}{section*.25}%
+\contentsline {subsection}{\numberline {II.4}Các Copula hỗn hợp chuẩn}{16}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {II.4.1}Phụ thuộc đuôi}{16}{subsubsection.2.4.1}%
+\contentsline {paragraph}{Đặc tính chung và tính đối xứng:}{16}{section*.26}%
 \contentsline {paragraph}{Sự khác biệt giữa các Copula Gauss và Copula Student $t$:}{16}{section*.27}%
 \contentsline {paragraph}{Vai trò của biến trộn $W$:}{16}{section*.28}%
-\contentsline {paragraph}{Các biến thể nâng cao:}{16}{section*.29}%
-\contentsline {subsubsection}{\numberline {II.4.2}Tương quan hạng}{16}{subsubsection.2.4.2}%
-\contentsline {paragraph}{Kendall's Tau ($\rho _\tau $):}{16}{section*.30}%
+\contentsline {paragraph}{Các biến thể nâng cao:}{17}{section*.29}%
+\contentsline {subsubsection}{\numberline {II.4.2}Tương quan hạng}{17}{subsubsection.2.4.2}%
+\contentsline {paragraph}{Kendall's Tau ($\rho _\tau $):}{17}{section*.30}%
 \contentsline {paragraph}{Spearman's Rho ($\rho _s$):}{17}{section*.31}%
 \contentsline {subsection}{\numberline {II.5}Các Copula Archimedean}{17}{subsection.2.5}%
-\contentsline {paragraph}{Định nghĩa và hàm sinh:}{17}{section*.32}%
-\contentsline {paragraph}{Các ví dụ phổ biến:}{17}{section*.33}%
+\contentsline {paragraph}{Định nghĩa và hàm sinh:}{18}{section*.32}%
+\contentsline {paragraph}{Các ví dụ phổ biến:}{18}{section*.33}%
 \contentsline {paragraph}{Mở rộng đa biến và tính trao đổi được:}{18}{section*.34}%
 \contentsline {paragraph}{Copula LT-Archimedean:}{18}{section*.35}%
-\contentsline {paragraph}{Thước đo phụ thuộc:}{18}{section*.36}%
-\contentsline {subsection}{\numberline {II.6}Hiện tượng đuôi béo}{18}{subsection.2.6}%
-\contentsline {paragraph}{Hiện tượng đuôi béo:}{18}{section*.37}%
+\contentsline {paragraph}{Thước đo phụ thuộc:}{19}{section*.36}%
+\contentsline {subsection}{\numberline {II.6}Hiện tượng đuôi béo}{19}{subsection.2.6}%
+\contentsline {paragraph}{Hiện tượng đuôi béo:}{19}{section*.37}%
 \contentsline {paragraph}{Sự hạn chế của các mô hình truyền thống:}{19}{section*.38}%
-\contentsline {paragraph}{"Cơn bão hoàn hảo" và sự sụp đổ của sự phụ thuộc:}{19}{section*.39}%
-\contentsline {paragraph}{Hướng đi mới trong quản trị rủi ro hiện đại:}{19}{section*.40}%
+\contentsline {paragraph}{"Cơn bão hoàn hảo" và sự sụp đổ của sự phụ thuộc:}{20}{section*.39}%
+\contentsline {paragraph}{Hướng đi mới trong quản trị rủi ro hiện đại:}{20}{section*.40}%
 \contentsline {section}{\numberline {III}Ứng dụng mô phỏng Monte Carlo từ Copula}{20}{section.3}%
-\contentsline {subsection}{\numberline {III.1}Quy trình chung cho phân phối Meta}{20}{subsection.3.1}%
-\contentsline {subsection}{\numberline {III.2}Mô phỏng Gauss Copula}{20}{subsection.3.2}%
+\contentsline {subsection}{\numberline {III.1}Quy trình chung cho phân phối Meta}{21}{subsection.3.1}%
+\contentsline {subsection}{\numberline {III.2}Mô phỏng Gauss Copula}{21}{subsection.3.2}%
 \contentsline {subsection}{\numberline {III.3}Mô phỏng t Copula}{21}{subsection.3.3}%
 \contentsline {subsection}{\numberline {III.4}Mô phỏng Copula Archimedean (LT-Archimedean)}{21}{subsection.3.4}%
 \contentsline {subsection}{\numberline {III.5}Các thuật toán nâng cao cho phân phối hỗn hợp chuẩn}{22}{subsection.3.5}%
@@ -71,7 +71,7 @@
 \contentsline {subsection}{\numberline {IV.1}Hệ số bất đối xứng và hệ số nhọn}{22}{subsection.4.1}%
 \contentsline {subsection}{\numberline {IV.2}Kiểm định tính chuẩn Jarque-Bera (JB Test)}{23}{subsection.4.2}%
 \contentsline {paragraph}{Quy tắc quyết định:}{23}{section*.41}%
-\contentsline {subsection}{\numberline {IV.3}Thu thập và xử lý dữ liệu}{23}{subsection.4.3}%
+\contentsline {subsection}{\numberline {IV.3}Thu thập và xử lý dữ liệu}{24}{subsection.4.3}%
 \contentsline {subsection}{\numberline {IV.4}Quy trình phân tích dữ liệu}{24}{subsection.4.4}%
 \contentsline {subsection}{\numberline {IV.5}Phương pháp ước lượng hàm Copula}{25}{subsection.4.5}%
 \contentsline {subsection}{\numberline {IV.6}Quy trình mô phỏng Monte Carlo và tối ưu hóa danh mục đầu tư}{25}{subsection.4.6}%
