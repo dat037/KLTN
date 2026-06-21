@@ -283,6 +283,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
@@ -500,6 +502,13 @@ INPUT 5.2.tex
 INPUT .\5.3.tex
 INPUT .\5.3.tex
 INPUT 5.3.tex
+INPUT .\efficient_frontier_with_cml.png
+INPUT .\efficient_frontier_with_cml.png
+INPUT .\efficient_frontier_with_cml.png
+INPUT .\efficient_frontier_with_cml.png
+INPUT .\efficient_frontier_with_cml.png
+INPUT .\efficient_frontier_with_cml.png
+INPUT .\efficient_frontier_with_cml.png
 INPUT .\5.4.tex
 INPUT .\5.4.tex
 INPUT 5.4.tex
