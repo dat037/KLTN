@@ -1,0 +1,38 @@
+Để đánh giá cấu trúc phụ thuộc giữa các tài sản, nghiên cứu tiến hành trích xuất cả tương quan tuyến tính (Pearson) và tương quan hạng phi tuyến (Spearman), đồng thời đo lường sự hội tụ ở vùng rủi ro cực đoan.
+
+\begin{table}[htpb]
+\centering
+\caption{Ma trận tương quan tuyến tính (Pearson)}
+\begin{tabular}{lcccc}
+\hline
+ & \textbf{AAPL} & \textbf{AMZN} & \textbf{GOOGL} & \textbf{MSFT} \\
+\hline
+\textbf{AAPL} & 1.0000 & 0.2877 & 0.3489 & 0.3666 \\
+\textbf{AMZN} & 0.2877 & 1.0000 & 0.5484 & 0.4027 \\
+\textbf{GOOGL} & 0.3489 & 0.5484 & 1.0000 & 0.4884 \\
+\textbf{MSFT}& 0.3666 & 0.4027 & 0.4884 & 1.0000 \\
+\hline
+\end{tabular}
+\label{tab:pearson}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Ma trận tương quan hạng Spearman}
+\begin{tabular}{lcccc}
+\hline
+ & \textbf{AAPL} & \textbf{AMZN} & \textbf{GOOGL} & \textbf{MSFT} \\
+\hline
+\textbf{AAPL} & 1.0000 & 0.3385 & 0.3872 & 0.3720 \\
+\textbf{AMZN} & 0.3385 & 1.0000 & 0.6338 & 0.4352 \\
+\textbf{GOOGL} & 0.3872 & 0.6338 & 1.0000 & 0.5177 \\
+\textbf{MSFT}& 0.3720 & 0.4352 & 0.5177 & 1.0000 \\
+\hline
+\end{tabular}
+\label{tab:spearman}
+\vspace{0.2cm}
+\begin{flushleft}
+\textbf{Nhận xét:} 
+Việc đối chiếu giữa Ma trận tương quan Pearson (đo lường sự phụ thuộc tuyến tính) ở bảng \ref{tab:pearson} và Ma trận Spearman (đo lường sự phụ thuộc phi tham số) ở bảng \ref{tab:spearman} cho thấy các cổ phiếu công nghệ có sự đồng biến thuận chiều khá chặt chẽ. Tuy nhiên, giới hạn của các hệ số tương quan tổng thể này là chúng chỉ phản ánh trạng thái bình quân của thị trường. Khi xem xét hệ số tương quan đuôi dưới thực nghiệm tại mức phân vị 5\% cực đoan, kết quả ghi nhận giá trị rất cao ở nhiều cặp tài sản (ví dụ: MSFT và AMZN đạt mức 0.4352). Điều này minh chứng rõ ràng cho nguy cơ hội tụ rủi ro hệ thống: khi thị trường hoảng loạn, xác suất các cổ phiếu này cùng lao dốc là cực kỳ cao, tạo ra ``cơn bão hoàn hảo'' có khả năng phá vỡ lớp phòng thủ của chiến lược đa dạng hóa thông thường.
+\end{flushleft}
+\end{table}

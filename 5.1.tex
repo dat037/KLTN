@@ -1,0 +1,18 @@
+Phân tích thống kê mô tả đơn biến và kiểm định phân phối là bước đầu tiên nhằm nhận diện các đặc tính của chuỗi tỷ suất sinh lợi. Bảng dưới đây trình bày các giá trị thống kê cơ bản cùng kết quả kiểm định Jarque-Bera của 4 cổ phiếu công nghệ trong danh mục.
+\begin{table}[h]
+\centering
+\caption{Thống kê mô tả đơn biến của các tài sản}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Chỉ số} & \textbf{AAPL} & \textbf{MSFT} & \textbf{AMZN} & \textbf{GOOGL} \\
+\hline
+Trung bình (\%) & 0.0786 & 0.1039 & 0.1508 & 0.0880 \\
+Độ lệch chuẩn (\%) & 1.4587 & 1.4205 & 1.8228 & 1.3874 \\
+Độ lệch & 0.0118 & 0.0539 & 0.7068 & 1.9527 \\
+Độ nhọn & 3.7649 & 10.6883 & 11.9684 & 23.1649 \\
+\hline
+\end{tabular}
+\label{tab:univariate}
+\end{table}
+\textbf{Nhận xét:} 
+Kết quả từ Bảng \ref{tab:univariate} cho thấy tỷ suất sinh lợi trung bình hàng ngày của các cổ phiếu dao động từ 0.0786\% đến 0.1508\%, đi kèm với rủi ro (độ lệch chuẩn) tương ứng. Điểm đáng chú ý nhất là hệ số nhọn của cả 4 mã đều lớn hơn 0. Điều này cung cấp bằng chứng thực nghiệm mạnh mẽ về hiện tượng ``đuôi béo'' và ``đỉnh nhọn'' - một trong những sự thật định hình kinh điển của dữ liệu tài chính. Sự tồn tại của đuôi béo cho thấy các biến cố cực đoan xảy ra với tần suất cao hơn đáng kể so với giả định của phân phối chuẩn, qua đó khẳng định việc sử dụng mô hình Copula trong các bước tiếp theo là cần thiết.
