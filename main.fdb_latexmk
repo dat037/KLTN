@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1781597203.82791 "main.bcf" "main.bbl" "main" 1781979615.52484 0
-  "main.bcf" 1781979614 109239 227fab4c57f92a77d594bb623ef7625e "pdflatex"
+["biber main"] 1781597203.82791 "main.bcf" "main.bbl" "main" 1782024248.0357 0
+  "main.bcf" 1782024247 109239 227fab4c57f92a77d594bb623ef7625e "pdflatex"
   "ref.bib" 1781109962 1224 b6e3ad112a6ef1e31992192a1df8cd44 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1781979610.12251 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1781979615.52632 0
+["pdflatex"] 1782024239.72042 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1782024248.0369 0
   "1.1.1.tex" 1781196956 1741 4adf59cb5f94c52464864435fb766742 ""
   "1.1.2.tex" 1779812338 504 5c3fcc844d6c47fbf2c30319f3ea6dec ""
   "1.1.3.tex" 1781979608 1397 15aeca07e1a4a120770f823ccab7e3bd ""
@@ -37,6 +37,17 @@
   "4.4.tex" 1781799156 3073 70a7693deac0eccd1389e7c85ec3eba4 ""
   "4.5.tex" 1781597187 0 d41d8cd98f00b204e9800998ecf8427e ""
   "4.6.tex" 1781597195 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "5.1.tex" 1782024023 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "5.2.tex" 1782024031 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "5.3.tex" 1782024041 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "5.4.1.tex" 1782024052 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "5.4.2.tex" 1782024059 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "6.1.tex" 1782024081 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "6.2.tex" 1782024089 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "6.3.tex" 1782024096 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "7.1.tex" 1782024103 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "7.2.tex" 1782024114 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "7.3.tex" 1782024120 0 d41d8cd98f00b204e9800998ecf8427e ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -257,14 +268,14 @@
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767723746 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1767073485 14064 ab5f344d43e4a13ec6928177bfbcd31a ""
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767723820 13323460 e32495a5c57f539cb45045759671e157 ""
-  "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" 1781979209 9556 13d134ae342bdab4a90377a553ebd0c0 ""
+  "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" 1782024237 9747 0e16e78b18a12098a6a3082e9ade67c4 ""
   "icon KHTN.png" 1769974894 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1781979614 14002 0063257fae085abea119d9d0603d97de "pdflatex"
+  "main.aux" 1782024247 14002 0063257fae085abea119d9d0603d97de "pdflatex"
   "main.bbl" 1781597218 5034 6b378745e9d1495aff6f24e5290c338f "biber main"
-  "main.out" 1781979614 12258 73bfe44faf66fbfd1b508eabc457c11b "pdflatex"
-  "main.run.xml" 1781979614 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
-  "main.tex" 1781979209 9556 13d134ae342bdab4a90377a553ebd0c0 ""
-  "main.toc" 1781979614 8833 1ce5dd1551be69cb8a17cd75c11a1510 "pdflatex"
+  "main.out" 1782024247 12258 73bfe44faf66fbfd1b508eabc457c11b "pdflatex"
+  "main.run.xml" 1782024247 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
+  "main.tex" 1782024237 9747 0e16e78b18a12098a6a3082e9ade67c4 ""
+  "main.toc" 1782024247 8833 1ce5dd1551be69cb8a17cd75c11a1510 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

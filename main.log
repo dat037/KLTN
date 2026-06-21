@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  21 JUN 2026 01:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  21 JUN 2026 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,12 +1174,12 @@ Overfull \hbox (21.72614pt too wide) in paragraph at lines 179--179
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 2.
  (C:\Program Files\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [23]) (4.4.tex [24]) (4.5.tex) (4.6.tex)
-Overfull \hbox (22.76584pt too wide) in paragraph at lines 207--207
+) [23]) (4.4.tex [24]) (4.5.tex) (4.6.tex) (5.1.tex) (5.2.tex) (5.3.tex) (5.4.1.tex) (5.4.2.tex) (6.1.tex) (6.2.tex) (6.3.tex)
+Overfull \hbox (22.76584pt too wide) in paragraph at lines 215--215
 [] \T5/cmr/bx/n/17.28 K˜T LUŠN V€ H×ÎNG NGHI–N CÙU T×ÌNG
  []
 
-[25] [26] (main.aux)
+(7.1.tex) (7.2.tex) (7.3.tex) [25] [26] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1191,10 +1191,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36535 strings out of 467870
- 724600 string characters out of 5428423
- 1575850 words of memory out of 5000000
- 64633 multiletter control sequences out of 15000+600000
+ 36601 strings out of 467870
+ 725724 string characters out of 5428423
+ 1575851 words of memory out of 5000000
+ 64666 multiletter control sequences out of 15000+600000
  644404 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,14n,108p,1389b,1347s stack positions out of 10000i,1000n,20000p,200000b,200000s
