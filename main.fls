@@ -471,12 +471,6 @@ INPUT 3.4.tex
 INPUT .\3.5.tex
 INPUT .\3.5.tex
 INPUT 3.5.tex
-INPUT .\4.1.tex
-INPUT .\4.1.tex
-INPUT 4.1.tex
-INPUT .\4.2.tex
-INPUT .\4.2.tex
-INPUT 4.2.tex
 INPUT .\4.3.tex
 INPUT .\4.3.tex
 INPUT 4.3.tex
@@ -484,15 +478,27 @@ INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\vntex\t5cmtt.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\vntex\vnr\vntt12.tfm
-INPUT .\4.4.tex
-INPUT .\4.4.tex
-INPUT 4.4.tex
+INPUT .\4.1.tex
+INPUT .\4.1.tex
+INPUT 4.1.tex
+INPUT .\4.2.tex
+INPUT .\4.2.tex
+INPUT 4.2.tex
 INPUT .\4.5.tex
 INPUT .\4.5.tex
 INPUT 4.5.tex
+INPUT .\4.2.1.tex
+INPUT .\4.2.1.tex
+INPUT 4.2.1.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
 INPUT .\4.6.tex
 INPUT .\4.6.tex
 INPUT 4.6.tex
+INPUT .\4.4.tex
+INPUT .\4.4.tex
+INPUT 4.4.tex
 INPUT .\5.1.tex
 INPUT .\5.1.tex
 INPUT 5.1.tex
@@ -545,6 +551,8 @@ INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb

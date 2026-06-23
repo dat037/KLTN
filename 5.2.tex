@@ -3,7 +3,7 @@
 \begin{table}[H]
 \centering
 \caption{Ma trận tương quan tuyến tính (Pearson)}
-\begin{tabular}{lcccc}
+\begin{tabular}{|l|c|c|c|c|}
 \hline
  & \textbf{AAPL} & \textbf{AMZN} & \textbf{GOOGL} & \textbf{MSFT} \\
 \hline
@@ -19,7 +19,7 @@
 \begin{table}[H]
 \centering
 \caption{Ma trận tương quan hạng Spearman}
-\begin{tabular}{lcccc}
+\begin{tabular}{|l|c|c|c|c|}
 \hline
  & \textbf{AAPL} & \textbf{AMZN} & \textbf{GOOGL} & \textbf{MSFT} \\
 \hline
@@ -30,9 +30,29 @@
 \hline
 \end{tabular}
 \label{tab:spearman}
-\vspace{0.2cm}
-\begin{flushleft}
-\textbf{Nhận xét:} 
-Việc đối chiếu giữa Ma trận tương quan Pearson (đo lường sự phụ thuộc tuyến tính) ở bảng \ref{tab:pearson} và Ma trận Spearman (đo lường sự phụ thuộc phi tham số) ở bảng   \ref{tab:spearman} cho thấy các cổ phiếu công nghệ có sự đồng biến thuận chiều khá chặt chẽ. Tuy nhiên, giới hạn của các hệ số tương quan tổng thể này là chúng chỉ phản ánh trạng thái bình quân của thị trường. Khi xem xét hệ số tương quan đuôi dưới thực nghiệm tại mức phân vị 5\% cực đoan, kết quả ghi nhận giá trị rất cao ở nhiều cặp tài sản (ví dụ: MSFT và AMZN đạt mức 0.4352). Điều này minh chứng rõ ràng cho nguy cơ hội tụ rủi ro hệ thống: khi thị trường hoảng loạn, xác suất các cổ phiếu này cùng lao dốc là cực kỳ cao, tạo ra ``cơn bão hoàn hảo'' có khả năng phá vỡ lớp phòng thủ của chiến lược đa dạng hóa thông thường.
-\end{flushleft} 
 \end{table}
+\begin{table}[H]
+    \centering
+    \caption{Ma trận tương quan đuôi dưới thực nghiệm (Phân vị 5\%)}
+    \vspace{0.2cm}
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        & \textbf{AAPL} & \textbf{MSFT} & \textbf{AMZN} & \textbf{GOOGL} \\
+        \hline
+        \textbf{AAPL}  & 1.0000 & 0.3498 & 0.3021 & 0.3498 \\
+        \textbf{MSFT}  & 0.3498 & 1.0000 & 0.3339 & 0.4610 \\
+        \textbf{AMZN}  & 0.3021 & 0.3339 & 1.0000 & 0.5246 \\
+        \textbf{GOOGL} & 0.3498 & 0.4610 & 0.5246 & 1.0000 \\
+        \hline
+    \end{tabular}
+    \label{tab:tail_corr}
+\end{table}
+
+\begin{flushleft}
+\textbf{Nhận xét}
+\begin{itemize} 
+    \item Đối chiếu giữa Bảng \ref{tab:pearson} và Bảng \ref{tab:spearman}, các hệ số tương quan hạng Spearman nhìn chung đều có giá trị lớn hơn hệ số tương quan tuyến tính Pearson. Điển hình ở cặp tài sản AMZN - GOOGL: mức độ tương quan Pearson chỉ là $0.5484$, trong khi hệ số Spearman ghi nhận mức đồng biến lên tới $0.6338$. Sự chênh lệch này là minh chứng rõ ràng cho thấy cấu trúc phụ thuộc giữa các cổ phiếu công nghệ mang tính phi tuyến. Tương quan Pearson đã đánh giá thấp mối liên kết này do bị nhiễu bởi các giá trị ngoại lai, trong khi Spearman phản ánh trung thực hơn sự đồng biến cấu trúc của thị trường.
+    \item Giới hạn của các hệ số tương quan tổng thể (Pearson hay Spearman) là chúng chỉ phản ánh trạng thái bình quân của thị trường. Khi quan sát hệ số tương quan đuôi dưới thực nghiệm tại mức phân vị 5\% cực đoan nhất (Bảng \ref{tab:tail_corr}), kết quả ghi nhận sự đồng biến rất lớn. Đặc biệt với cặp AMZN và GOOGL, mức độ cùng sụt giảm chạm ngưỡng $0.5246$. Cặp MSFT và GOOGL cũng ghi nhận mức tương quan đuôi cao $0.4610$. 
+    \item Dữ liệu từ Bảng \ref{tab:tail_corr} mang lại một thông điệp cảnh báo nghiêm trọng: Khi thị trường hoảng loạn, xác suất các cổ phiếu này cùng lao dốc là cực kỳ cao. Cơ chế hội tụ rủi ro hệ thống này sẽ phá vỡ hoàn toàn hàng rào bảo vệ của chiến lược đa dạng hóa truyền thống Markowitz (vốn giả định rủi ro phân phối chuẩn và độc lập tiệm cận). Điều này đòi hỏi nghiên cứu phải khẩn trương chuyển sang sử dụng mô hình Copula ở các bước tiếp theo nhằm định lượng chính xác mức độ thiệt hại trong kịch bản các tài sản cùng sụp đổ đồng thời.
+\end{itemize}
+\end{flushleft}

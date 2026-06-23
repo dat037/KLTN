@@ -1,12 +1,38 @@
-Dựa trên ma trận hiệp phương sai lịch sử, bài toán tối ưu hóa Mean-Variance (Markowitz) được giải quyết bằng thuật toán SLSQP nhằm tìm ra danh mục tiếp điểm có tỷ số Sharpe cực đại.
-
+Trước khi áp dụng mô hình Copula, bài toán tối ưu hóa Mean-Variance (Markowitz) được giải quyết bằng thuật toán SLSQP nhằm tìm ra danh mục tiếp điểm có tỷ số Sharpe cực đại nhằm tìm ra danh mục có mức bù rủi ro tốt nhất.Hình \ref{fig:markowitz} và Bảng \ref{tab:markowitz_result} trình bày kết quả tỷ trọng phân bổ vốn và các chỉ số hiệu suất của danh mục tối ưu này.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{efficient_frontier_with_cml.png}
     \caption{Đường biên hiệu quả Markowitz và Đường thị trường vốn (CML)}
     \label{fig:markowitz}
-\begin{flushleft}
-\textbf{Nhận xét Hình \ref{fig:markowitz}:} 
-Đồ thị biểu diễn hàng ngàn kịch bản danh mục mô phỏng (các điểm màu) tạo thành đường biên hiệu quả. Điểm ngôi sao màu đỏ đại diện cho danh mục tối ưu Max Sharpe, nơi đường thị trường vốn (CML) tiếp xúc với đường biên. Tại điểm này, thuật toán đề xuất mức phân bổ vốn tối ưu là: AAPL (18.45\%), MSFT (40.96\%), AMZN (4.06\%), và GOOGL (35.99\%). Danh mục này mang lại mức lợi nhuận kỳ vọng 29.66\%/năm với rủi ro biến động 19.55\%/năm và tỷ lệ Sharpe tối ưu lớn nhất là 1.5172. Bộ tỷ trọng này sẽ được cố định để làm cơ sở cho mô phỏng Copula ở các bước sau.
-\end{flushleft}
 \end{figure}
+\begin{table}[H]
+    \centering
+    \caption{Kết quả tối ưu hóa danh mục theo mô hình Markowitz}
+    \vspace{0.2cm} % Tạo khoảng cách nhỏ giữa caption và bảng
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Chỉ số / Tài sản} & \textbf{Kết quả tối ưu} \\
+        \hline
+        Tỷ số Sharpe lớn nhất & 1.5172 \\
+        Lợi nhuận kỳ vọng (Năm) & 29.66\% \\
+        Rủi ro danh mục / Độ lệch chuẩn (Năm) & 19.55\% \\
+        \hline
+        \multicolumn{2}{|c|}{\textbf{Tỷ trọng phân bổ tối ưu}} \\
+        \hline
+        Cổ phiếu AAPL & 18.45\% \\
+        Cổ phiếu MSFT & 40.96\% \\
+        Cổ phiếu AMZN & 4.60\% \\
+        Cổ phiếu GOOGL & 35.99\% \\
+        \hline
+    \end{tabular}
+    \label{tab:markowitz_result}
+\end{table}
+\begin{flushleft}
+\textbf{Nhận xét từ Bảng \ref{tab:markowitz_result} và Hình \ref{fig:markowitz}:}
+\begin{itemize}
+    \item Kết quả từ thuật toán tối ưu hóa SLSQP cho thấy sự phân hóa rõ rệt trong việc lựa chọn tài sản. Dòng vốn được ưu tiên tập trung phần lớn vào MSFT (40.96\%) và GOOGL (35.99\%), trong khi AMZN bị thu hẹp đáng kể chỉ còn 4.60\%. Cấu trúc này hoàn toàn nhất quán với những phát hiện từ phân tích đơn biến, AMZN là tài sản có độ lệch chuẩn cao nhất (1.8228\%/ngày), do đó thuật toán Markowitz tự động tránh cổ phiếu này để kìm hãm sự gia tăng của phương sai tổng, nhằm đạt được tỷ số Sharpe tối đa.
+    \item Danh mục tối ưu đạt được tỷ số Sharpe lớn nhất là 1.5172, mang lại mức lợi nhuận kỳ vọng 29.66\%/năm với mức rủi ro hệ thống (độ lệch chuẩn) là 19.55\%/năm. Quan sát trên đồ thị Hình \ref{fig:markowitz}, danh mục này (ngôi sao màu đỏ) chính là tiếp điểm tiếp tuyến hoàn hảo giữa đường thị trường vốn (CML - màu tím) và Đường biên hiệu quả Markowitz. Đây là ranh giới hiệu quả cao nhất mà một nhà đầu tư có thể đạt được trong giới hạn lý thuyết tài chính truyền thống.
+    \item Mặc dù mang lại một bức tranh lợi nhuận - rủi ro có vẻ hoàn hảo, nhưng con số rủi ro 19.55\%/năm này có một hạn chế lớn . Phương sai trong mô hình Markowitz giả định rủi ro tuân theo phân phối chuẩn và mang tính đối xứng. Tuy nhiên, các kiểm định trên đã chứng minh chuỗi dữ liệu có hiện tượng đuôi nặng và sự hội tụ rủi ro phi tuyến. Nghĩa là con số rủi ro 19.55\% này đang đánh giá thấp đi rất nhiều mức độ tổn thất của các cú sốc cực đoan. Nếu thị trường xảy ra khủng hoảng đồng loạt, hệ số tương quan tuyến tính sẽ bị phá vỡ, và danh mục Markowitz này hoàn toàn không có khả năng chống đỡ.
+\end{itemize}
+Chính vì khiếm khuyết cơ bản này, việc đo lường lại rủi ro danh mục bằng giá trị VaR/CVaR thông qua mô phỏng Copula ở các bước tiếp theo là yêu cầu mang tính bắt buộc để phản ánh đúng biến động thực tế của thị trường tài chính.
+\end{flushleft}

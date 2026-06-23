@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  22 JUN 2026 02:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  24 JUN 2026 02:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1114,7 +1114,7 @@ Package hyperref Info: Link coloring OFF on input line 44.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<icon KHTN.png, id=254, 597.9138pt x 597.9138pt>
+<icon KHTN.png, id=266, 597.9138pt x 597.9138pt>
 File: icon KHTN.png Graphic file (type png)
 <use icon KHTN.png>
 Package pdftex.def Info: icon KHTN.png  used on input line 73.
@@ -1159,7 +1159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--115
  []
 
 [2] (main.toc [3]
-Overfull \hbox (2.99927pt too wide) detected at line 90
+Overfull \hbox (2.99927pt too wide) detected at line 93
 \T5/cmr/bx/n/12 VII 
  []
 
@@ -1172,49 +1172,49 @@ Overfull \hbox (29.57118pt too wide) detected at line 29
 \OML/cmm/m/it/12 C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 u[]; [] ; u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ([](\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]; [] ; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )) \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 u[]\OT1/cmr/m/n/12 )
  []
 
-[9]) (2.2.2.tex) (2.2.3.tex [10]) (2.2.4.tex [11]) (2.2.5.tex [12]) (2.3.1.tex [13]) (2.3.2.tex) [14] (2.3.3.tex) [15] (2.4.1.tex [16]) (2.4.2.tex) (2.5.tex [17] [18]) (2.6.tex [19]) (3.tex) (3.1.tex [20]) (3.2.tex) (3.3.tex) (3.4.tex [21]) (3.5.tex)
+[9]) (2.2.2.tex) (2.2.3.tex [10]) (2.2.4.tex [11]) (2.2.5.tex [12]) (2.3.1.tex [13]) (2.3.2.tex) [14] (2.3.3.tex) [15] (2.4.1.tex [16]) (2.4.2.tex) (2.5.tex [17] [18]) (2.6.tex [19]) (3.tex) [20] (3.1.tex) (3.2.tex) (3.3.tex) (3.4.tex [21]) (3.5.tex)
 Overfull \hbox (21.72614pt too wide) in paragraph at lines 180--180
 []\T5/cmr/bx/n/17.28 CÅC TIñU CHù KIöM ^^^¿NH VÄ PH◊ÃNG PHÅP
  []
 
-(4.1.tex [22]) (4.2.tex) (4.3.tex
+(4.3.tex
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 2.
  (C:\Program Files\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [23]) (4.4.tex [24]) (4.5.tex) (4.6.tex) (5.1.tex) (5.2.tex [25]) (5.3.tex
-<efficient_frontier_with_cml.png, id=521, 794.97pt x 505.89pt>
+) [22]) (4.1.tex [23]) (4.2.tex) (4.5.tex) (4.2.1.tex [24]) (4.6.tex) (4.4.tex [25]) (5.1.tex) (5.2.tex [26]) (5.3.tex
+<efficient_frontier_with_cml.png, id=546, 794.97pt x 505.89pt>
 File: efficient_frontier_with_cml.png Graphic file (type png)
 <use efficient_frontier_with_cml.png>
-Package pdftex.def Info: efficient_frontier_with_cml.png  used on input line 5.
+Package pdftex.def Info: efficient_frontier_with_cml.png  used on input line 4.
 (pdftex.def)             Requested size: 386.96027pt x 246.25177pt.
-) [26] (5.4.tex) (5.5.1.tex) (5.5.2.tex) (6.1.tex) (6.2.tex) (6.3.tex)
-Overfull \hbox (22.76584pt too wide) in paragraph at lines 218--218
+ [27] [28 <./efficient_frontier_with_cml.png>]) (5.4.tex [29]) (5.5.1.tex) (5.5.2.tex) (6.1.tex) (6.2.tex) (6.3.tex)
+Overfull \hbox (22.76584pt too wide) in paragraph at lines 224--224
 [] \T5/cmr/bx/n/17.28 KòT LUäN VÄ H◊ŒNG NGHIñN CŸU T◊ÃNG
  []
 
-(7.1.tex) (7.2.tex) (7.3.tex) [27 <./efficient_frontier_with_cml.png>] [28] [29] (main.aux)
+(7.1.tex) (7.2.tex) (7.3.tex) [30] [31] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B2B10A242E043BC52966EA108BE305E0;12258.
+(rerunfilecheck)             Checksum: 99D883AA51E51C7A9C186B97CAAB1492;13383.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36699 strings out of 467870
- 727386 string characters out of 5428423
- 1577588 words of memory out of 5000000
- 64750 multiletter control sequences out of 15000+600000
- 644404 words of font info for 72 fonts, out of 8000000 for 9000
+ 36725 strings out of 467870
+ 727775 string characters out of 5428423
+ 1577876 words of memory out of 5000000
+ 64762 multiletter control sequences out of 15000+600000
+ 645332 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,14n,108p,1389b,1347s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vncsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (29 pages, 648072 bytes).
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vncsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on main.pdf (31 pages, 669837 bytes).
 PDF statistics:
- 653 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 591 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
+ 615 words of extra memory for PDF output out of 10000 (max. 10000000)
 

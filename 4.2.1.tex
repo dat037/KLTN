@@ -1,0 +1,15 @@
+Việc lựa chọn một hàm Copula phù hợp với cấu trúc phụ thuộc của dữ liệu thực nghiệm là một bước mang tính quyết định trong mô hình hóa rủi ro. Để đánh giá và xếp hạng độ khớp của các mô hình Copula lý thuyết (Gaussian, t-Student, Clayton), nghiên cứu sử dụng tiêu chuẩn khoảng cách Cramér-von Mises. 
+
+Bản chất của tiêu chuẩn này là cực tiểu hóa sai số toàn phương trung bình (Mean Squared Error - MSE) giữa hàm phân phối Copula thực nghiệm trích xuất từ dữ liệu và hàm Copula lý thuyết. Gọi $C_n(\mathbf{u})$ là hàm Copula thực nghiệm và $C_\theta(\mathbf{u})$ là hàm Copula lý thuyết với bộ tham số $\theta$, đại lượng thống kê Cramér-von Mises $S_n$ được định nghĩa bằng công thức:
+
+$$ S_n = \sum_{i=1}^{n} \left( C_n(\mathbf{u}_i) - C_\theta(\mathbf{u}_i) \right)^2 $$
+
+Trong đó:
+\begin{itemize}
+    \item $n$: Kích thước mẫu (số lượng quan sát thực nghiệm).
+    \item $\mathbf{u}_i$: Vector các quan sát giả (pseudo-observations) trên không gian đồng nhất $[0,1]^d$.
+    \item $C_n(\mathbf{u}_i)$: Tần suất tích lũy thực nghiệm tại điểm $\mathbf{u}_i$.
+    \item $C_\theta(\mathbf{u}_i)$: Giá trị tích lũy dự báo từ mô hình Copula lý thuyết tại điểm $\mathbf{u}_i$.
+\end{itemize}
+
+Mô hình Copula nào tạo ra giá trị thống kê $S_n$ (hay mức sai số bình phương) nhỏ nhất sẽ được đánh giá là mô hình phản ánh sát nhất với cấu trúc phụ thuộc thực tế của danh mục đầu tư, từ đó được lựa chọn làm hàm lõi cho quá trình mô phỏng Monte Carlo.
