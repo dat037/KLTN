@@ -54,6 +54,70 @@
       \verb 10.2991/978-94-6239-070-6
       \endverb
     \endentry
+    \entry{dangductrong2023}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=1e39d9a62c071154e141844745331504}{%
+           family={{Đặng Đức Trọng}},
+           familyi={Đ\bibinitperiod}}}%
+        {{hash=59b36fff22b68162535740ff547f86a9}{%
+           family={{Đinh Ngọc Thanh}},
+           familyi={Đ\bibinitperiod}}}%
+        {{hash=dc3dec83b11af03ceeeee8c676ad9372}{%
+           family={{Phạm Hoàng Uyên}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {TP.HCM, Việt Nam}%
+      }
+      \list{publisher}{1}{%
+        {Nhà xuất bản Đại học Quốc gia TP.HCM}%
+      }
+      \strng{namehash}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{fullhash}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{fullhashraw}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{bibnamehash}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{authorbibnamehash}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{authornamehash}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{authorfullhash}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{authorfullhashraw}{2ed6349dbcb79a0283c760b118feccda}
+      \field{sortinit}{Đ}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Tái bản mới nhất}
+      \field{title}{Xác suất và Thống kê}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{danghungthang2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=47921a4d57fbffc0ee59a069b60666d1}{%
+           family={{Đặng Hùng Thắng}},
+           familyi={Đ\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hà Nội, Việt Nam}%
+      }
+      \list{publisher}{1}{%
+        {Nhà xuất bản Giáo dục Việt Nam}%
+      }
+      \strng{namehash}{47921a4d57fbffc0ee59a069b60666d1}
+      \strng{fullhash}{47921a4d57fbffc0ee59a069b60666d1}
+      \strng{fullhashraw}{47921a4d57fbffc0ee59a069b60666d1}
+      \strng{bibnamehash}{47921a4d57fbffc0ee59a069b60666d1}
+      \strng{authorbibnamehash}{47921a4d57fbffc0ee59a069b60666d1}
+      \strng{authornamehash}{47921a4d57fbffc0ee59a069b60666d1}
+      \strng{authorfullhash}{47921a4d57fbffc0ee59a069b60666d1}
+      \strng{authorfullhashraw}{47921a4d57fbffc0ee59a069b60666d1}
+      \field{sortinit}{Đ}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Tái bản mới nhất}
+      \field{title}{Lý thuyết Xác suất và Thống kê Toán học}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
     \entry{macquarie2024exercise}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=2cd735e96a5c0a0416cbc397b7815c59}{%

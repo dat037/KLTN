@@ -85,19 +85,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
@@ -194,6 +181,19 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.c
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
@@ -567,9 +567,6 @@ INPUT 6.3.tex
 INPUT .\7.1.tex
 INPUT .\7.1.tex
 INPUT 7.1.tex
-INPUT .\7.2.tex
-INPUT .\7.2.tex
-INPUT 7.2.tex
 INPUT .\7.3.tex
 INPUT .\7.3.tex
 INPUT 7.3.tex

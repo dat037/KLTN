@@ -75,23 +75,23 @@
 \contentsline {paragraph}{Quy tắc quyết định:}{24}{section*.41}%
 \contentsline {subsection}{\numberline {IV.3}Phương pháp ước lượng và kiểm định hàm Copula}{24}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {IV.3.1}Phương pháp ước lượng hàm Copula}{24}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {IV.3.2}Kiểm định độ phù hợp Cramér-von Mises (sử dụng chỉ số MSE)}{24}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {IV.3.2}Kiểm định độ phù hợp Cramér-von Mises (sử dụng chỉ số MSE)}{25}{subsubsection.4.3.2}%
 \contentsline {subsection}{\numberline {IV.4}Quy trình mô phỏng Monte Carlo và tối ưu hóa danh mục đầu tư}{25}{subsection.4.4}%
-\contentsline {subsection}{\numberline {IV.5}Quy trình phân tích dữ liệu}{25}{subsection.4.5}%
+\contentsline {subsection}{\numberline {IV.5}Quy trình phân tích dữ liệu}{26}{subsection.4.5}%
 \contentsline {section}{\numberline {V}PHÂN TÍCH MÔ PHỎNG VÀ KẾT QUẢ}{26}{section.5}%
 \contentsline {subsection}{\numberline {V.1}Phân tích đơn biến}{26}{subsection.5.1}%
-\contentsline {subsection}{\numberline {V.2}Phân tích biến phụ thuộc}{26}{subsection.5.2}%
-\contentsline {subsection}{\numberline {V.3}Tối ưu hóa danh mục đầu tư}{27}{subsection.5.3}%
-\contentsline {subsection}{\numberline {V.4}Áp dụng mô hình Copula}{29}{subsection.5.4}%
-\contentsline {subsection}{\numberline {V.5}Mô hình mô phỏng Monte Carlo và tối ưu hóa rủi ro}{30}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {V.5.1}Phân tích mô phỏng Monte Carlo với 10.000 kịch bản}{30}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {V.5.2}Chiến lược tối ưu hóa danh mục theo rủi ro đuôi (CVaR) }{31}{subsubsection.5.5.2}%
-\contentsline {subsection}{\numberline {V.6}Dự báo hiệu suất danh mục tối ưu trong dài hạn (1 năm)}{31}{subsection.5.6}%
-\contentsline {section}{\numberline {VI}Ý NGHĨA PHƯƠNG PHÁP QUẢN TRỊ }{33}{section.6}%
-\contentsline {subsection}{\numberline {VI.1}Giải thích kết quả}{33}{subsection.6.1}%
-\contentsline {subsection}{\numberline {VI.2}Ý nghĩa cho doanh nghiệp}{33}{subsection.6.2}%
-\contentsline {subsection}{\numberline {VI.3}Ý nghĩa cho nghiên cứu học thuật}{33}{subsection.6.3}%
-\contentsline {section}{\numberline {VII} KẾT LUẬN VÀ HƯỚNG NGHIÊN CỨU TƯƠNG LAI}{33}{section.7}%
-\contentsline {subsection}{\numberline {VII.1}Tóm tắt kết quả chính}{33}{subsection.7.1}%
-\contentsline {subsection}{\numberline {VII.2}Đóng góp học thuật}{33}{subsection.7.2}%
-\contentsline {subsection}{\numberline {VII.3}Hướng nghiên cứu trong tương lai}{33}{subsection.7.3}%
+\contentsline {subsection}{\numberline {V.2}Phân tích biến phụ thuộc}{27}{subsection.5.2}%
+\contentsline {subsection}{\numberline {V.3}Tối ưu hóa danh mục đầu tư}{28}{subsection.5.3}%
+\contentsline {subsection}{\numberline {V.4}Áp dụng mô hình Copula}{30}{subsection.5.4}%
+\contentsline {subsection}{\numberline {V.5}Mô hình mô phỏng Monte Carlo và tối ưu hóa rủi ro}{31}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {V.5.1}Phân tích mô phỏng Monte Carlo với 10.000 kịch bản}{31}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {V.5.2}Chiến lược tối ưu hóa danh mục theo rủi ro đuôi (CVaR) }{32}{subsubsection.5.5.2}%
+\contentsline {subsection}{\numberline {V.6}Dự báo hiệu suất danh mục tối ưu trong dài hạn (1 năm)}{32}{subsection.5.6}%
+\contentsline {section}{\numberline {VI}Ý NGHĨA PHƯƠNG PHÁP QUẢN TRỊ }{34}{section.6}%
+\contentsline {subsection}{\numberline {VI.1}Giải thích kết quả}{34}{subsection.6.1}%
+\contentsline {subsection}{\numberline {VI.2}Ý nghĩa cho doanh nghiệp}{34}{subsection.6.2}%
+\contentsline {subsection}{\numberline {VI.3}Ý nghĩa cho nghiên cứu học thuật}{34}{subsection.6.3}%
+\contentsline {section}{\numberline {VII} KẾT LUẬN VÀ HƯỚNG NGHIÊN CỨU TƯƠNG LAI}{35}{section.7}%
+\contentsline {subsection}{\numberline {VII.1}Tóm tắt kết quả chính}{35}{subsection.7.1}%
+\contentsline {subsection}{\numberline {VII.2}Hướng nghiên cứu trong tương lai}{35}{subsection.7.2}%
+\contentsline {section}{Tài liệu tham khảo}{36}{section*.42}%
