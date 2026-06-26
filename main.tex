@@ -42,6 +42,31 @@
 \renewcommand{\thesection}{\Roman{section}}
 \lstset{style=mystyle}
 \usepackage{hyperref}
+% --- ĐỊNH DẠNG MÀU SẮC CHO CODE PYTHON/JUPYTER ---
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.95}
+
+\lstdefinestyle{jupyterstyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize, % Font chữ code
+    breakatwhitespace=false,         
+    breaklines=true,                 % Tự động xuống dòng khi code quá dài
+    captionpos=b,                    % Chú thích nằm dưới code
+    keepspaces=true,                 
+    numbers=left,                    % Đánh số dòng bên trái
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
+\lstset{style=jupyterstyle} % Kích hoạt style này cho toàn bộ văn bản
 \begin{document}
 	\begin{tikzpicture}[remember picture,overlay,inner sep=0,outer sep=0]
 
@@ -226,16 +251,16 @@ Dựa trên kết quả lựa chọn mô hình ở trên, bài toán quản tr�
 \input{6.3.tex}
 %PHẦN 7: KẾT LUẬN VÀ HƯỚNG NGHIÊN CỨU TƯƠNG LAI
 \section{ KẾT LUẬN VÀ HƯỚNG NGHIÊN CỨU TƯƠNG LAI}
-\subsection{Tóm tắt kết quả chính}
+\subsection{ Tóm tắt kết quả chính}
 \input{7.1.tex}
-\subsection{Hướng nghiên cứu trong tương lai}
+\subsection{ Hướng nghiên cứu trong tương lai}
 \input{7.3.tex}
 \newpage
 \nocite{*}
 \printbibliography[heading=bibintoc, title={Tài liệu tham khảo}]
-
-
-
-
+\newpage
+\appendix
+\setcounter{tocdepth}{0}
+\input{appendix.tex}
 
 \end{document}
