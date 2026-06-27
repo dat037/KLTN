@@ -1,10 +1,4 @@
 Trước khi áp dụng mô hình Copula, bài toán tối ưu hóa Mean-Variance (Markowitz) được giải quyết bằng thuật toán SLSQP nhằm tìm ra danh mục tiếp điểm có tỷ số Sharpe cực đại nhằm tìm ra danh mục có mức bù rủi ro tốt nhất.Hình \ref{fig:markowitz} và Bảng \ref{tab:markowitz_result} trình bày kết quả tỷ trọng phân bổ vốn và các chỉ số hiệu suất của danh mục tối ưu này.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{efficient_frontier_with_cml.png}
-    \caption{Đường biên hiệu quả Markowitz và Đường thị trường vốn (CML)}
-    \label{fig:markowitz}
-\end{figure}
 \begin{table}[H]
     \centering
     \caption{Kết quả tối ưu hóa danh mục theo mô hình Markowitz}
@@ -27,6 +21,13 @@ Trước khi áp dụng mô hình Copula, bài toán tối ưu hóa Mean-Varianc
     \end{tabular}
     \label{tab:markowitz_result}
 \end{table}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{efficient_frontier_with_cml.png}
+    \caption{Đường biên hiệu quả Markowitz và Đường thị trường vốn (CML)}
+    \label{fig:markowitz}
+\end{figure}
+
 \begin{flushleft}
 \textbf{Nhận xét từ Bảng \ref{tab:markowitz_result} và Hình \ref{fig:markowitz}:}
 \begin{itemize}

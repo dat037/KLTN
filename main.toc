@@ -84,9 +84,9 @@
 \contentsline {subsection}{\numberline {V.2}Phân tích biến phụ thuộc}{27}{subsection.5.2}%
 \contentsline {subsection}{\numberline {V.3}Tối ưu hóa danh mục đầu tư}{28}{subsection.5.3}%
 \contentsline {subsection}{\numberline {V.4}Áp dụng mô hình Copula}{30}{subsection.5.4}%
-\contentsline {subsection}{\numberline {V.5}Mô hình mô phỏng Monte Carlo và tối ưu hóa rủi ro}{31}{subsection.5.5}%
-\contentsline {subsubsection}{\numberline {V.5.1}Phân tích mô phỏng Monte Carlo với 10.000 kịch bản}{31}{subsubsection.5.5.1}%
-\contentsline {subsubsection}{\numberline {V.5.2}Chiến lược tối ưu hóa danh mục theo rủi ro đuôi (CVaR) }{32}{subsubsection.5.5.2}%
+\contentsline {subsection}{\numberline {V.5}Mô hình mô phỏng Monte Carlo và tối ưu hóa rủi ro}{30}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {V.5.1}Phân tích mô phỏng Monte Carlo với 10.000 kịch bản}{30}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {V.5.2}Chiến lược tối ưu hóa danh mục theo rủi ro đuôi (CVaR) }{31}{subsubsection.5.5.2}%
 \contentsline {subsection}{\numberline {V.6}Dự báo hiệu suất danh mục tối ưu trong dài hạn (1 năm)}{32}{subsection.5.6}%
 \contentsline {section}{\numberline {VI}Ý NGHĨA PHƯƠNG PHÁP QUẢN TRỊ }{34}{section.6}%
 \contentsline {subsection}{\numberline {VI.1}Giải thích kết quả}{34}{subsection.6.1}%
