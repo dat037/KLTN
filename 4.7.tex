@@ -1,0 +1,28 @@
+Trong nghiên cứu này, bài toán tìm kiếm danh mục tiếp điểm có tỷ số Sharpe cực đại (mô hình Markowitz) và bài toán cực tiểu hóa rủi ro đuôi (mô hình Copula-CVaR) đều là các bài toán tối ưu hóa phi tuyến có ràng buộc. Để giải quyết, nghiên cứu ứng dụng thuật toán tối ưu phi tuyến có ràng buộc (Sequential Least Squares Programming - SLSQP). Đây là một phương pháp lặp mạnh mẽ, chuyên được sử dụng để giải quyết các bài toán tối ưu hóa mà hàm mục tiêu hoặc các điều kiện ràng buộc mang tính phi tuyến phức tạp.
+\paragraph{Đầu vào của thuật toán} 
+Quá trình tối ưu hóa đòi hỏi các tham số đầu vào được xác định và thiết lập chặt chẽ:
+\begin{itemize}
+    \item Hàm mục tiêu: Đại lượng cần được tối ưu hóa (cực tiểu hóa). Đối với danh mục Markowitz, hàm mục tiêu được thiết lập là số đối của tỷ số Sharpe (nhằm mục đích gián tiếp tối đa hóa tỷ số Sharpe). Đối với mô hình rủi ro đuôi, hàm mục tiêu là giá trị chịu rủi ro có điều kiện (CVaR).
+    \item Điểm khởi tạo: Vectơ tỷ trọng ban đầu làm điểm xuất phát để thuật toán bắt đầu quá trình dò tìm. Trong nghiên cứu này, điểm khởi tạo được thiết lập là danh mục phân bổ đều, với tỷ trọng $w_i = 1/N$ cho mỗi tài sản.
+    \item Các ràng buộc:
+    \begin{itemize}
+        \item Ràng buộc đẳng thức: Tổng tỷ trọng vốn đầu tư vào toàn bộ các tài sản phải bằng 100\%, tức là $\sum_{i=1}^{n} w_i = 1$.
+        \item Ràng buộc biên: Giả định nhà đầu tư không được phép bán khống và không sử dụng đòn bẩy, do đó tỷ trọng phân bổ của mỗi tài sản bị giới hạn nghiêm ngặt trong khoảng $[0, 1]$, tức là $0 \le w_i \le 1, \forall i$.
+    \end{itemize}
+    
+\end{itemize}
+\paragraph{Cơ chế hoạt động}
+Thuật toán SLSQP tiến hành tìm kiếm điểm tối ưu toàn cục thông qua quá trình lặp lại các bước xấp xỉ toán học như sau:
+\begin{itemize}
+    \item Khởi tạo: Bắt đầu quá trình tìm kiếm từ vectơ tỷ trọng phân bổ đều đã được cung cấp.
+    \item Xấp xỉ hàm mục tiêu: Tại tọa độ điểm hiện tại, thuật toán sử dụng khai triển Taylor bậc hai để xấp xỉ hàm mục tiêu phi tuyến thành một hàm toàn phương, đồng thời tuyến tính hóa các ràng buộc bằng đạo hàm bậc nhất. Quá trình này giúp chuyển bài toán phức tạp ban đầu thành một bài toán tối ưu hóa bậc hai phụ dễ giải quyết hơn.
+    \item Xác định hướng tìm kiếm: Thuật toán giải bài toán tối ưu bậc hai phụ vừa tạo ra để tìm ra hướng di chuyển tối ưu trong không gian các tỷ trọng. Hướng di chuyển này đảm bảo hàm mục tiêu giảm xuống với tốc độ nhanh nhất mà vẫn không vi phạm các ràng buộc về ngân sách và bán khống.
+    \item Cập nhật và kiểm tra hội tụ: Cập nhật vectơ tỷ trọng mới bằng cách dịch chuyển một khoảng cách phù hợp theo hướng đã xác định. Thuật toán sẽ tính toán lại và kiểm tra điều kiện dừng (hội tụ). Điểm hội tụ đạt được khi sự thay đổi của hàm mục tiêu hoặc sự dịch chuyển của vectơ tỷ trọng giữa hai bước lặp liên tiếp tiến gần về 0 (đạt đến điểm cực trị cục bộ/toàn cục). Nếu chưa hội tụ, thuật toán quay lại Bước 2 và tiếp tục vòng lặp.
+\end{itemize}
+\paragraph{Đầu ra của thuật toán} 
+Sau khi thuật toán hội tụ thành công và kết thúc vòng lặp, đầu ra thu được bao gồm:
+\begin{itemize}
+    \item Vectơ tỷ trọng tối ưu ($w^*$): Tỷ lệ phân bổ vốn chính xác cho từng tài sản thỏa mãn toàn bộ các ràng buộc khắt khe ban đầu.
+    \item Giá trị tối ưu: Mức rủi ro CVaR thấp nhất hoặc tỷ số Sharpe cao nhất thực tế có thể đạt được từ các kịch bản mô phỏng.
+
+\end{itemize}

@@ -1,11 +1,13 @@
-% cSpell:disable
-% spell-checker:disable
-\section*{Phụ lục A}
+\newpage
+\appendix
+\section*{Phụ lục A: Mã nguồn Python thực hiện mô phỏng và tối ưu hóa}
 \addcontentsline{toc}{section}{Phụ lục A}
 
+Trong phụ lục này, toàn bộ mã nguồn lập trình bằng ngôn ngữ Python trên môi trường Jupyter Notebook được trình bày chi tiết theo từng giai đoạn nghiên cứu của khóa luận.
+
 % =======================================================================
-\subsection*{A.1 Data Preprocessing and Descriptive Statistics}
-The following code sets up library configuration, processes closing price data series, and performs univariate descriptive statistics and normal distribution testing (Jarque-Bera).
+\subsection*{A.1 Tiền xử lý dữ liệu và Thống kê mô tả}
+Đoạn mã dưới đây thiết lập các thư viện cấu hình, xử lý chuỗi dữ liệu giá đóng cửa và thực hiện các thống kê mô tả đơn biến, kiểm định phân phối chuẩn (Jarque-Bera).
 
 \begin{lstlisting}[language=Python]
 import pandas as pd
@@ -46,8 +48,8 @@ print(univariate_stats.round(4))
 \end{lstlisting}
 
 % =======================================================================
-\subsection*{A.2 Dependency Model and Copula}
-This section computes the Spearman rank correlation matrix and empirical tail correlation coefficients to assess nonlinear dependence during crisis states.
+\subsection*{A.2 Mô hình phụ thuộc và Copula}
+Phần này tính toán ma trận tương quan hạng Spearman và hệ số tương quan đuôi dưới thực nghiệm nhằm đánh giá sự phụ thuộc phi tuyến trong trạng thái khủng hoảng.
 
 \begin{lstlisting}[language=Python]
 print("\n--- Copula Dependency Structure ---")
@@ -70,8 +72,8 @@ print(tail_dep.round(4))
 \end{lstlisting}
 
 % =======================================================================
-\subsection*{A.3 Markowitz Portfolio Optimization}
-SLSQP algorithm is employed to solve the minimum variance portfolio (MVP) and maximum Sharpe ratio tangency portfolio problem, combined with efficient frontier visualization.
+\subsection*{A.3 Tối ưu hóa danh mục đầu tư Markowitz}
+Thuật toán SLSQP được sử dụng để giải bài toán tìm danh mục rủi ro tối thiểu (MVP) và danh mục tiếp điểm có tỷ số Sharpe cực đại, kết hợp vẽ đường biên hiệu quả.
 
 \begin{lstlisting}[language=Python]
 print("\n--- [Step 2] Markowitz Portfolio Optimization ---")
@@ -132,12 +134,12 @@ plt.ylabel("Expected Annual Return")
 plt.legend()
 plt.tight_layout()
 plt.savefig('markowitz_efficient_frontier.png')
-plt.show()
+plt.close()
 \end{lstlisting}
 
 % =======================================================================
-\subsection*{A.4 Copula Goodness-of-Fit and Cramer-von Mises Error}
-Process to estimate goodness-of-fit between empirical data and theoretical Copula models (Gaussian, t-Student, Clayton) to select the optimal model.
+\subsection*{A.4 Khớp Copula và Tính sai số Cramér-von Mises}
+Quá trình ước lượng độ khớp (Goodness-of-Fit) giữa dữ liệu thực nghiệm và các mô hình Copula lý thuyết (Gaussian, t-Student, Clayton) để chọn ra mô hình tối ưu.
 
 \begin{lstlisting}[language=Python]
 print("\n--- [Step 3] Copula Goodness-of-Fit and Cramer-von Mises Error ---")
@@ -187,8 +189,8 @@ print(f"=> WINNING MODEL: {best_copula.upper()}")
 \end{lstlisting}
 
 % =======================================================================
-\subsection*{A.5 Monte Carlo Simulation with Empirical Copula}
-Code generates 10,000 random return scenarios, then analyzes Value at Risk (VaR) and Conditional Value at Risk (CVaR).
+\subsection*{A.5 Mô phỏng Monte Carlo bằng Copula thực nghiệm}
+Mã nguồn sinh ngẫu nhiên 10.000 kịch bản lợi suất, sau đó phân tích Giá trị rủi ro (VaR) và Giá trị chịu rủi ro có điều kiện (CVaR).
 
 \begin{lstlisting}[language=Python]
 print("\n--- [Step 4] Monte Carlo Simulation with Copula ---")
@@ -213,7 +215,7 @@ plt.title("Equal Weight Portfolio Return Distribution")
 plt.legend()
 plt.tight_layout()
 plt.savefig('copula_monte_carlo_daily_var.png')
-plt.show()
+plt.close()
 
 # ---- FIGURE 3: OPTIMAL CVAR PORTFOLIO (PURPLE) ----
 portfolio_sim_returns_opt = np.dot(sim_returns, best_weights)
@@ -228,12 +230,12 @@ plt.title("Optimal Portfolio Return Distribution - Tail Risk Control")
 plt.legend()
 plt.tight_layout()
 plt.savefig('optimal_cvar_portfolio.png')
-plt.show()
+plt.close()
 \end{lstlisting}
 
 % =======================================================================
-\subsection*{A.6 Monte Carlo Simulation Long-Term Forecast (1 Year)}
-Process to generate asset price paths over 252 trading days to estimate returns and net risk at year-end.
+\subsection*{A.6 Mô phỏng Monte Carlo dự báo trong dài hạn (1 năm)}
+Quá trình tạo các quỹ đạo tài sản (Asset Paths) trong chu kỳ 252 ngày giao dịch để ước tính hiệu suất và rủi ro ròng vào cuối năm.
 
 \begin{lstlisting}[language=Python]
 print("\n--- [Step 5] Monte Carlo Simulation Deployment (1 Year / 252 Days) ---")
@@ -262,7 +264,7 @@ plt.axhline(1.0, color='red', linestyle='--', linewidth=1.5)
 plt.title("Monte Carlo Simulation Asset Path Scenarios (1 Year)")
 plt.tight_layout()
 plt.savefig('monte_carlo_paths.png')
-plt.show()
+plt.close()
 
 # Year-End Asset Value Distribution Plot
 final_assets = portfolio_paths[-1, :]
@@ -274,7 +276,7 @@ plt.axvline(var_95_yearly, color='red', linestyle='--', linewidth=2)
 plt.title("Distribution of Cumulative Portfolio Asset Value at Year-End")
 plt.tight_layout()
 plt.savefig('final_asset_distribution.png')
-plt.show()
+plt.close()
 
 print("Process completed! Images saved to directory.")
 \end{lstlisting}

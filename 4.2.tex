@@ -3,8 +3,13 @@ Kiểm định Jarque-Bera được thiết lập như một công cụ kiểm t
 T = \frac{n}{6} \left( b^2 + \frac{1}{4}(k - 3)^2 \right)
 \eea Dưới giả thuyết không ($H_0$) cho rằng dữ liệu tuân theo phân phối chuẩn, đại lượng thống kê $T$ sẽ có phân phối Chi-bình phương ($\chi^2$) tiệm cận với hai bậc tự do.
 
-\paragraph{Quy tắc quyết định:}
+\paragraph{Phát biểu giả thuyết:}
 \begin{itemize}
-    \item Bác bỏ tính chuẩn: Nếu giá trị hệ số nhọn mẫu khác biệt lớn so với 3 hoặc hệ số bất đối xứng mẫu khác biệt lớn so với 0, giá trị $T$ sẽ tăng cao, dẫn đến việc bác bỏ giả thuyết về phân phối chuẩn.
-    \item Giá trị p (p-value): Thông thường, nếu p-value nhỏ hơn ngưỡng ý nghĩa (ví dụ: 0.05), giả thuyết không sẽ bị bác bỏ
+    \item $H_0$ (Giả thuyết không): Chuỗi dữ liệu tuân theo phân phối chuẩn. Về mặt toán học, điều này tương đương với việc chuỗi dữ liệu có hệ số bất đối xứng $S = 0$ và hệ số nhọn dư $K - 3 = 0$.
+    \item $H_1$ (Giả thuyết đối): Chuỗi dữ liệu không tuân theo phân phối chuẩn. Về mặt toán học, điều này xảy ra khi hệ số bất đối xứng $S \neq 0$ hoặc hệ số nhọn dư $K - 3 \neq 0$.
+\end{itemize}
+\paragraph{Quy tắc ra quyết định:} Dựa trên giá trị p-value
+\begin{itemize}
+    \item Nếu p-value < mức ý nghĩa $\alpha$ (trong nghiên cứu tài chính thường chọn $\alpha = 0.05$ tức 5\%): Bác bỏ giả thuyết $H_0$, chấp nhận giả thuyết $H_1$. Đủ cơ sở thống kê để kết luận chuỗi dữ liệu không có phân phối chuẩn (có hiện tượng đuôi dày).
+    \item Nếu p-value $\ge$ mức ý nghĩa $\alpha$: Chưa đủ cơ sở thống kê để bác bỏ giả thuyết $H_0$. Ta tạm chấp nhận chuỗi dữ liệu tuân theo phân phối chuẩn.
 \end{itemize}

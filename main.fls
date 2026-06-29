@@ -496,6 +496,12 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
 INPUT .\4.6.tex
 INPUT .\4.6.tex
 INPUT 4.6.tex
+INPUT .\4.8.tex
+INPUT .\4.8.tex
+INPUT 4.8.tex
+INPUT .\4.7.tex
+INPUT .\4.7.tex
+INPUT 4.7.tex
 INPUT .\4.4.tex
 INPUT .\4.4.tex
 INPUT 4.4.tex

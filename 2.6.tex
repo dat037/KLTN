@@ -1,6 +1,6 @@
-\paragraph{Hiện tượng đuôi nặng:}
+\paragraph{Hiện tượng đuôi dày:}
 \begin{itemize}
-    \item Định nghĩa: Một trong những hiện tượng phổ biến của các chuỗi lợi nhuận tài chính là chúng có phân phối nhọn hoặc đuôi nặng. Điều này có nghĩa là phân phối này hẹp hơn phân phối chuẩn ở phần trung tâm nhưng lại có phần đuôi dài và nặng hơn.
+    \item Định nghĩa: Một trong những hiện tượng phổ biến của các chuỗi lợi nhuận tài chính là chúng có phân phối nhọn hoặc đuôi dày. Điều này có nghĩa là phân phối này hẹp hơn phân phối chuẩn ở phần trung tâm nhưng lại có phần đuôi dài và nặng hơn.
     \item Tốc độ suy giảm: Trong khi đuôi của phân phối chuẩn suy giảm cực nhanh theo hàm mũ, đuôi của lợi nhuận tài chính thường suy giảm chậm hơn theo quy luật lũy thừa.
     \item Hệ quả: Các sự kiện cực đoan (tổn thất lớn) xảy ra thường xuyên hơn nhiều so với dự báo của mô hình phân phối chuẩn. Ví dụ, trong cuộc khủng hoảng 2007–2009, nhiều biến động giá có xác suất xảy ra theo mô hình truyền thống là cực thấp (gần như bằng 0) nhưng thực tế đã xảy ra liên tục.
 \end{itemize}
@@ -8,8 +8,8 @@
 \paragraph{Sự hạn chế của các mô hình truyền thống:}
 Các mô hình quản trị danh mục cổ điển (như lý thuyết hiện đại Markowitz) dựa trên các giả định đơn giản hóa để đạt được sự tối ưu về mặt toán học. Tuy nhiên, trong thực tế thị trường tài chính, các giả định này bộc lộ ba hạn chế cốt lõi sau:
 \begin{itemize}
-    \item Đánh giá thấp rủi ro cực đoan: Việc sử dụng phân phối chuẩn (Gaussian) dẫn đến việc đánh giá thấp đuôi của phân phối tổn thất, từ đó làm giảm nhẹ mức độ rủi ro thực tế của danh mục đầu tư. Ngoài ra, các mô hình như VaR (Value-at-Risk) truyền thống thường chỉ bắt đầu phản ánh rủi ro đuôi khi sử dụng mức tin cậy rất cao (trên 99\%), trong khi các mô hình đuôi nặng như phân phối t đã bộc lộ rủi ro này từ mức tin cậy thấp hơn.
-    \item Khiếm khuyết của thước đo phương sai: Phương sai không phân biệt giữa sai lệch tích cực (lãi) và tiêu cực (lỗ), nó chỉ là thước đo tốt cho các phân phối gần như đối xứng, trong khi rủi ro tín dụng và rủi ro hoạt động thường có phân phối lệch mạnh. Để sử dụng phương sai, người ta phải giả định mô-men bậc hai tồn tại. Tuy nhiên, trong rủi ro hoạt động hoặc bảo hiểm, dữ liệu có thể có đuôi nặng đến mức phương sai là vô hạn, khiến thước đo này trở nên vô nghĩa.
+    \item Đánh giá thấp rủi ro cực đoan: Việc sử dụng phân phối chuẩn (Gaussian) dẫn đến việc đánh giá thấp đuôi của phân phối tổn thất, từ đó làm giảm nhẹ mức độ rủi ro thực tế của danh mục đầu tư. Ngoài ra, các mô hình như VaR (Value-at-Risk) truyền thống thường chỉ bắt đầu phản ánh rủi ro đuôi khi sử dụng mức tin cậy rất cao (trên 99\%), trong khi các mô hình đuôi dày như phân phối t đã bộc lộ rủi ro này từ mức tin cậy thấp hơn.
+    \item Khiếm khuyết của thước đo phương sai: Phương sai không phân biệt giữa sai lệch tích cực (lãi) và tiêu cực (lỗ), nó chỉ là thước đo tốt cho các phân phối gần như đối xứng, trong khi rủi ro tín dụng và rủi ro hoạt động thường có phân phối lệch mạnh. Để sử dụng phương sai, người ta phải giả định mô-men bậc hai tồn tại. Tuy nhiên, trong rủi ro hoạt động hoặc bảo hiểm, dữ liệu có thể có đuôi dày đến mức phương sai là vô hạn, khiến thước đo này trở nên vô nghĩa.
     \item Vấn đề với quy tắc đa dạng hóa và phương sai: Trong các kịch bản có phân phối lệch hoặc đuôi rất nặng, VaR có thể không thỏa mãn tính cộng dưới. Điều này dẫn đến một nghịch lý: đa dạng hóa danh mục đôi khi lại làm tăng VaR thay vì giảm rủi ro. Nếu sử dụng VaR để đặt hạn mức cho các nhà giao dịch, nó có thể thúc đẩy họ xây dựng các danh mục tập trung quá mức vào một tài sản rủi ro duy nhất để tối ưu hóa lợi nhuận dưới ràng buộc VaR.
 \end{itemize}
 
@@ -22,7 +22,7 @@ Các mô hình quản trị danh mục cổ điển (như lý thuyết hiện đ
 \paragraph{Hướng đi mới trong quản trị rủi ro hiện đại:}
 Để khắc phục, tài liệu đề xuất chuyển sang các phương pháp tiên tiến hơn:
 \begin{itemize}
-    \item Sử dụng các phân phối đuôi nặng (như phân phối t) để mô hình hóa lợi nhuận tài chính, giúp đánh giá chính xác hơn rủi ro cực đoan.
+    \item Sử dụng các phân phối đuôi dày (như phân phối t) để mô hình hóa lợi nhuận tài chính, giúp đánh giá chính xác hơn rủi ro cực đoan.
     \item Áp dụng các Copula phức tạp hơn (như Copula Archimedean hoặc hỗn hợp) để nắm bắt tốt hơn sự phụ thuộc đuôi và mô hình hóa mối quan hệ giữa các tài sản trong các điều kiện thị trường khác nhau.
-    \item Phát triển các thước đo rủi ro mới (như Expected Shortfall) thay vì VaR, vì chúng có tính cộng và phản ánh tốt hơn rủi ro trong các kịch bản đuôi nặng.
+    \item Phát triển các thước đo rủi ro mới (như Expected Shortfall) thay vì VaR, vì chúng có tính cộng và phản ánh tốt hơn rủi ro trong các kịch bản đuôi dày.
 \end{itemize}

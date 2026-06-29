@@ -2,5 +2,5 @@ Phương pháp luận của bài toán tối ưu hóa rủi ro được thiết 
 \begin{itemize}
     \item Mô phỏng cấu trúc phụ thuộc: Từ hàm Copula đã được chọn ở bước kiểm định, tiến hành sinh ngẫu nhiên một tập mẫu lớn (10.000 kịch bản) các vector đa biến trên không gian đồng nhất. Tập mẫu này chứa đựng cấu trúc tương quan phi tuyến và các đặc tính phụ thuộc đuôi.
     \item Tái tạo kịch bản thị trường: Áp dụng phép biến đổi phân vị nghịch đảo thông qua ECDF để ánh xạ các vector đồng nhất về lại miền giá trị tỷ suất sinh lợi thực tế. Kết quả thu được là hàng ngàn kịch bản biến động giá khả dĩ của các tài sản.
-    \item Giải bài toán tối ưu hóa: Thiết lập hàm mục tiêu cực tiểu hóa rủi ro đuôi $CVaR$ tại mức ý nghĩa $\alpha=95\%$ thay vì cực tiểu hóa phương sai. Thuật toán tối ưu hóa phi tuyến tuần tự (SLSQP) được áp dụng để tìm kiếm bộ tỷ trọng phân bổ vốn $(w_1, w_2, ..., w_n)$ thỏa mãn các ràng buộc về ngân sách ($\sum w_i = 1$) và không bán khống ($w_i \ge 0$).
+    \item Giải bài toán tối ưu hóa: Thiết lập hàm mục tiêu cực tiểu hóa rủi ro đuôi $CVaR$ tại mức ý nghĩa $\alpha=95\%$ thay vì cực tiểu hóa phương sai. Thuật toán tối ưu hóa phi tuyến (SLSQP) được áp dụng để tìm kiếm bộ tỷ trọng phân bổ vốn $(w_1, w_2, ..., w_n)$ thỏa mãn các ràng buộc về ngân sách ($\sum w_i = 1$) và không bán khống ($w_i \ge 0$).
 \end{itemize}

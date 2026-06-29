@@ -1,5 +1,5 @@
 Việc lựa chọn một hàm Copula phù hợp với cấu trúc phụ thuộc của dữ liệu thực nghiệm là một bước mang tính quyết định trong mô hình hóa rủi ro. Để đánh giá và xếp hạng độ khớp của các mô hình Copula lý thuyết (Gaussian, t-Student, Clayton), nghiên cứu sử dụng tiêu chuẩn khoảng cách Cramér-von Mises.\\
-Bản chất của tiêu chuẩn này là cực tiểu hóa sai số toàn phương trung bình (Mean Squared Error - MSE) giữa hàm phân phối Copula thực nghiệm trích xuất từ dữ liệu và hàm Copula lý thuyết. Gọi $C_n(\mathbf{u})$ là hàm Copula thực nghiệm và $C_\theta(\mathbf{u})$ là hàm Copula lý thuyết với bộ tham số $\theta$, đại lượng thống kê Cramér-von Mises $S_n$ được định nghĩa bằng công thức:
+Bản chất của tiêu chuẩn này là cực tiểu hóa trung bình bình phương sai số (Mean Squared Error - MSE) giữa hàm phân phối Copula thực nghiệm trích xuất từ dữ liệu và hàm Copula lý thuyết. Gọi $C_n(\mathbf{u})$ là hàm Copula thực nghiệm và $C_\theta(\mathbf{u})$ là hàm Copula lý thuyết với bộ tham số $\theta$, đại lượng thống kê Cramér-von Mises $S_n$ được định nghĩa bằng công thức:
 \bea
  S_n = \sum_{i=1}^{n} \left( C_n(\mathbf{u}_i) - C_\theta(\mathbf{u}_i) \right)^2 
 \eea
@@ -12,3 +12,13 @@ Trong đó:
 \end{itemize}
 
 Mô hình Copula nào tạo ra giá trị thống kê $S_n$ (hay mức sai số bình phương) nhỏ nhất sẽ được đánh giá là mô hình phản ánh sát nhất với cấu trúc phụ thuộc thực tế của danh mục đầu tư, từ đó được lựa chọn làm hàm lõi cho quá trình mô phỏng Monte Carlo.
+\paragraph{Phát biểu giả thuyết:}
+\begin{itemize}
+    \item $H_0$ (Giả thuyết không): Cấu trúc phụ thuộc của dữ liệu thực tế tuân theo mô hình Copula lý thuyết đang được kiểm định. Về mặt toán học: Hàm Copula thực nghiệm $C_n$ không có sự khác biệt có ý nghĩa thống kê so với hàm Copula lý thuyết $C_\theta$.
+    \item $H_1$ (Giả thuyết đối): Cấu trúc phụ thuộc của dữ liệu thực tế không tuân theo mô hình Copula lý thuyết đang được kiểm định. Về mặt toán học: Tồn tại sự khác biệt đáng kể giữa hàm Copula thực nghiệm $C_n$ và hàm Copula lý thuyết $C_\theta$.
+\end{itemize} 
+\paragraph{Quy tắc ra quyết định:} 
+\begin{itemize}
+    \item Nếu p-value < mức ý nghĩa $\alpha$ (thường là 0.05): Bác bỏ giả thuyết $H_0$.Kết luận rằng mô hình Copula lý thuyết đó không khớp với dữ liệu thực tế.
+    \item Nếu p-value $\ge$ mức ý nghĩa $\alpha$: Chưa đủ cơ sở thống kê để bác bỏ $H_0$. Ta chấp nhận rằng mô hình Copula đó phù hợp để mô tả dữ liệu.
+\end{itemize}

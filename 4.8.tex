@@ -1,0 +1,34 @@
+Trong khi mô hình Markowitz truyền thống sử dụng phương sai (Variance) làm thước đo rủi ro và giả định dữ liệu có phân phối chuẩn, nghiên cứu này đề xuất sử dụng mô hình Copula - CVaR để khắc phục nhược điểm về rủi ro đuôi dày của các tài sản tài chính.\\
+Mô hình này là sự kết hợp giữa cấu trúc phụ thuộc phi tuyến của hàm Copula và thước đo rủi ro giá trị chịu rủi ro có điều kiện (Conditional Value-at-Risk - CVaR). Quy trình thiết lập mô hình được thực hiện qua các bước sau:
+
+\paragraph{Tích hợp kịch bản Copula vào đo lường rủi ro}
+
+Dựa trên tập hợp $N$ kịch bản tỷ suất sinh lợi ngẫu nhiên được sinh ra từ phương pháp mô phỏng Monte Carlo kết hợp t-Student Copula, tỷ suất sinh lợi của danh mục đầu tư trong kịch bản thứ $s$ được xác định bằng công thức:
+$$R_p^{(s)} = \sum_{i=1}^{n} w_i r_i^{(s)}$$
+Trong đó:
+\begin{itemize}
+    \item $R_p^{(s)}$ là tỷ suất sinh lợi của danh mục trong kịch bản $s$ ($s = 1, 2, \dots, N$).
+    \item $w_i$ là tỷ trọng đầu tư vào tài sản $i$.
+    \item $r_i^{(s)}$ là tỷ suất sinh lợi mô phỏng của tài sản $i$ trong kịch bản $s$.
+\end{itemize}
+
+\paragraph{Xác định VaR và CVaR}
+
+Từ chuỗi tỷ suất sinh lợi danh mục được mô phỏng, Giá trị rủi ro ($VaR$) ở mức ý nghĩa $\alpha$ (thông thường $\alpha = 5\%$) được xác định là mức phân vị thứ $\alpha$ của phân phối lợi nhuận:
+$$VaR_{\alpha} = \inf \{ r \in \mathbb{R} \mid P(R_p \le r) \ge \alpha \}$$
+
+Tuy nhiên, VaR không đo lường được mức độ thiệt hại nếu thảm họa thực sự vượt qua ngưỡng VaR. Do đó, CVaR được sử dụng làm hàm mục tiêu để đánh giá trung bình của các khoản thua lỗ cực đoan. Dưới góc độ rời rạc của mô phỏng Monte Carlo, CVaR được tính toán như sau:
+$$CVaR_{\alpha} = \frac{1}{K} \sum_{k=1}^{K} R_p^{(k)}$$
+Trong đó, tập hợp $K$ kịch bản đại diện cho $\alpha \times N$ trường hợp có tỷ suất sinh lợi $R_p^{(k)}$ thấp hơn ngưỡng $VaR_{\alpha}$.
+
+\paragraph{Bài toán tối ưu hóa Copula - CVaR}
+
+Mục tiêu cuối cùng của mô hình là tìm ra bộ tỷ trọng phân bổ vốn $w^* = (w_1, w_2, \dots, w_n)$ nhằm giảm thiểu tối đa rủi ro tổn thất cực đoan (Minimizing CVaR), đồng thời thỏa mãn các điều kiện về ngân sách và không bán khống. Cấu trúc bài toán tối ưu được phát biểu như sau:
+
+\begin{itemize}
+    \item Hàm mục tiêu: Cực tiểu hóa $CVaR_{\alpha}(w)$
+    \item Ràng buộc đẳng thức: $\sum_{i=1}^{n} w_i = 1$
+    \item Ràng buộc bất đẳng thức (Không bán khống): $0 \le w_i \le 1 \quad \forall i$
+\end{itemize}
+
+Do hàm mục tiêu CVaR khi kết hợp với mô phỏng kịch bản có tính chất phi tuyến, bài toán này sẽ được giải quyết bằng thuật toán tối ưu hóa phi tuyến có ràng buộc.
