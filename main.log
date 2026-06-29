@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  29 JUN 2026 23:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  30 JUN 2026 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1230,14 +1230,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### bottom level 
 Here is how much of TeX's memory you used:
  37653 strings out of 467870
- 739420 string characters out of 5428423
- 1925736 words of memory out of 5000000
+ 739480 string characters out of 5428423
+ 1925734 words of memory out of 5000000
  65395 multiletter control sequences out of 15000+600000
  646614 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,14n,96p,1395b,2274s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vncsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (45 pages, 1149757 bytes).
+Output written on main.pdf (45 pages, 1149781 bytes).
 PDF statistics:
  1120 PDF objects out of 1200 (max. 8388607)
  456 named destinations out of 1000 (max. 500000)

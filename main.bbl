@@ -54,38 +54,30 @@
       \verb 10.2991/978-94-6239-070-6
       \endverb
     \endentry
-    \entry{trong2024xacsuat}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=1e39d9a62c071154e141844745331504}{%
-           family={Đặng},
-           familyi={Đ\bibinitperiod},
-           given={Đức\bibnamedelima Trọng},
-           giveni={Đ\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=59b36fff22b68162535740ff547f86a9}{%
-           family={Đinh},
-           familyi={Đ\bibinitperiod},
-           given={Ngọc\bibnamedelima Thanh},
-           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=a13563e15ae9f58eee975cc73d68c5c4}{%
-           family={Nguyễn},
-           familyi={N\bibinitperiod},
-           given={Đăng\bibnamedelima Minh},
-           giveni={Đ\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+    \entry{trong2024lythuyetxacsuat}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=da43e73d8a761047020ce03cce4b7cba}{%
+           family={Đinh\bibnamedelimb Ngọc\bibnamedelimb Thanh\bibnamedelimb và\bibnamedelimb Nguyễn\bibnamedelimb Đăng\bibnamedelima Minh},
+           familyi={Đ\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim Đ\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Đặng\bibnamedelimb Đức\bibnamedelima Trọng},
+           giveni={Đ\bibinitperiod\bibinitdelim Đ\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={và},
+           prefixi={v\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Ho Chi Minh City, Vietnam}%
+        {Thành phố Hồ Chí Minh, Việt Nam}%
       }
       \list{publisher}{1}{%
         {Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh}%
       }
-      \strng{namehash}{c429b44912c54337662bbd53aa3eaf46}
-      \strng{fullhash}{c429b44912c54337662bbd53aa3eaf46}
-      \strng{fullhashraw}{c429b44912c54337662bbd53aa3eaf46}
-      \strng{bibnamehash}{c429b44912c54337662bbd53aa3eaf46}
-      \strng{authorbibnamehash}{c429b44912c54337662bbd53aa3eaf46}
-      \strng{authornamehash}{c429b44912c54337662bbd53aa3eaf46}
-      \strng{authorfullhash}{c429b44912c54337662bbd53aa3eaf46}
-      \strng{authorfullhashraw}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{namehash}{da43e73d8a761047020ce03cce4b7cba}
+      \strng{fullhash}{da43e73d8a761047020ce03cce4b7cba}
+      \strng{fullhashraw}{da43e73d8a761047020ce03cce4b7cba}
+      \strng{bibnamehash}{da43e73d8a761047020ce03cce4b7cba}
+      \strng{authorbibnamehash}{da43e73d8a761047020ce03cce4b7cba}
+      \strng{authornamehash}{da43e73d8a761047020ce03cce4b7cba}
+      \strng{authorfullhash}{da43e73d8a761047020ce03cce4b7cba}
+      \strng{authorfullhashraw}{da43e73d8a761047020ce03cce4b7cba}
       \field{sortinit}{Đ}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -165,38 +157,30 @@
       \field{title}{Quantitative Risk Management: Concepts, Techniques and Tools}
       \field{year}{2015}
     \endentry
-    \entry{thin2024thongke}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=12dc61c23e59762d2e6341908df56f6a}{%
-           family={Nguyễn},
-           familyi={N\bibinitperiod},
-           given={Thị\bibnamedelimb Mộng\bibnamedelima Ngọc},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=d7c976bdda3487a80cf132b915ec3011}{%
-           family={Nguyễn},
-           familyi={N\bibinitperiod},
-           given={Văn\bibnamedelima Thìn},
-           giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=c2a5db73245025cd25167e2ca0fa4209}{%
-           family={Nguyễn},
-           familyi={N\bibinitperiod},
-           given={Thị\bibnamedelimb Hồng\bibnamedelima Nhung},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+    \entry{thin2024xacsuatthongke}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=d67b761e459b30fbffaea97de2994155}{%
+           family={Nguyễn\bibnamedelimb Văn\bibnamedelimb Thìn\bibnamedelimb và\bibnamedelimb Nguyễn\bibnamedelimb Thị\bibnamedelimb Hồng\bibnamedelima Nhung},
+           familyi={N\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Nguyễn\bibnamedelimb Thị\bibnamedelimb Mộng\bibnamedelima Ngọc},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           prefix={và},
+           prefixi={v\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Ho Chi Minh City, Vietnam}%
+        {Thành phố Hồ Chí Minh, Việt Nam}%
       }
       \list{publisher}{1}{%
         {Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh}%
       }
-      \strng{namehash}{fdd8bf8218264ff47ee0db2655a20dbf}
-      \strng{fullhash}{fdd8bf8218264ff47ee0db2655a20dbf}
-      \strng{fullhashraw}{fdd8bf8218264ff47ee0db2655a20dbf}
-      \strng{bibnamehash}{fdd8bf8218264ff47ee0db2655a20dbf}
-      \strng{authorbibnamehash}{fdd8bf8218264ff47ee0db2655a20dbf}
-      \strng{authornamehash}{fdd8bf8218264ff47ee0db2655a20dbf}
-      \strng{authorfullhash}{fdd8bf8218264ff47ee0db2655a20dbf}
-      \strng{authorfullhashraw}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{namehash}{d67b761e459b30fbffaea97de2994155}
+      \strng{fullhash}{d67b761e459b30fbffaea97de2994155}
+      \strng{fullhashraw}{d67b761e459b30fbffaea97de2994155}
+      \strng{bibnamehash}{d67b761e459b30fbffaea97de2994155}
+      \strng{authorbibnamehash}{d67b761e459b30fbffaea97de2994155}
+      \strng{authornamehash}{d67b761e459b30fbffaea97de2994155}
+      \strng{authorfullhash}{d67b761e459b30fbffaea97de2994155}
+      \strng{authorfullhashraw}{d67b761e459b30fbffaea97de2994155}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
