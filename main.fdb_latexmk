@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1782500083.18058 "main.bcf" "main.bbl" "main" 1782739093.26916 0
-  "main.bcf" 1782739092 109307 a95c6c1175ba8569730638e0b8a873a7 "pdflatex"
-  "ref.bib" 1782330666 1869 a8e402302f4cfa5e070664ea1f9d8fe5 ""
+["biber main"] 1782749255.56726 "main.bcf" "main.bbl" "main" 1782749281.39463 0
+  "main.bcf" 1782749280 109307 a95c6c1175ba8569730638e0b8a873a7 "pdflatex"
+  "ref.bib" 1782749253 2103 17012dd9aa9d6a7b6ba6629cd740aac2 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1782739085.34196 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1782739093.27049 0
+["pdflatex"] 1782749274.65408 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1782749281.3959 0
   "1.1.1.tex" 1781196956 1741 4adf59cb5f94c52464864435fb766742 ""
   "1.1.2.tex" 1779812338 504 5c3fcc844d6c47fbf2c30319f3ea6dec ""
   "1.1.3.tex" 1782496122 1401 7b4c3f357aa7beb229bbbe3b999fe9ab ""
@@ -288,12 +288,12 @@
   "efficient_frontier_with_cml.png" 1781782535 99404 238ebf671e3265fc458fc82e2b012e73 ""
   "final_asset_distribution.png" 1782058880 52614 e6691a7a84d6ecc11c7141c15fd94749 ""
   "icon KHTN.png" 1769974894 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1782739092 20037 7274ff96a6e1219e61c43fd1dd5d9720 "pdflatex"
-  "main.bbl" 1782500089 7754 98679d4e4c1cd921e737ff5baae369b0 "biber main"
-  "main.out" 1782739092 14669 2a419729ebea3a657cd7029ffb7719fb "pdflatex"
-  "main.run.xml" 1782739092 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
+  "main.aux" 1782749280 20035 c13f0c69388f9409a33554ceea5723f5 "pdflatex"
+  "main.bbl" 1782749260 8896 6a722679bec5491f3d2fad7ffbc356bb "biber main"
+  "main.out" 1782749280 14669 2a419729ebea3a657cd7029ffb7719fb "pdflatex"
+  "main.run.xml" 1782749280 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
   "main.tex" 1782738113 11857 ce3f162812907f384eefaff3d9410533 ""
-  "main.toc" 1782739092 10587 23bb5cf6055caa24c4b8e3213689b13b "pdflatex"
+  "main.toc" 1782749280 10587 23bb5cf6055caa24c4b8e3213689b13b "pdflatex"
   "monte_carlo_paths.png" 1782058879 212405 942f73c21db502b8252d8f49d7ba878c ""
   "optimal_cvar_portfolio.png" 1782069147 52814 8cc4ee15145c92da9bb2fcf2b1889c2d ""
   (generated)

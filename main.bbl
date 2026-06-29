@@ -54,68 +54,45 @@
       \verb 10.2991/978-94-6239-070-6
       \endverb
     \endentry
-    \entry{dangductrong2023}{book}{}{}
+    \entry{trong2024xacsuat}{book}{}{}
       \name{author}{3}{}{%
         {{hash=1e39d9a62c071154e141844745331504}{%
-           family={{Đặng Đức Trọng}},
-           familyi={Đ\bibinitperiod}}}%
+           family={Đặng},
+           familyi={Đ\bibinitperiod},
+           given={Đức\bibnamedelima Trọng},
+           giveni={Đ\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=59b36fff22b68162535740ff547f86a9}{%
-           family={{Đinh Ngọc Thanh}},
-           familyi={Đ\bibinitperiod}}}%
-        {{hash=dc3dec83b11af03ceeeee8c676ad9372}{%
-           family={{Phạm Hoàng Uyên}},
-           familyi={P\bibinitperiod}}}%
+           family={Đinh},
+           familyi={Đ\bibinitperiod},
+           given={Ngọc\bibnamedelima Thanh},
+           giveni={N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=a13563e15ae9f58eee975cc73d68c5c4}{%
+           family={Nguyễn},
+           familyi={N\bibinitperiod},
+           given={Đăng\bibnamedelima Minh},
+           giveni={Đ\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {TP.HCM, Việt Nam}%
+        {Ho Chi Minh City, Vietnam}%
       }
       \list{publisher}{1}{%
-        {Nhà xuất bản Đại học Quốc gia TP.HCM}%
+        {Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh}%
       }
-      \strng{namehash}{2ed6349dbcb79a0283c760b118feccda}
-      \strng{fullhash}{2ed6349dbcb79a0283c760b118feccda}
-      \strng{fullhashraw}{2ed6349dbcb79a0283c760b118feccda}
-      \strng{bibnamehash}{2ed6349dbcb79a0283c760b118feccda}
-      \strng{authorbibnamehash}{2ed6349dbcb79a0283c760b118feccda}
-      \strng{authornamehash}{2ed6349dbcb79a0283c760b118feccda}
-      \strng{authorfullhash}{2ed6349dbcb79a0283c760b118feccda}
-      \strng{authorfullhashraw}{2ed6349dbcb79a0283c760b118feccda}
+      \strng{namehash}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{fullhash}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{fullhashraw}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{bibnamehash}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{authorbibnamehash}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{authornamehash}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{authorfullhash}{c429b44912c54337662bbd53aa3eaf46}
+      \strng{authorfullhashraw}{c429b44912c54337662bbd53aa3eaf46}
       \field{sortinit}{Đ}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Tái bản mới nhất}
-      \field{title}{Xác suất và Thống kê}
-      \field{year}{2023}
-      \true{nocite}
-    \endentry
-    \entry{danghungthang2020}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=47921a4d57fbffc0ee59a069b60666d1}{%
-           family={{Đặng Hùng Thắng}},
-           familyi={Đ\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Hà Nội, Việt Nam}%
-      }
-      \list{publisher}{1}{%
-        {Nhà xuất bản Giáo dục Việt Nam}%
-      }
-      \strng{namehash}{47921a4d57fbffc0ee59a069b60666d1}
-      \strng{fullhash}{47921a4d57fbffc0ee59a069b60666d1}
-      \strng{fullhashraw}{47921a4d57fbffc0ee59a069b60666d1}
-      \strng{bibnamehash}{47921a4d57fbffc0ee59a069b60666d1}
-      \strng{authorbibnamehash}{47921a4d57fbffc0ee59a069b60666d1}
-      \strng{authornamehash}{47921a4d57fbffc0ee59a069b60666d1}
-      \strng{authorfullhash}{47921a4d57fbffc0ee59a069b60666d1}
-      \strng{authorfullhashraw}{47921a4d57fbffc0ee59a069b60666d1}
-      \field{sortinit}{Đ}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Tái bản mới nhất}
-      \field{title}{Lý thuyết Xác suất và Thống kê Toán học}
-      \field{year}{2020}
+      \field{note}{Giáo trình giảng dạy tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM}
+      \field{title}{Lý thuyết Xác suất}
+      \field{year}{2024}
       \true{nocite}
     \endentry
     \entry{macquarie2024exercise}{misc}{}{}
@@ -187,6 +164,47 @@
       \field{series}{Princeton Series in Finance}
       \field{title}{Quantitative Risk Management: Concepts, Techniques and Tools}
       \field{year}{2015}
+    \endentry
+    \entry{thin2024thongke}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=12dc61c23e59762d2e6341908df56f6a}{%
+           family={Nguyễn},
+           familyi={N\bibinitperiod},
+           given={Thị\bibnamedelimb Mộng\bibnamedelima Ngọc},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d7c976bdda3487a80cf132b915ec3011}{%
+           family={Nguyễn},
+           familyi={N\bibinitperiod},
+           given={Văn\bibnamedelima Thìn},
+           giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c2a5db73245025cd25167e2ca0fa4209}{%
+           family={Nguyễn},
+           familyi={N\bibinitperiod},
+           given={Thị\bibnamedelimb Hồng\bibnamedelima Nhung},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Ho Chi Minh City, Vietnam}%
+      }
+      \list{publisher}{1}{%
+        {Nhà xuất bản Đại học Quốc gia Thành phố Hồ Chí Minh}%
+      }
+      \strng{namehash}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{fullhash}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{fullhashraw}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{bibnamehash}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{authorbibnamehash}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{authornamehash}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{authorfullhash}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \strng{authorfullhashraw}{fdd8bf8218264ff47ee0db2655a20dbf}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Giáo trình giảng dạy tại Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM}
+      \field{title}{Giáo trình Xác suất thống kê}
+      \field{year}{2024}
+      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection
