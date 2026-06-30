@@ -283,48 +283,45 @@ if cvar_opt_result.success:
 \end{lstlisting}
 % =======================================================================
 \subsection*{A.6 Mô phỏng Monte Carlo dự báo trong dài hạn (1 năm)}
-Quá trình tạo các quỹ đạo tài sản (Asset Paths) trong chu kỳ 252 ngày giao dịch để ước tính hiệu suất và rủi ro ròng vào cuối năm.
+Quá trình tạo các quỹ đạo tài sản (Asset Paths) trong chu kỳ 252 ngày giao dịch để ước tính hiệu suất và rủi ro ròng vào cuối năm. Lập trình đảm bảo sử dụng hàm t-Student Copula và bộ tỷ trọng tối ưu CVaR.
 
 \begin{lstlisting}[language=Python]
 print("\n--- Monte Carlo Simulation Deployment (1 Year / 252 Days) ---")
-num_simulations = 10000
 num_days = 252
-
-mean_vector = np.zeros(num_assets)
 portfolio_paths = np.ones((num_days + 1, num_simulations))
+np.random.seed(100)
 
-np.random.seed(42)
 for day in range(num_days):
-    sim_normal = np.random.multivariate_normal(mean_vector, spearman_corr.values, size=num_simulations)
-    u_sim = norm.cdf(sim_normal)
+    Z_day = np.random.multivariate_normal(mean_vector, pearson_approx_psd, size=num_simulations)
+    W_day = df_t / np.random.chisquare(df=df_t, size=num_simulations)
+    X_day = np.sqrt(W_day)[:, None] * Z_day
+    u_day = t_dist.cdf(X_day, df=df_t)
     
     day_returns = np.zeros((num_simulations, num_assets))
     for i, ticker in enumerate(tickers):
-        day_returns[:, i] = np.quantile(returns[ticker].values, u_sim[:, i])
+        day_returns[:, i] = np.quantile(returns[ticker].values, u_day[:, i])
         
-    portfolio_sim_returns = np.dot(day_returns, best_weights)
-    portfolio_paths[day + 1, :] = portfolio_paths[day, :] * (1 + portfolio_sim_returns)
+    # Dung bo ty trong toi uu Copula-CVaR de du bao
+    portfolio_sim_returns_day = np.dot(day_returns, best_cvar_weights)
+    
+    # Cong don tai san bang ham mu (Log Returns)
+    portfolio_paths[day + 1, :] = portfolio_paths[day, :] * np.exp(portfolio_sim_returns_day)
 
-# Asset Path Random Walk Plot
+final_assets = portfolio_paths[-1, :]
+var_95_yearly = np.quantile(final_assets, 0.05)
+median_yearly = np.median(final_assets)
+
 plt.figure()
 plt.plot(portfolio_paths[:, :100], color='blue', alpha=0.08)
 plt.axhline(1.0, color='red', linestyle='--', linewidth=1.5)
 plt.title("Monte Carlo Simulation Asset Path Scenarios (1 Year)")
-plt.tight_layout()
-plt.savefig('monte_carlo_paths.png')
+plt.savefig('monte_carlo_paths_1year.png')
 plt.show()
-
-# Year-End Asset Value Distribution Plot
-final_assets = portfolio_paths[-1, :]
-var_95_yearly = np.quantile(final_assets, 0.05)
 
 plt.figure()
-sns.histplot(final_assets.flatten(), bins=50, kde=True, color='seagreen', stat='density')
+sns.histplot(final_assets, bins=50, kde=True, color='seagreen', stat='density')
 plt.axvline(var_95_yearly, color='red', linestyle='--', linewidth=2)
 plt.title("Distribution of Cumulative Portfolio Asset Value at Year-End")
-plt.tight_layout()
 plt.savefig('final_asset_distribution.png')
 plt.show()
-
-print("Process completed! Images saved to directory.")
 \end{lstlisting}
