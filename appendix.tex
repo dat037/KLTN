@@ -15,29 +15,32 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.optimize import minimize
-from scipy.stats import norm, skew, kurtosis, jarque_bera, t, chi2, gamma
+from scipy.stats import chi2, norm, skew, kurtosis, jarque_bera, gamma
+from scipy.stats import t as t_dist
 
-# PLOTTING CONFIGURATION
+# Cau hinh do thi
 sns.set_theme(style="whitegrid")
 plt.rcParams['figure.figsize'] = [10, 6]
 
-print("--- Processing input data ---")
+print("--- Dang xu ly du lieu dau vao ---")
 df = pd.read_csv('all_stocks_5yr.csv')
 df['date'] = pd.to_datetime(df['date'])
 
 tickers = ['AAPL', 'MSFT', 'AMZN', 'GOOGL']
+num_assets = len(tickers)
+
 df_portfolio = df[df['Name'].isin(tickers)].copy()
-
 df_pivot = df_portfolio.pivot(index='date', columns='Name', values='close').dropna()
-returns = df_pivot.pct_change().dropna()
 
-print("\n--- Descriptive Statistics and Jarque-Bera Test ---")
+# Tinh ty suat sinh loi logarit (Log Returns)
+returns = np.log(df_pivot / df_pivot.shift(1)).dropna()
+
+# Thong ke mo ta va kiem dinh Jarque-Bera
 univariate_stats = pd.DataFrame(index=['Mean (%)', 'Std Dev (%)', 'Skewness', 'Kurtosis', 'JB p-value'])
-
-for t_ticker in tickers:
-    ret_series = returns[t_ticker].values
+for t in tickers:
+    ret_series = returns[t].values
     jb_stat, jb_p = jarque_bera(ret_series)
-    univariate_stats[t_ticker] = [
+    univariate_stats[t] = [
         np.mean(ret_series) * 100,
         np.std(ret_series) * 100,
         skew(ret_series),
@@ -52,12 +55,15 @@ print(univariate_stats.round(4))
 Phần này tính toán ma trận tương quan hạng Spearman và hệ số tương quan đuôi dưới thực nghiệm nhằm đánh giá sự phụ thuộc phi tuyến trong trạng thái khủng hoảng.
 
 \begin{lstlisting}[language=Python]
-print("\n--- Copula Dependency Structure ---")
+print("\n--- Phan tich Ma tran Tuong quan ---")
+print("Ma tran tuong quan Pearson:")
+print(returns.corr(method='pearson').round(4))
+
+print("\nMa tran tuong quan hang Spearman:")
 spearman_corr = returns.corr(method='spearman')
-print("Spearman Correlation Matrix:")
 print(spearman_corr.round(4))
 
-print("\nTail Dependency Coefficient (Crisis State):")
+print("\nMa tran he so tuong quan duoi duoi thuc nghiem (Phan vi 5%):")
 tail_dep = pd.DataFrame(1.0, index=tickers, columns=tickers)
 for i in range(len(tickers)):
     for j in range(i+1, len(tickers)):
@@ -76,13 +82,13 @@ print(tail_dep.round(4))
 Thuật toán SLSQP được sử dụng để giải bài toán tìm danh mục rủi ro tối thiểu (MVP) và danh mục tiếp điểm có tỷ số Sharpe cực đại, kết hợp vẽ đường biên hiệu quả.
 
 \begin{lstlisting}[language=Python]
-print("\n--- [Step 2] Markowitz Portfolio Optimization ---")
+print("\n--- Markowitz Portfolio Optimization ---")
 num_assets = len(tickers)
 mean_returns_ann = returns.mean() * 252
 cov_matrix_ann = returns.cov() * 252
 
 # Set risk-free rate to 0 to match original assumption
-risk_free_rate = 0.0
+risk_free_rate = 0.02
 
 def portfolio_performance(weights, mean_returns, cov_matrix):
     p_return = np.sum(mean_returns * weights)
@@ -134,7 +140,7 @@ plt.ylabel("Expected Annual Return")
 plt.legend()
 plt.tight_layout()
 plt.savefig('markowitz_efficient_frontier.png')
-plt.close()
+plt.show()
 \end{lstlisting}
 
 % =======================================================================
@@ -142,11 +148,19 @@ plt.close()
 Quá trình ước lượng độ khớp (Goodness-of-Fit) giữa dữ liệu thực nghiệm và các mô hình Copula lý thuyết (Gaussian, t-Student, Clayton) để chọn ra mô hình tối ưu.
 
 \begin{lstlisting}[language=Python]
-print("\n--- [Step 3] Copula Goodness-of-Fit and Cramer-von Mises Error ---")
-spearman_corr = returns.corr(method='spearman')
-pseudo_obs = returns.rank(pct=True) 
+print("\n--- Copula Goodness-of-Fit and Cramer-von Mises Error ---")
+from scipy.stats import gamma
+
+# Tinh toan Du lieu gia quan sat (Pseudo-observations) va Kendall's Tau
+pseudo_obs = returns.rank(pct=True)
 U = pseudo_obs.values
-clayton_theta = 2.0 
+tau_matrix = returns.corr(method='kendall')
+avg_tau = np.mean(tau_matrix.values[np.triu_indices(num_assets, k=1)])
+clayton_theta = max(0.1, 2 * avg_tau / (1 - avg_tau))
+
+# Khai bao bac tu do df duoi dang tham so dong
+df_val = 4
+t_label = f't-Student (df={df_val})'
 
 np.random.seed(42)
 sample_idx = np.random.choice(len(U), min(500, len(U)), replace=False)
@@ -155,26 +169,27 @@ U_sample = U[sample_idx]
 def empirical_copula(u, data):
     return np.mean(np.all(data <= u, axis=1))
 
-def gen_copula_u(c_name, size):
+def gen_copula_u(c_name, size, df_param):
     mean_0 = np.zeros(num_assets)
     sp_mat = spearman_corr.values
+    
     if c_name == 'Gaussian':
         return norm.cdf(np.random.multivariate_normal(mean_0, sp_mat, size))
-    elif c_name == 't-Student (df=4)':
-        w = chi2.rvs(4, size=size)
-        z = np.random.multivariate_normal(mean_0, sp_mat, size) * np.sqrt(4 / w)[:, None]
-        return t.cdf(z, df=4)
+    elif c_name == t_label:
+        w = chi2.rvs(df_param, size=size)
+        z = np.random.multivariate_normal(mean_0, sp_mat, size) * np.sqrt(df_param / w)[:, None]
+        return t_dist.cdf(z, df=df_param)
     else: 
-        # Clayton math fix
         v = gamma.rvs(a=1/clayton_theta, scale=1, size=size)
         e = np.random.exponential(scale=1, size=(size, num_assets))
-        return (1 + e / v[:, None]) ** (-1 / clayton_theta)
+        return (1 + e / v[:, None]) ** (-1/clayton_theta)
 
-gof_scores = {'Gaussian': 0, 't-Student (df=4)': 0, 'Clayton': 0}
+gof_scores = {'Gaussian': 0, t_label: 0, 'Clayton': 0}
 sim_size_gof = 10000
 
 print("Running calculations, please wait...")
-u_sim_dict = {name: gen_copula_u(name, sim_size_gof) for name in gof_scores.keys()}
+u_sim_dict = {name: gen_copula_u(name, sim_size_gof, df_val) for name in gof_scores.keys()}
+
 for u_pt in U_sample:
     emp_val = empirical_copula(u_pt, U)
     for name in gof_scores.keys():
@@ -189,56 +204,89 @@ print(f"=> WINNING MODEL: {best_copula.upper()}")
 \end{lstlisting}
 
 % =======================================================================
-\subsection*{A.5 Mô phỏng Monte Carlo bằng Copula thực nghiệm}
-Mã nguồn sinh ngẫu nhiên 10.000 kịch bản lợi suất, sau đó phân tích Giá trị rủi ro (VaR) và Giá trị chịu rủi ro có điều kiện (CVaR).
+\subsection*{A.5 Mô phỏng Monte Carlo bằng Copula thực nghiệm và Tối ưu hóa CVaR}
+Mã nguồn sinh ngẫu nhiên 10.000 kịch bản lợi suất dựa trên mô hình t-Student Copula, sau đó phân tích Giá trị rủi ro (VaR) và thực hiện thuật toán SLSQP để Cực tiểu hóa Giá trị chịu rủi ro có điều kiện (CVaR).
 
 \begin{lstlisting}[language=Python]
-print("\n--- [Step 4] Monte Carlo Simulation with Copula ---")
+print("\n--- Monte Carlo Simulation with t-Student Copula ---")
 num_simulations = 10000
+df_t = 4 
+
+pearson_approx = 2 * np.sin(np.pi / 6 * spearman_corr.values)
+eigenvalues, eigenvectors = np.linalg.eigh(pearson_approx)
+eigenvalues[eigenvalues < 0] = 1e-8
+pearson_approx_psd = eigenvectors @ np.diag(eigenvalues) @ eigenvectors.T
+
 mean_vector = np.zeros(num_assets)
-sim_normal = np.random.multivariate_normal(mean_vector, spearman_corr.values, size=num_simulations)
-u_sim = norm.cdf(sim_normal)
+np.random.seed(42)
+
+Z = np.random.multivariate_normal(mean_vector, pearson_approx_psd, size=num_simulations)
+chi2_rvs = np.random.chisquare(df=df_t, size=num_simulations)
+W = df_t / chi2_rvs
+X = np.sqrt(W)[:, None] * Z
+u_sim = t_dist.cdf(X, df=df_t)
 
 sim_returns = np.zeros((num_simulations, num_assets))
 for i, ticker in enumerate(tickers):
     sim_returns[:, i] = np.quantile(returns[ticker].values, u_sim[:, i])
 
 # ---- FIGURE 2: EQUAL WEIGHT PORTFOLIO (BLUE) ----
-equal_weights = np.array([0.25, 0.25, 0.25, 0.25])
-portfolio_sim_returns_eq = np.dot(sim_returns, equal_weights)
-var_95_eq = np.quantile(portfolio_sim_returns_eq, 0.05)
+equal_weights = np.array([1.0 / num_assets] * num_assets)
+port_sim_returns_eq = np.dot(sim_returns, equal_weights)
+var_95_eq = np.percentile(port_sim_returns_eq, 5)
 
-plt.figure()
-sns.histplot(portfolio_sim_returns_eq, bins=50, kde=True, color='skyblue', stat='density')
+plt.figure(figsize=(10, 6))
+sns.histplot(port_sim_returns_eq, bins=50, kde=True, color='skyblue', stat='density', alpha=0.5)
 plt.axvline(var_95_eq, color='red', linestyle='--', linewidth=2, label=f'VaR 95% ({var_95_eq*100:.2f}%)')
-plt.title("Equal Weight Portfolio Return Distribution")
+plt.title(f"Equal Weight Portfolio Return Distribution - t-Student (df={df_t})")
+plt.xlabel("Daily Return")
+plt.ylabel("Density")
 plt.legend()
 plt.tight_layout()
-plt.savefig('copula_monte_carlo_daily_var.png')
-plt.close()
+plt.savefig('tstudent_sim_returns_var.png')
+plt.show()
+
+# ---- CVAR PORTFOLIO OPTIMIZATION (SLSQP) ----
+print("\n--- CVaR Portfolio Optimization (SLSQP) ---")
+def minimize_cvar(weights, sim_returns, alpha=0.05):
+    port_returns = np.dot(sim_returns, weights)
+    var_alpha = np.percentile(port_returns, alpha * 100)
+    cvar_alpha = port_returns[port_returns <= var_alpha].mean()
+    return -cvar_alpha
+
+bounds = tuple((0.0, 1.0) for _ in range(num_assets))
+constraints = {'type': 'eq', 'fun': lambda w: np.sum(w) - 1.0}
+
+cvar_opt_result = minimize(
+    minimize_cvar, equal_weights, args=(sim_returns, 0.05),
+    method='SLSQP', bounds=bounds, constraints=constraints
+)
 
 # ---- FIGURE 3: OPTIMAL CVAR PORTFOLIO (PURPLE) ----
-portfolio_sim_returns_opt = np.dot(sim_returns, best_weights)
-var_95_opt = np.quantile(portfolio_sim_returns_opt, 0.05)
-cvar_95_opt = portfolio_sim_returns_opt[portfolio_sim_returns_opt <= var_95_opt].mean()
-
-plt.figure()
-sns.histplot(portfolio_sim_returns_opt, bins=50, kde=True, color='purple', stat='density')
-plt.axvline(var_95_opt, color='red', linestyle='--', linewidth=2, label=f'VaR 95% ({var_95_opt*100:.2f}%)')
-plt.axvline(cvar_95_opt, color='orange', linestyle='-', linewidth=2, label=f'CVaR 95% ({cvar_95_opt*100:.2f}%)')
-plt.title("Optimal Portfolio Return Distribution - Tail Risk Control")
-plt.legend()
-plt.tight_layout()
-plt.savefig('optimal_cvar_portfolio.png')
-plt.close()
+if cvar_opt_result.success:
+    best_cvar_weights = cvar_opt_result.x
+    opt_port_returns = np.dot(sim_returns, best_cvar_weights)
+    opt_var_95 = np.percentile(opt_port_returns, 5)
+    opt_cvar_95 = opt_port_returns[opt_port_returns <= opt_var_95].mean()
+    
+    plt.figure(figsize=(10, 6))
+    sns.histplot(opt_port_returns, bins=50, kde=True, color='purple', stat='density')
+    plt.axvline(opt_var_95, color='red', linestyle='--', linewidth=2, label=f'VaR 95% ({opt_var_95*100:.2f}%)')
+    plt.axvline(opt_cvar_95, color='orange', linestyle='-', linewidth=2, label=f'CVaR 95% ({opt_cvar_95*100:.2f}%)')
+    plt.title("Optimal Portfolio Return Distribution - Tail Risk Control (Copula-CVaR)")
+    plt.xlabel("Daily Return")
+    plt.ylabel("Density")
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig('optimal_cvar_portfolio_fixed.png')
+    plt.show()
 \end{lstlisting}
-
 % =======================================================================
 \subsection*{A.6 Mô phỏng Monte Carlo dự báo trong dài hạn (1 năm)}
 Quá trình tạo các quỹ đạo tài sản (Asset Paths) trong chu kỳ 252 ngày giao dịch để ước tính hiệu suất và rủi ro ròng vào cuối năm.
 
 \begin{lstlisting}[language=Python]
-print("\n--- [Step 5] Monte Carlo Simulation Deployment (1 Year / 252 Days) ---")
+print("\n--- Monte Carlo Simulation Deployment (1 Year / 252 Days) ---")
 num_simulations = 10000
 num_days = 252
 
@@ -264,7 +312,7 @@ plt.axhline(1.0, color='red', linestyle='--', linewidth=1.5)
 plt.title("Monte Carlo Simulation Asset Path Scenarios (1 Year)")
 plt.tight_layout()
 plt.savefig('monte_carlo_paths.png')
-plt.close()
+plt.show()
 
 # Year-End Asset Value Distribution Plot
 final_assets = portfolio_paths[-1, :]
@@ -276,7 +324,7 @@ plt.axvline(var_95_yearly, color='red', linestyle='--', linewidth=2)
 plt.title("Distribution of Cumulative Portfolio Asset Value at Year-End")
 plt.tight_layout()
 plt.savefig('final_asset_distribution.png')
-plt.close()
+plt.show()
 
 print("Process completed! Images saved to directory.")
 \end{lstlisting}

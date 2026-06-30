@@ -2,7 +2,7 @@ Thay vì chỉ kiểm soát phương sai như phương pháp Markowitz truyền 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{optimal_cvar_portfolio.png}
+    \includegraphics[width=0.85\textwidth]{optimal_cvar_portfolio_fixed.png}
     \caption{Phân phối lợi suất của danh mục tối ưu t-Student Copula và các ngưỡng rủi ro}
     \label{fig:cvar_distribution}
 \end{figure}
@@ -11,7 +11,7 @@ Thay vì chỉ kiểm soát phương sai như phương pháp Markowitz truyền 
 \textbf{Nhận xét:}
 \begin{itemize}
     \item Quan sát Hình \ref{fig:cvar_distribution}, hai đường ranh giới quan trọng được xác định bao gồm VaR (màu đỏ) đại diện cho ngưỡng tổn thất tối đa ở điều kiện bình thường và CVaR (màu cam) đại diện cho thiệt hại trung bình khi thị trường rơi vào trạng thái cực đoan.
-    \item Việc áp dụng thuật toán tối ưu hóa CVaR đã giúp thu hẹp đáng kể rủi ro của danh mục. Cụ thể, ngưỡng tổn thất tối đa (VaR 95\%) đã được cải thiện tích cực từ mức -1.56\% (trước tối ưu ở Hình \ref{fig:daily_return_dist}) xuống chỉ còn -1.47\% (sau tối ưu ở Hình \ref{fig:cvar_distribution}).
+    \item Việc áp dụng thuật toán tối ưu hóa CVaR đã giúp thu hẹp đáng kể rủi ro của danh mục. Cụ thể, ngưỡng tổn thất tối đa (VaR 95\%) đã được cải thiện tích cực từ mức -1.60\% (trước tối ưu ở Hình \ref{fig:daily_return_dist}) xuống chỉ còn -1.55\% (sau tối ưu ở Hình \ref{fig:cvar_distribution}).
     \item Sự chênh lệch này minh chứng rõ nét cho hiệu quả thực chứng của thuật toán trong việc cấu trúc lại tỷ trọng tài sản. So với danh mục Markowitz truyền thống vốn dễ vỡ trước các đợt bán tháo đồng loạt, danh mục Copula-CVaR đã chủ động thiết lập một lớp phòng vệ an toàn và tối ưu hơn hẳn cho nhà đầu tư.
 \end{itemize}
 \end{flushleft}

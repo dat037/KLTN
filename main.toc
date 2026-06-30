@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {I}MỞ ĐẦU (INTRODUCTION)}{5}{section.1}%
+\contentsline {section}{\numberline {I}MỞ ĐẦU}{5}{section.1}%
 \contentsline {subsection}{\numberline {I.1}Bối cảnh nghiên cứu}{5}{subsection.1.1}%
 \contentsline {subsection}{\numberline {I.2}Mục tiêu nghiên cứu}{5}{subsection.1.2}%
 \contentsline {subsection}{\numberline {I.3}Phạm vi và giới hạn nghiên cứu}{5}{subsection.1.3}%
