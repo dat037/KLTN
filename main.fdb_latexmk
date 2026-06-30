@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1782753049.21548 "main.bcf" "main.bbl" "main" 1782811373.89572 0
-  "main.bcf" 1782811373 109307 a95c6c1175ba8569730638e0b8a873a7 "pdflatex"
+["biber main"] 1782753049.21548 "main.bcf" "main.bbl" "main" 1782824899.59194 0
+  "main.bcf" 1782824898 109307 a95c6c1175ba8569730638e0b8a873a7 "pdflatex"
   "ref.bib" 1782753045 2140 9e7f500b35ce0ee6652f034aa748d298 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1782811366.61363 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1782811373.89751 0
+["pdflatex"] 1782824891.9865 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1782824899.59336 0
   "1.1.1.tex" 1781196956 1741 4adf59cb5f94c52464864435fb766742 ""
   "1.1.2.tex" 1779812338 504 5c3fcc844d6c47fbf2c30319f3ea6dec ""
   "1.1.3.tex" 1782496122 1401 7b4c3f357aa7beb229bbbe3b999fe9ab ""
@@ -40,7 +40,7 @@
   "4.6.tex" 1782735801 1320 24abe1ab39cf04c8bbe4c80799bd168f ""
   "4.7.tex" 1782737831 4424 cbdae91a5aee96fd71134fdb8de6ba4c ""
   "4.8.tex" 1782739085 3228 7e43888457e130736cf0d2dd92f1bb57 ""
-  "5.1.tex" 1782809924 2034 6d3fd294a51ce0bcaf34e1e4c70d807e ""
+  "5.1.tex" 1782824874 2032 69a587f1c74d2a8e79765dfd1e031349 ""
   "5.2.tex" 1782809924 4003 a856afe853f9bcca544b9719137452aa ""
   "5.3.tex" 1782809924 4039 fdd7f16285de6afe18241681eda9fd62 ""
   "5.4.tex" 1782810544 3202 fddaba02df2f3fb740c8f3d16a1e245b ""
@@ -283,16 +283,16 @@
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1767073485 14064 ab5f344d43e4a13ec6928177bfbcd31a ""
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1767723820 13323460 e32495a5c57f539cb45045759671e157 ""
   "appendix.tex" 1782811364 14011 891681f8784631fddac868959a6a204f ""
-  "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" 1782809924 11842 99ab0d62339bce58cd1be944a9f1f223 ""
+  "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" 1782824874 11829 459cc3ba35a1bc078c18281f14a7c5f8 ""
   "efficient_frontier_with_cml.png" 1782805183 95696 dbd937d294afb003d8145f15c065e357 ""
   "final_asset_distribution.png" 1782058880 52614 e6691a7a84d6ecc11c7141c15fd94749 ""
   "icon KHTN.png" 1769974894 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1782811373 20035 dfb84c2077ec5c4749d740f5e4655700 "pdflatex"
+  "main.aux" 1782824898 20022 5ff454c63abf52191140b777ec5e3c5c "pdflatex"
   "main.bbl" 1782753054 8811 942a46796fcb3c4e0bbf63c87ba36846 "biber main"
-  "main.out" 1782811373 14585 a207b4b51bc2b34cd728c9012b231dc6 "pdflatex"
-  "main.run.xml" 1782811373 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
-  "main.tex" 1782809924 11842 99ab0d62339bce58cd1be944a9f1f223 ""
-  "main.toc" 1782811373 10572 3ada299d19385992d850e5b0e10d73fe "pdflatex"
+  "main.out" 1782824898 14528 72c93b8752e68a009a82deba15297125 "pdflatex"
+  "main.run.xml" 1782824898 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
+  "main.tex" 1782824874 11829 459cc3ba35a1bc078c18281f14a7c5f8 ""
+  "main.toc" 1782824898 10559 a215950541aaf0ece8a9a064a6ab0d79 "pdflatex"
   "monte_carlo_paths.png" 1782058879 212405 942f73c21db502b8252d8f49d7ba878c ""
   "optimal_cvar_portfolio_fixed.png" 1782805185 44292 5558505ecde575dc2eb1477b641fe1a2 ""
   "tstudent_sim_returns_var.png" 1782805184 37610 da2417fed3c1361ba6ae1c29465eb615 ""
