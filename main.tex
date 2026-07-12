@@ -139,7 +139,14 @@
 	Mặc dù đã cố gắng hết mình, nhưng bài báo cáo chắc chắn không tránh khỏi những thiếu sót. Rất mong nhận được những ý kiến đóng góp từ thầy và hội đồng để bài báo cáo được hoàn thiện hơn.\\
 
 \newpage
+\section*{TÓM TẮT KHÓA LUẬN}
+\addcontentsline{toc}{section}{TÓM TẮT KHÓA LUẬN} % Thêm dòng này để Tóm tắt hiện trong Mục lục
 
+Quản trị rủi ro danh mục đầu tư truyền thống theo mô hình Markowitz thường phụ thuộc vào giả định phân phối chuẩn và hệ số tương quan tuyến tính Pearson. Tuy nhiên, các phương pháp này có xu hướng đánh giá thấp rủi ro hệ thống, đặc biệt là không nắm bắt được sự sụp đổ đồng loạt của các tài sản tài chính trong giai đoạn khủng hoảng (hiện tượng phụ thuộc đuôi). Khóa luận này đề xuất một phương pháp tiếp cận tiên tiến bằng cách ứng dụng lý thuyết Copula kết hợp với thước đo rủi ro Giá trị chịu rủi ro có điều kiện (CVaR) nhằm khắc phục những hạn chế trên.\\
+Nghiên cứu sử dụng chuỗi dữ liệu tỷ suất sinh lợi thực tế của bốn cổ phiếu công nghệ lớn (AAPL, MSFT, AMZN, GOOGL). Hàm phân phối tích lũy thực nghiệm (ECDF) được sử dụng để chuyển đổi dữ liệu biên nhằm bảo toàn tuyệt đối đặc tính "đuôi dày" và bất đối xứng của thị trường. Thông qua kiểm định khoảng cách Cramér-von Mises, t-Student Copula (với bậc tự do tối ưu $df=4$) được chứng minh là mô hình phù hợp nhất để mô phỏng cấu trúc phụ thuộc của danh mục so với Gauss Copula và Clayton Copula. \\
+Bằng phương pháp mô phỏng Monte Carlo với 10.000 kịch bản, thuật toán tối ưu hóa phi tuyến có rang buộc (SLSQP) được áp dụng để dò tìm bộ tỷ trọng phân bổ vốn tối ưu. Kết quả thực nghiệm cho thấy, danh mục tối ưu hóa theo mô hình Copula-CVaR có khả năng chủ động phòng vệ trước các biến cố cực đoan, ép giảm ngưỡng tổn thất VaR 95\% từ mức -1.60\% (của danh mục phân bổ đều) xuống còn -1.55\%, đồng thời vẫn duy trì được mức lợi nhuận kỳ vọng mạnh mẽ đạt 21.91\%/năm. Khóa luận khẳng định tính khả thi và sự vượt trội của Copula trong công tác stress-testing và quản trị rủi ro danh mục hiện đại.
+
+\newpage
 \tableofcontents  % Tạo mục lục tự động
 \newpage
 \listoffigures % In Danh mục hình ảnh (nếu có)
@@ -201,7 +208,7 @@
     \textbf{Pseudo-obs} & Pseudo-observations & Dữ liệu giả quan sát (Dữ liệu ánh xạ về $[0,1]$) \\
     \textbf{Sharpe Ratio} & Sharpe Ratio & Tỷ số Sharpe (Thước đo hiệu quả sinh lời) \\
     \textbf{Skewness} & Skewness & Hệ số bất đối xứng / Độ lệch của phân phối \\
-    \textbf{SLSQP} & Sequential Least SQuares & Thuật toán quy hoạch toàn phương chuỗi \\
+    \textbf{SLSQP} & Sequential Least SQuares & Thuật toán tối ưu hóa phi tuyến có rang buộc \\
     \textbf{Stress-testing} & Stress-testing & Kiểm tra sức chịu tải của danh mục \\
     \textbf{Tail Dependence} & Tail Dependence & Sự phụ thuộc đuôi (Đồng biến ở vùng cực đoan) \\
     \textbf{t-Student} & Student's t-Copula & Hàm Copula t-Student (Phụ thuộc hai đuôi) \\
