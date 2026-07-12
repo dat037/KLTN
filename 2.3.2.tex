@@ -2,7 +2,7 @@ Tương quan hạng là các thước đo phụ thuộc vô hướng chỉ phụ
 \bea
 \rho_\tau(X_1, X_2) = \frac{2}{\pi} \arcsin(\rho)
 \eea
-Mối liên hệ chức năng này rất mạnh mẽ, cho phép các nhà quản lý rủi ro có thể ước lượng ma trận tương quan $\rho$ một cách vững chắc từ mẫu dữ liệu thực tế, ngay cả khi gặp phải hiện tượng đuôi nặng hoặc phương sai vô hạn, vốn là những trường hợp mà cách tính tương quan tuyến tính trực tiếp hoạt động kém hiệu quả.\\
+Mối liên hệ chức năng này rất mạnh mẽ, cho phép các nhà quản lý rủi ro có thể ước lượng ma trận tương quan $\rho$ một cách vững chắc từ mẫu dữ liệu thực tế, ngay cả khi gặp phải hiện tượng đuôi dày hoặc phương sai vô hạn, vốn là những trường hợp mà cách tính tương quan tuyến tính trực tiếp hoạt động kém hiệu quả.\\
 Bên cạnh Kendall's Tau, Spearman's Rho ($\rho_s$) là một thước đo quan trọng khác dựa trên sự biến đổi xác suất của các biến ngẫu nhiên qua các hàm biên phân phối liên tục, cụ thể $\rho_s(X_1, X_2) = \rho(F_1(X_1), F_2(X_2))$, biểu diễn bằng tích phân qua Copula như sau:
 \bea
 \rho_s(X_1, X_2) = 12 \int_{0}^{1} \int_{0}^{1} (C(u_1, u_2) - u_1 u_2) du_1 du_2

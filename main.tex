@@ -8,6 +8,7 @@
 \usepackage[most]{tcolorbox}
 \usepackage{biblatex}
 \usepackage{float}
+\usepackage{longtable}
 \usepackage{booktabs} % Gói lệnh giúp bảng đẹp hơn
 \usepackage{array}    % Hỗ trợ định dạng cột
 \newcommand{\bea}{\begin{equation}\begin{aligned}}
@@ -141,7 +142,143 @@
 
 \tableofcontents  % Tạo mục lục tự động
 \newpage
+\listoffigures % In Danh mục hình ảnh (nếu có)
+
+\listoftables % In Danh mục bảng biểu (nếu có)
 \newpage
+
+\section*{CÁC TỪ VIẾT TẮT VÀ THUẬT NGỮ TIẾNG ANH}
+\addcontentsline{toc}{section}{CÁC TỪ VIẾT TẮT VÀ THUẬT NGỮ TIẾNG ANH}
+
+\renewcommand{\arraystretch}{1.5} % Giãn dòng chuẩn
+\begin{longtable}{@{} p{3cm} p{5.5cm} p{7cm} @{}}
+    \toprule
+    \textbf{Từ viết tắt} & \textbf{Thuật ngữ Tiếng Anh} & \textbf{Ý nghĩa Tiếng Việt} \\ 
+    \midrule
+    \endfirsthead
+    
+    \multicolumn{3}{@{}l}{\textit{(Tiếp theo trang trước)}} \\
+    \toprule
+    \textbf{Từ viết tắt} & \textbf{Thuật ngữ Tiếng Anh} & \textbf{Ý nghĩa Tiếng Việt} \\ 
+    \midrule
+    \endhead
+    
+    \bottomrule
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+
+    % --- NỘI DUNG ---
+    \textbf{AAPL, MSFT} & Apple, Microsoft & Mã giao dịch cổ phiếu của Apple và Microsoft \\
+    \textbf{AMZN, GOOGL} & Amazon, Alphabet & Mã giao dịch cổ phiếu của Amazon và Google \\
+    \textbf{Asset Paths} & Asset Paths & Quỹ đạo tài sản / Đường đi của giá trị tài sản \\
+    \textbf{Basket Derivs} & Basket Derivatives & Sản phẩm phái sinh rổ tài sản \\
+    \textbf{CAPM} & Capital Asset Pricing Model & Mô hình định giá vốn tài sản \\
+    \textbf{CDO} & Collateralized Debt Obligations & Nghĩa vụ nợ có thế chấp \\
+    \textbf{Cholesky} & Cholesky Decomposition & Phép phân rã ma trận Cholesky \\
+    \textbf{Clayton} & Clayton Copula & Hàm Copula Clayton (Phụ thuộc đuôi dưới) \\
+    \textbf{CML} & Capital Market Line & Đường thị trường vốn \\
+    \textbf{Copula} & \textit{(Tiếng Latin "Copulare")} & Hàm liên kết cấu trúc phụ thuộc \\
+    \textbf{CVaR} & Conditional Value at Risk & Giá trị chịu rủi ro có điều kiện \\
+    \textbf{ECDF} & Empirical CDF & Hàm phân phối tích lũy thực nghiệm \\
+    \textbf{Economic Capital} & Economic Capital & Hạn mức vốn kinh tế \\
+    \textbf{ES} & Expected Shortfall & Tổn thất kỳ vọng (Tương đương CVaR) \\
+    \textbf{Expected Return} & Expected Return & Tỷ suất sinh lợi kỳ vọng \\
+    \textbf{Frank} & Frank Copula & Hàm Copula Frank (Không phụ thuộc đuôi) \\
+    \textbf{Gauss} & Gaussian Copula & Hàm Copula chuẩn (Độc lập tiệm cận) \\
+    \textbf{Gumbel} & Gumbel Copula & Hàm Copula Gumbel (Phụ thuộc đuôi trên) \\
+    \textbf{IFM} & Inference Functions for Margins & Phương pháp hàm suy diễn cho phân phối biên \\
+    \textbf{JB Test} & Jarque-Bera Test & Kiểm định thống kê tính chuẩn của dữ liệu \\
+    \textbf{Kurtosis} & Kurtosis & Hệ số nhọn / Độ nhọn của phân phối \\
+    \textbf{Laplace-Stieltjes}& Laplace-Stieltjes Transform & Phép biến đổi Laplace-Stieltjes \\
+    \textbf{Log Returns} & Logarithmic Returns & Tỷ suất sinh lợi liên tục (sinh lợi Logarit) \\
+    \textbf{Machine Learning}& Machine Learning & Học máy \\
+    \textbf{MLE} & Maximum Likelihood Estimation & Phương pháp ước lượng hợp lý cực đại \\
+    \textbf{Monte Carlo} & Monte Carlo Simulation & Phương pháp mô phỏng ngẫu nhiên \\
+    \textbf{MSE} & Mean Squared Error & Sai số toàn phương trung bình \\
+    \textbf{MVP} & Minimum Variance Portfolio & Danh mục có rủi ro (phương sai) thấp nhất \\
+    \textbf{Pseudo-obs} & Pseudo-observations & Dữ liệu giả quan sát (Dữ liệu ánh xạ về $[0,1]$) \\
+    \textbf{Sharpe Ratio} & Sharpe Ratio & Tỷ số Sharpe (Thước đo hiệu quả sinh lời) \\
+    \textbf{Skewness} & Skewness & Hệ số bất đối xứng / Độ lệch của phân phối \\
+    \textbf{SLSQP} & Sequential Least SQuares & Thuật toán quy hoạch toàn phương chuỗi \\
+    \textbf{Stress-testing} & Stress-testing & Kiểm tra sức chịu tải của danh mục \\
+    \textbf{Tail Dependence} & Tail Dependence & Sự phụ thuộc đuôi (Đồng biến ở vùng cực đoan) \\
+    \textbf{t-Student} & Student's t-Copula & Hàm Copula t-Student (Phụ thuộc hai đuôi) \\
+    \textbf{VaR} & Value at Risk & Giá trị chịu rủi ro (Mức chặn tổn thất tối đa) \\
+    \textbf{Volatility} & Volatility & Biến động rủi ro hệ thống / Độ lệch chuẩn \\ 
+\end{longtable}
+
+\newpage
+
+\section*{CÁC KÝ HIỆU TOÁN HỌC}
+\addcontentsline{toc}{section}{CÁC KÝ HIỆU TOÁN HỌC}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}{@{} p{2.5cm} p{12.5cm} @{}}
+    \toprule
+    \textbf{Ký hiệu} & \textbf{Diễn giải ý nghĩa} \\ 
+    \midrule
+    \endfirsthead
+    
+    \multicolumn{2}{@{}l}{\textit{(Tiếp theo trang trước)}} \\
+    \toprule
+    \textbf{Ký hiệu} & \textbf{Diễn giải ý nghĩa} \\ 
+    \midrule
+    \endhead
+    
+    \bottomrule
+    \endfoot
+    
+    \bottomrule
+    \endlastfoot
+
+    % --- NỘI DUNG ---
+    $P_t$ & Giá đóng cửa điều chỉnh của tài sản tại thời điểm $t$. \\
+    $r_t$ & Tỷ suất sinh lợi logarit của tài sản tại thời điểm $t$ ($r_t = \ln(P_t / P_{t-1})$). \\
+    $F(x_1, \dots, x_d)$ & Hàm phân phối tích lũy đồng thời (Joint CDF) của $d$ biến số rủi ro. \\
+    $F_i(x_i)$ & Hàm phân phối tích lũy biên (Marginal CDF) của tài sản thứ $i$. \\
+    $Ran F_i$ & Phạm vi (Tập giá trị) mà hàm phân phối biên $F_i$ có thể nhận được. \\
+    $C(u_1, \dots, u_d)$ & Hàm Copula kết nối các phân phối biên trong không gian xác suất $[0,1]^d$. \\
+    $C_n(u)$ & Hàm Copula thực nghiệm (Empirical Copula) trích xuất từ dữ liệu lịch sử. \\
+    $C_{\theta}(u)$ & Hàm Copula lý thuyết được tham số hóa bởi cấu trúc $\theta$. \\
+    $M(u_1, \dots, u_d)$ & Giới hạn trên Fréchet (Đại diện cho sự phụ thuộc thuận hoàn hảo / đồng biến). \\
+    $W(u_1, u_2)$ & Giới hạn dưới Fréchet (Đại diện cho sự phụ thuộc nghịch hoàn hảo / nghịch biến). \\
+    $\Pi(u_1, \dots, u_d)$ & Copula độc lập. \\
+    $\phi(t)$ & Hàm sinh (Generator function) của họ Copula Archimedean. \\
+    $\phi^{[-1]}$ & Hàm nghịch đảo giả (Pseudo-inverse) của hàm sinh $\phi$. \\
+    $V$ & Biến trộn dùng trong mô phỏng Copula Archimedean. \\
+    $\hat{G}$ & Phép biến đổi Laplace-Stieltjes của hàm phân phối G. \\
+    $u_i$ hoặc $U$ & Biến ngẫu nhiên tuân theo phân phối đều chuẩn hóa (Uniform) trên đoạn $[0,1]$. \\
+    $\mathbf{w}$ & Vector đại diện cho tập hợp tỷ trọng vốn đầu tư. \\
+    $w_i$ & Tỷ trọng vốn đầu tư được phân bổ vào tài sản thứ $i$. \\
+    $\sum w_i = 1$ & Ràng buộc tổng tỷ trọng phân bổ vốn của danh mục luôn bằng 100\%. \\
+    $\mathbb{E}[R_p]$ hoặc $\mu_p$ & Tỷ suất sinh lợi kỳ vọng (Expected Return) của danh mục đầu tư. \\
+    $\sigma_p$ & Độ lệch chuẩn (Thước đo rủi ro tổng thể) của danh mục đầu tư. \\
+    $\Sigma$ & Ma trận hiệp phương sai (Covariance Matrix) của các tài sản. \\
+    $\alpha$ & Mức ý nghĩa thống kê (Trong khóa luận sử dụng $\alpha = 0.05$ tương đương phân vị 5\%). \\
+    $\text{VaR}_{\alpha}$ & Giá trị chịu rủi ro (Value at Risk) tại mức ý nghĩa $\alpha$. \\
+    $\text{CVaR}_{\alpha}$ & Giá trị chịu rủi ro có điều kiện (Trung bình của các khoản lỗ vượt quá VaR). \\
+    $df$ hoặc $\nu$ & Bậc tự do (Degrees of freedom) của phân phối t-Student. \\
+    $Z$ & Biến ngẫu nhiên tuân theo phân phối chuẩn đa biến (Dùng trong mô phỏng Copula). \\
+    $W$ & Biến ngẫu nhiên tuân theo phân phối Chi-bình phương hoặc nghịch đảo Gamma. \\
+    $R_f$ & Tỷ suất sinh lợi phi rủi ro (Risk-free rate). \\
+    $\theta$ & Tham số cấu trúc phụ thuộc của các hàm Copula Archimedean. \\
+    $\tau$ & Hệ số tương quan hạng Kendall (Kendall's Tau). \\
+    $\rho, \rho_s$ & Hệ số tương quan tuyến tính Pearson và tương quan hạng Spearman. \\
+    $\lambda_L, \lambda_U$ & Hệ số phụ thuộc đuôi dưới (Lower) và đuôi trên (Upper). \\ 
+    $S, b$ & Hệ số bất đối xứng (Skewness) lý thuyết và mẫu. \\
+    $K, k$ & Hệ số nhọn (Kurtosis) lý thuyết và mẫu. \\
+    $T$ & Đại lượng thống kê kiểm định Jarque-Bera. \\
+    $S_n$ & Đại lượng thống kê khoảng cách Cramér-von Mises. \\
+\end{longtable}
+
+
+\newpage
+
+% --- BẮT ĐẦU NỘI DUNG CHÍNH ---
+\newpage
+\setcounter{table}{0}
 %PHẦN MỞ ĐẦU
 \section{MỞ ĐẦU}
 \subsection{Bối cảnh nghiên cứu}
@@ -160,7 +297,7 @@
 \subsubsection{Danh mục đầu tư có tài sản phi rủi ro}
 \input{2.1.3.tex}
 \subsection{Copula và sự phụ thuộc đuôi}
-Nội dung trong phần này được tổng hợp và phát triển chủ yếu dựa trên lý thuyết và các thuật toán nền tảng từ nguồn tài liệu \cite{mcneil2015quantitative}
+Nội dung trong phần này được tổng hợp và phát triển chủ yếu dựa trên lý thuyết và các thuật toán nền tảng từ nguồn tài liệu \cite{mcneil2015quantitative} và một số nguồn tài liệu kham khảo khác.\\
 \subsubsection{Các Copula}
 \input{2.2.1.tex}
 \subsubsection{Các ví dụ của Copula}
@@ -188,7 +325,7 @@ Nội dung trong phần này được tổng hợp và phát triển chủ yếu
 \subsection{Hiện tượng đuôi dày}
 \input{2.6.tex}
 %Phần 3:
-\section{Mô phỏng Monte Carlo từ Copula}
+\section{MÔ PHỎNG MONTE CARLO VỚI CÁC MÔ HÌNH COPULA}
 \input{3.tex}
 \subsection{Quy trình chung cho phân phối Meta}
 \input{3.1.tex}
@@ -201,7 +338,7 @@ Nội dung trong phần này được tổng hợp và phát triển chủ yếu
 \subsection{Các thuật toán nâng cao cho phân phối hỗn hợp chuẩn}
 \input{3.5.tex}
 %PHẦN 4: PHƯƠNG PHÁP NGHIÊN CỨU
-\section{CÁC TIÊU CHÍ KIỂM ĐỊNH VÀ PHƯƠNG PHÁP NGHIÊN CỨU}
+\section{CÁC KIỂM ĐỊNH VÀ PHƯƠNG PHÁP NGHIÊN CỨU}
 \subsection{Thu thập và xử lý dữ liệu}
 \input{4.3.tex}
 \subsection{Thống kê mô tả và Kiểm định dữ liệu đầu vào}
