@@ -2,7 +2,7 @@ Lãi suất phi rủi ro $r_f$ là tỷ suất sinh lời của một tài sản
 \paragraph{Tỷ số Sharpe:}
 Tỷ số Sharpe (Sharpe Ratio - $SR_w$) là một đại lượng cơ bản trong lý thuyết danh mục đầu tư hiện đại, đo lường tỷ lệ giữa phần thưởng trên sự biến động (reward-to-variability ratio). Định nghĩa một cách chuẩn xác, tỷ số Sharpe thể hiện mức lợi nhuận vượt trội kỳ vọng (phần bù rủi ro) mà nhà đầu tư nhận được trên mỗi đơn vị rủi ro tổng thể mà họ chấp nhận gánh chịu. Công thức toán học của tỷ số Sharpe đối với danh mục đầu tư $w$ được xác định bởi:
 \bea
-SR_w = \frac{\mathbb{E}(R_w) - r_f}{\sigma_w}
+SR_w = \frac{\mathbb{E}(R_w) - r_f}{\sigma_w} ,
 \eea
 Trong đó:
 \begin{itemize}
@@ -10,6 +10,6 @@ Trong đó:
     \item $r_f$ là tỷ suất sinh lời của tài sản phi rủi ro.
     \item $\sigma_w$ (hoặc $\text{std}(R_w)$) là độ lệch chuẩn của tỷ suất sinh lời danh mục, đại diện cho độ biến động hoặc rủi ro tổng thể.
 \end{itemize}
-\cite{sharpe1966mutual}
+\cite{sharpe1966mutual} \\
 Trong phân tích trung bình - phương sai, tỷ số Sharpe là thước đo chuẩn hóa để đánh giá hiệu suất: giá trị $SR_w$ càng lớn biểu thị hiệu quả cấu trúc danh mục càng cao. Về mặt hình học, danh mục thị trường là danh mục tài sản rủi ro duy nhất tối đa hóa tỷ số Sharpe. Đây chính là tiếp điểm nơi đường thị trường vốn ({Capital Market Line - CML) tiếp xúc với đường biên hiệu quả (efficient frontier). \\
 Do đó, mọi danh mục đầu tư hiệu quả nằm trên đường CML đều sở hữu tỷ số Sharpe đồng nhất và bằng với tỷ số Sharpe của thị trường ($SR_M$), đồng thời $SR_M$ đóng vai trò là giới hạn trên lý thuyết trong thế giới trung bình - phương sai. Dựa vào mối liên hệ này, chiến lược phân bổ tài sản tối ưu của nhà đầu tư là kết hợp phân bổ vốn giữa tài sản phi rủi ro và danh mục thị trường nhằm đạt được tỷ lệ lợi nhuận thặng dư trên rủi ro cao nhất.

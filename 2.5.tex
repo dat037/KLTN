@@ -3,16 +3,16 @@ Họ Copula Archimedean là một nhóm các cấu trúc phụ thuộc được 
 \paragraph{Định nghĩa và hàm sinh:}
 Một Copula Archimedean hai chiều được xác định thông qua một hàm số $\phi$ gọi là hàm sinh, công thức tổng quát là:
 \bea
-C(u_1, u_2) = \phi^{[-1]}(\phi(u_1) + \phi(u_2))
+C(u_1, u_2) = \phi^{[-1]}(\phi(u_1) + \phi(u_2)) ,
 \eea
-Trong đó $\phi$ là hàm liên tục, giảm nghiêm ngặt và lồi trên thỏa mãn $\phi(1) = 0$. Ký hiệu $\phi^{[-1]}$ được định nghĩa là một nghịch đảo giả của $\phi$, có dạng:
+trong đó $\phi$ là hàm liên tục, giảm nghiêm ngặt và lồi trên thỏa mãn $\phi(1) = 0$. Ký hiệu $\phi^{[-1]}$ được định nghĩa là một nghịch đảo giả của $\phi$, có dạng:
 \bea
 \phi^{[-1]} = \left\{ \begin{aligned}
 &\phi^{-1}(t), &&0 \le t \le \phi(0) \\
 &0, &&\phi(0) < t \le \infty
-\end{aligned} \right.
+\end{aligned} , \right.
 \eea
-Nếu $\phi(0) = \infty$, hàm sinh được gọi là nghiêm ngặt và ta có thể dùng hàm nghịch đảo thông thường $\phi^{-1}$.
+nếu $\phi(0) = \infty$, hàm sinh được gọi là nghiêm ngặt và ta có thể dùng hàm nghịch đảo thông thường $\phi^{-1}$ \cite{alsina2006associative}.
 
 \paragraph{Các ví dụ phổ biến:}
 \begin{itemize}
@@ -25,9 +25,9 @@ Nếu $\phi(0) = \infty$, hàm sinh được gọi là nghiêm ngặt và ta có
 \paragraph{Mở rộng đa biến và tính trao đổi được:}
 Mở rộng một Copula Archimedean $d$ chiều có thể được xây dựng theo công thức:
 \bea
-C(u_1, \dots, u_d) = \phi^{-1}(\phi(u_1) + \dots + \phi(u_d))
+C(u_1, \dots, u_d) = \phi^{-1}(\phi(u_1) + \dots + \phi(u_d)) .
 \eea
-Điều kiện tồn tại để công thức này tạo thành một Copula hợp lệ trong mọi số chiều $d$ là hàm nghịch đảo $\phi^{-1}$ phải có tính đơn điệu hoàn toàn. Về tính trao đổi được, các Copula Archimedean đa biến tiêu chuẩn có tính trao đổi được, nghĩa là vai trò của các biến là như nhau. Tuy nhiên, ta có thể xây dựng các phiên bản không trao đổi được bằng cách áp dụng đệ quy các hàm sinh khác nhau để tạo cấu trúc phân nhóm.
+Điều kiện tồn tại để công thức này tạo thành một Copula hợp lệ trong mọi số chiều $d$ là hàm nghịch đảo $\phi^{-1}$ phải có tính đơn điệu hoàn toàn. Về tính trao đổi được, các Copula Archimedean đa biến tiêu chuẩn có tính trao đổi được, nghĩa là vai trò của các biến là như nhau. Tuy nhiên, ta có thể xây dựng các phiên bản không trao đổi được bằng cách áp dụng đệ quy các hàm sinh khác nhau để tạo cấu trúc phân nhóm \cite{hofert2012archimedean, mcneil2009multivariate}.
 
 \paragraph{Copula LT-Archimedean:}
 Đây là một nhóm con quan trọng được xây dựng dựa trên biến đổi Laplace-Stieltjes (LT) của một hàm phân phối $G$. Hàm nghịch đảo của hàm sinh $\phi^{-1}$ chính là biến đổi Laplace của $G$. Cách tiếp cận này cho phép mô phỏng dễ dàng bằng cách sử dụng một biến nguyên trộn $V$ có phân phối $G$ (ví dụ: phân phối Gamma cho Clayton, hoặc phân phối ổn định định hướng cho Gumbel). Ứng dụng của nó rất hữu ích trong mô hình hóa rủi ro tín dụng danh mục, nơi biến $V$ đóng vai trò là yếu tố rủi ro chung.
@@ -37,7 +37,7 @@ Các thước đo rủi ro có thể được tính trực tiếp từ hàm sinh
 \begin{itemize}
     \item Hệ số Kendall's tau ($\rho_\tau$) được tính theo công thức:
     \bea
-    \rho_\tau = 1 + 4\int_{0}^{1} \frac{\phi(t)}{\phi'(t)} dt
+    \rho_\tau = 1 + 4\int_{0}^{1} \frac{\phi(t)}{\phi'(t)} dt .
     \eea
     \item Phụ thuộc đuôi: Các hệ số $\lambda_u$ và $\lambda_l$ được xác định dựa trên tham số $\theta$ của từng loại (ví dụ: $\lambda_u = 2 - 2^{1/\theta}$ cho Gumbel).
 \end{itemize}

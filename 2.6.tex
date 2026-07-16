@@ -9,14 +9,14 @@
 Các mô hình quản trị danh mục cổ điển (như lý thuyết hiện đại Markowitz) dựa trên các giả định đơn giản hóa để đạt được sự tối ưu về mặt toán học. Tuy nhiên, trong thực tế thị trường tài chính, các giả định này bộc lộ ba hạn chế cốt lõi sau:
 \begin{itemize}
     \item Đánh giá thấp rủi ro cực đoan: Việc sử dụng phân phối chuẩn (Gaussian) dẫn đến việc đánh giá thấp đuôi của phân phối tổn thất, từ đó làm giảm nhẹ mức độ rủi ro thực tế của danh mục đầu tư. Ngoài ra, các mô hình như VaR (Value-at-Risk) truyền thống thường chỉ bắt đầu phản ánh rủi ro đuôi khi sử dụng mức tin cậy rất cao (trên 99\%), trong khi các mô hình đuôi dày như phân phối t đã bộc lộ rủi ro này từ mức tin cậy thấp hơn.
-    \item Khiếm khuyết của thước đo phương sai: Phương sai không phân biệt giữa sai lệch tích cực (lãi) và tiêu cực (lỗ), nó chỉ là thước đo tốt cho các phân phối gần như đối xứng, trong khi rủi ro tín dụng và rủi ro hoạt động thường có phân phối lệch mạnh. Để sử dụng phương sai, người ta phải giả định mô-men bậc hai tồn tại. Tuy nhiên, trong rủi ro hoạt động hoặc bảo hiểm, dữ liệu có thể có đuôi dày đến mức phương sai là vô hạn, khiến thước đo này trở nên vô nghĩa.
+    \item Khiếm khuyết của thước đo phương sai: Phương sai không phân biệt giữa sai lệch tích cực (lãi) và tiêu cực (lỗ), nó chỉ là thước đo tốt cho các phân phối gần như đối xứng, trong khi rủi ro tín dụng và rủi ro hoạt động thường có phân phối lệch mạnh. Để sử dụng phương sai, người ta phải giả định mô-men bậc hai tồn tại. Tuy nhiên, trong rủi ro hoạt động hoặc bảo hiểm, dữ liệu có thể có đuôi dày đến mức phương sai là vô hạn, khiến thước đo này trở nên vô nghĩa \cite{klugman1999fitting}.
     \item Vấn đề với quy tắc đa dạng hóa và phương sai: Trong các kịch bản có phân phối lệch hoặc đuôi rất dày, VaR có thể không thỏa mãn tính cộng dưới. Điều này dẫn đến một nghịch lý: đa dạng hóa danh mục đôi khi lại làm tăng VaR thay vì giảm rủi ro. Nếu sử dụng VaR để đặt hạn mức cho các nhà giao dịch, nó có thể thúc đẩy họ xây dựng các danh mục tập trung quá mức vào một tài sản rủi ro duy nhất để tối ưu hóa lợi nhuận dưới ràng buộc VaR.
 \end{itemize}
 
 \paragraph{Khủng hoảng cộng hưởng và sự sụp đổ của sự phụ thuộc:}
 \begin{itemize}
     \item Các mô hình truyền thống (như Gauss copula) thường giả định sự độc lập tiệm cận. Trong điều kiện bình thường, các tài sản có vẻ ít liên quan, nhưng trong các sự kiện khủng hoảng cộng hưởng, các nhân tố rủi ro thường biến động ngược chiều cùng lúc.
-    \item Khi khủng hoảng xảy ra, các lập luận về đa dạng hóa danh mục có thể bị phá vỡ hoàn toàn do sự xuất hiện của hiện tượng phụ thuộc đuôi – nơi các tài sản cùng sụp đổ đồng thời. Việc sử dụng máy móc công thức Gauss copula để định giá các sản phẩm phức tạp như CDO được coi là một nguyên nhân gây ra thảm họa tài chính năm 2008.
+    \item Khi khủng hoảng xảy ra, các lập luận về đa dạng hóa danh mục có thể bị phá vỡ hoàn toàn do sự xuất hiện của hiện tượng phụ thuộc đuôi – nơi các tài sản cùng sụp đổ đồng thời. Việc sử dụng máy móc công thức Gauss copula để định giá các sản phẩm phức tạp như CDO được coi là một nguyên nhân gây ra thảm họa tài chính năm 2008  \cite{andersen2004extensions}, \cite{brigo2010credit}.
 \end{itemize}
  
 \paragraph{Hướng đi mới trong quản trị rủi ro hiện đại:}

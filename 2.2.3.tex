@@ -1,6 +1,6 @@
 Phân phối meta là các hàm phân phối đa biến được xây dựng bằng cách kết hợp một Copula cụ thể với các phân phối biên tùy ý. Cơ sở xây dựng dựa trên định lý Sklar, nếu ta chọn một Copula $C$ và các hàm phân phối biên $F_1, \dots, F_d$ thì hàm phân phối đa biến $F$ được xác định bởi công thức:
 \bea
-F(x_1, \dots, x_d) = C(F_1(x_1), \dots, F_d(x_d))
+F(x_1, \dots, x_d) = C(F_1(x_1), \dots, F_d(x_d)) .
 \eea
 Hàm số này chắc chắn là một hàm phân phối đồng thời hợp lệ với các biến chính là $F_1, \dots, F_d$.\\
 Các ví dụ điển hình bao gồm phân phối Meta-Gaussian, sử dụng Gauss Copula kết hợp với các phân phối biên bất kỳ. Phân phối Meta-$t$ sử dụng $t$ Copula kết hợp với các biến tùy ý; phân phối này thường được quan tâm hơn Meta-Gaussian vì nó có khả năng mô tả phụ thuộc đuôi. Ngoài ra còn có phân phối Meta-Clayton và Meta-Gumbel được tạo ra bằng cách sử dụng Copula Clayton hoặc Gumbel với các phân phối biên do người dùng tự lựa chọn.\\

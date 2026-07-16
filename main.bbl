@@ -62,9 +62,44 @@
       \field{title}{Pair-copula constructions of multiple dependence}
       \field{volume}{44}
       \field{year}{2009}
-      \true{nocite}
       \field{pages}{182\bibrangedash 198}
       \range{pages}{17}
+    \endentry
+    \entry{acerbi2002coherence}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=aaf529f523ac2bccff4df4ba440b45ae}{%
+           family={Acerbi},
+           familyi={A\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=877cf235d81d4d8f4443c1648be39600}{%
+           family={Tasche},
+           familyi={T\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2cbf366231c7a1d9a17494de7c85f785}
+      \strng{fullhash}{2cbf366231c7a1d9a17494de7c85f785}
+      \strng{fullhashraw}{2cbf366231c7a1d9a17494de7c85f785}
+      \strng{bibnamehash}{2cbf366231c7a1d9a17494de7c85f785}
+      \strng{authorbibnamehash}{2cbf366231c7a1d9a17494de7c85f785}
+      \strng{authornamehash}{2cbf366231c7a1d9a17494de7c85f785}
+      \strng{authorfullhash}{2cbf366231c7a1d9a17494de7c85f785}
+      \strng{authorfullhashraw}{2cbf366231c7a1d9a17494de7c85f785}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Banking \& Finance}
+      \field{number}{7}
+      \field{title}{On the coherence of expected shortfall}
+      \field{volume}{26}
+      \field{year}{2002}
+      \field{pages}{1487\bibrangedash 1503}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/S0378-4266(02)00283-2
+      \endverb
     \endentry
     \entry{alsina2006associative}{book}{}{}
       \name{author}{3}{}{%
@@ -101,7 +136,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Associative Functions: Triangular Norms and Copulas}
       \field{year}{2006}
-      \true{nocite}
     \endentry
     \entry{andersen2004extensions}{article}{}{}
       \name{author}{2}{}{%
@@ -133,7 +167,6 @@
       \field{title}{Extensions to the Gaussian copula: random recovery and random factor loadings}
       \field{volume}{1}
       \field{year}{2004}
-      \true{nocite}
       \field{pages}{29\bibrangedash 70}
       \range{pages}{42}
     \endentry
@@ -172,6 +205,88 @@
       \verb 10.2991/978-94-6239-070-6
       \endverb
     \endentry
+    \entry{artzner1999coherent}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3f2ec6a82c23c0c7062a2c8dad7a86e1}{%
+           family={Artzner},
+           familyi={A\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1af76fc6ac243ee12ea3e2cb593750ee}{%
+           family={Delbaen},
+           familyi={D\bibinitperiod},
+           given={Freddy},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1d79028403b8f170c257ba3e5531a3e8}{%
+           family={Eber},
+           familyi={E\bibinitperiod},
+           given={Jean-Marc},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=efe5624ffa1b674383a27edcc7c48d62}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{401eceac13445f29090201341d46d9fa}
+      \strng{fullhash}{70f38e73ef1cfca300fa942b4a702234}
+      \strng{fullhashraw}{70f38e73ef1cfca300fa942b4a702234}
+      \strng{bibnamehash}{401eceac13445f29090201341d46d9fa}
+      \strng{authorbibnamehash}{401eceac13445f29090201341d46d9fa}
+      \strng{authornamehash}{401eceac13445f29090201341d46d9fa}
+      \strng{authorfullhash}{70f38e73ef1cfca300fa942b4a702234}
+      \strng{authorfullhashraw}{70f38e73ef1cfca300fa942b4a702234}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Finance}
+      \field{number}{3}
+      \field{title}{Coherent measures of risk}
+      \field{volume}{9}
+      \field{year}{1999}
+      \field{pages}{203\bibrangedash 228}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1111/1467-9965.00068
+      \endverb
+    \endentry
+    \entry{black1973pricing}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=93277dfc1ebe8d44428e74799781e4d7}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Fischer},
+           giveni={F\bibinitperiod}}}%
+        {{hash=301bb16d9f303a488dac1c73931c0eff}{%
+           family={Scholes},
+           familyi={S\bibinitperiod},
+           given={Myron},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{fullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{fullhashraw}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{bibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorbibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authornamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorfullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorfullhashraw}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{3}
+      \field{title}{The pricing of options and corporate liabilities}
+      \field{volume}{81}
+      \field{year}{1973}
+      \field{pages}{637\bibrangedash 654}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1086/260062
+      \endverb
+    \endentry
     \entry{brigo2010credit}{book}{}{}
       \name{author}{3}{}{%
         {{hash=fe8af4531a2b4f950378eda1f0da235d}{%
@@ -207,7 +322,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Credit Models and the Crisis: A Journey into CDOs, Copulas, Correlations and Dynamic Models}
       \field{year}{2010}
-      \true{nocite}
     \endentry
     \entry{trong2024lythuyetxacsuat}{book}{}{}
       \name{author}{1}{}{%
@@ -241,6 +355,48 @@
       \field{title}{Lý thuyết Xác suất}
       \field{year}{2024}
       \true{nocite}
+    \endentry
+    \entry{embrechts2002correlation}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=1cb1372ef5a179bf72e7bc72d0a9c941}{%
+           family={Embrechts},
+           familyi={E\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c958f86737659f2c94e9ca8cf34bed31}{%
+           family={McNeil},
+           familyi={M\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=55e2ef46f5aa3a8e308cfbb6e71912e5}{%
+           family={Straumann},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{f0635bb24b92089b39e141a75c0271f7}
+      \strng{fullhash}{f0635bb24b92089b39e141a75c0271f7}
+      \strng{fullhashraw}{f0635bb24b92089b39e141a75c0271f7}
+      \strng{bibnamehash}{f0635bb24b92089b39e141a75c0271f7}
+      \strng{authorbibnamehash}{f0635bb24b92089b39e141a75c0271f7}
+      \strng{authornamehash}{f0635bb24b92089b39e141a75c0271f7}
+      \strng{authorfullhash}{f0635bb24b92089b39e141a75c0271f7}
+      \strng{authorfullhashraw}{f0635bb24b92089b39e141a75c0271f7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Risk Management: Value at Risk and Beyond}
+      \field{title}{Correlation and dependence in risk management: properties and pitfalls}
+      \field{year}{2002}
+      \field{pages}{176\bibrangedash 223}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.1017/CBO9780511615337.008
+      \endverb
     \endentry
     \entry{genest2009advent}{article}{}{}
       \name{author}{3}{}{%
@@ -438,7 +594,6 @@
       \field{title}{Archimedean copulas in high dimensions: estimators and numerical challenges motivated by financial applications}
       \field{volume}{153}
       \field{year}{2012}
-      \true{nocite}
       \field{pages}{25\bibrangedash 63}
       \range{pages}{39}
     \endentry
@@ -472,12 +627,38 @@
       \field{title}{The implied copula model}
       \field{volume}{14}
       \field{year}{2006}
-      \true{nocite}
       \field{pages}{8\bibrangedash 28}
       \range{pages}{21}
       \verb{doi}
       \verb 10.3905/jod.2006.666710
       \endverb
+    \endentry
+    \entry{jorion2006value}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=827d9db7ac1ca654fb3e30d86d662929}{%
+           family={Jorion},
+           familyi={J\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{fullhash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{fullhashraw}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{bibnamehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authorbibnamehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authornamehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authorfullhash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authorfullhashraw}{827d9db7ac1ca654fb3e30d86d662929}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Value at Risk: The New Benchmark for Managing Financial Risk}
+      \field{year}{2006}
     \endentry
     \entry{klugman1999fitting}{article}{}{}
       \name{author}{2}{}{%
@@ -512,7 +693,6 @@
       \field{title}{Fitting bivariate loss distributions with copulas}
       \field{volume}{24}
       \field{year}{1999}
-      \true{nocite}
       \field{pages}{139\bibrangedash 148}
       \range{pages}{10}
       \verb{doi}
@@ -619,6 +799,37 @@
       \verb 10.1142/8449
       \endverb
     \endentry
+    \entry{markowitz1952portfolio}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdfa1c8585b5a4ae901315043a00f2f2}{%
+           family={Markowitz},
+           familyi={M\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \strng{fullhash}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \strng{fullhashraw}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \strng{bibnamehash}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \strng{authorbibnamehash}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \strng{authornamehash}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \strng{authorfullhash}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \strng{authorfullhashraw}{bdfa1c8585b5a4ae901315043a00f2f2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{1}
+      \field{title}{Portfolio selection}
+      \field{volume}{7}
+      \field{year}{1952}
+      \field{pages}{77\bibrangedash 91}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.1952.tb01525.x
+      \endverb
+    \endentry
     \entry{mcneil2009multivariate}{article}{}{}
       \name{author}{2}{}{%
         {{hash=231761997efdbb6990d66a96c3623423}{%
@@ -652,7 +863,6 @@
       \field{title}{Multivariate Archimedean copulas, $d$-monotone functions and $l_1$-norm symmetric distributions}
       \field{volume}{37}
       \field{year}{2009}
-      \true{nocite}
       \field{pages}{3059\bibrangedash 3097}
       \range{pages}{39}
       \verb{doi}
@@ -765,6 +975,42 @@
       \field{year}{2024}
       \true{nocite}
     \endentry
+    \entry{rockafellar2000optimization}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=18de24308c36b3348b1477a2f7aa442f}{%
+           family={Rockafellar},
+           familyi={R\bibinitperiod},
+           given={R\bibnamedelima Tyrrell},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=75a8a2346ba45ae5110aa302b89a30c7}{%
+           family={Uryasev},
+           familyi={U\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{fullhash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{fullhashraw}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{bibnamehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authorbibnamehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authornamehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authorfullhash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authorfullhashraw}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Risk}
+      \field{number}{3}
+      \field{title}{Optimization of conditional value-at-risk}
+      \field{volume}{2}
+      \field{year}{2000}
+      \field{pages}{21\bibrangedash 42}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.21314/JOR.2000.038
+      \endverb
+    \endentry
     \entry{ruschendorf2009distributional}{article}{}{}
       \name{author}{1}{}{%
         {{hash=fcc1f90247ba1384cc786844792e5051}{%
@@ -797,6 +1043,37 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1016/j.jspi.2009.05.019
+      \endverb
+    \endentry
+    \entry{sharpe1966mutual}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7713eaeb6845785b0f6bb5cffab120d1}{%
+           family={Sharpe},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima F},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{fullhash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{fullhashraw}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{bibnamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authorbibnamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authornamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authorfullhash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authorfullhashraw}{7713eaeb6845785b0f6bb5cffab120d1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Business}
+      \field{number}{1}
+      \field{title}{Mutual fund performance}
+      \field{volume}{39}
+      \field{year}{1966}
+      \field{pages}{119\bibrangedash 138}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1086/294846
       \endverb
     \endentry
     \entry{shreve2009faulty}{article}{}{}
@@ -876,7 +1153,6 @@
       \field{title}{Double-$t$ copula pricing of structured credit products: practical aspects of a trustworthy implementation}
       \field{volume}{5}
       \field{year}{2009}
-      \true{nocite}
       \field{pages}{91\bibrangedash 109}
       \range{pages}{19}
       \verb{doi}

@@ -2386,21 +2386,30 @@
     <bcf:citekey order="11" intorder="1">mcneil2015quantitative</bcf:citekey>
     <bcf:citekey order="12" intorder="1">sharpe1966mutual</bcf:citekey>
     <bcf:citekey order="13" intorder="1">mcneil2015quantitative</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">sklar1959fonctions</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">nelsen2006introduction</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">embrechts2002correlation</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">luo2010tcopula</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">genest1993statistical</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">mai2012simulating</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">hofert2008sampling</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">black1973pricing</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">ruschendorf2009distributional</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">genest2009goodness</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">jorion2006value</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">acerbi2002coherence</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">rockafellar2000optimization</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">artzner1999coherent</bcf:citekey>
-    <bcf:citekey order="27" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">aas2009pair</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">sklar1959fonctions</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">nelsen2006introduction</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">embrechts2002correlation</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">luo2010tcopula</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">vrins2009doublet</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">alsina2006associative</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">genest1993statistical</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">hofert2012archimedean</bcf:citekey>
+    <bcf:citekey order="22" intorder="2">mcneil2009multivariate</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">klugman1999fitting</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">andersen2004extensions</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">brigo2010credit</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">hull2006implied</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">mai2012simulating</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">hofert2008sampling</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">black1973pricing</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">ruschendorf2009distributional</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">genest2009goodness</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">jorion2006value</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">acerbi2002coherence</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">rockafellar2000optimization</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">artzner1999coherent</bcf:citekey>
+    <bcf:citekey order="36" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
