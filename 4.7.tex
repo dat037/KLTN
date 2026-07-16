@@ -19,6 +19,7 @@ Thuật toán SLSQP tiến hành tìm kiếm điểm tối ưu toàn cục thôn
     \item Xác định hướng tìm kiếm: Thuật toán giải bài toán tối ưu bậc hai phụ vừa tạo ra để tìm ra hướng di chuyển tối ưu trong không gian các tỷ trọng. Hướng di chuyển này đảm bảo hàm mục tiêu giảm xuống với tốc độ nhanh nhất mà vẫn không vi phạm các ràng buộc về ngân sách và bán khống.
     \item Cập nhật và kiểm tra hội tụ: Cập nhật vectơ tỷ trọng mới bằng cách dịch chuyển một khoảng cách phù hợp theo hướng đã xác định. Thuật toán sẽ tính toán lại và kiểm tra điều kiện dừng (hội tụ). Điểm hội tụ đạt được khi sự thay đổi của hàm mục tiêu hoặc sự dịch chuyển của vectơ tỷ trọng giữa hai bước lặp liên tiếp tiến gần về 0 (đạt đến điểm cực trị cục bộ/toàn cục). Nếu chưa hội tụ, thuật toán quay lại Bước 2 và tiếp tục vòng lặp.
 \end{itemize}
+\cite{artzner1999coherent}
 \paragraph{Đầu ra của thuật toán} 
 Sau khi thuật toán hội tụ thành công và kết thúc vòng lặp, đầu ra thu được bao gồm:
 \begin{itemize}

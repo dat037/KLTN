@@ -91,7 +91,7 @@
 \contentsline {paragraph}{Bài toán tối ưu hóa Copula - CVaR}{33}{section*.53}%
 \contentsline {subsubsection}{\numberline {IV.4.3}Thuật toán tối ưu hóa phi tuyến có ràng buộc (SLSQP)}{33}{subsubsection.4.4.3}%
 \contentsline {paragraph}{Đầu vào của thuật toán}{33}{section*.54}%
-\contentsline {paragraph}{Cơ chế hoạt động}{33}{section*.55}%
+\contentsline {paragraph}{Cơ chế hoạt động}{34}{section*.55}%
 \contentsline {paragraph}{Đầu ra của thuật toán}{34}{section*.56}%
 \contentsline {subsection}{\numberline {IV.5}Quy trình phân tích dữ liệu}{34}{subsection.4.5}%
 \contentsline {section}{\numberline {V}PHÂN TÍCH MÔ PHỎNG VÀ KẾT QUẢ}{35}{section.5}%

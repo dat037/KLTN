@@ -280,7 +280,6 @@
       \field{title}{The advent of copulas in finance}
       \field{volume}{15}
       \field{year}{2009}
-      \true{nocite}
       \field{pages}{609\bibrangedash 618}
       \range{pages}{10}
       \verb{doi}
@@ -398,7 +397,6 @@
       \field{title}{Sampling Archimedean copulas}
       \field{volume}{52}
       \field{year}{2008}
-      \true{nocite}
       \field{pages}{5163\bibrangedash 5174}
       \range{pages}{12}
       \verb{doi}
@@ -554,7 +552,6 @@
       \field{title}{The $t$ copula with multiple parameters of degrees of freedom: bivariate characteristics and application to risk management}
       \field{volume}{10}
       \field{year}{2010}
-      \true{nocite}
       \field{pages}{1039\bibrangedash 1054}
       \range{pages}{16}
       \verb{doi}
@@ -618,7 +615,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Simulating Copulas: Stochastic Models, Sampling Algorithms and Applications}
       \field{year}{2012}
-      \true{nocite}
       \verb{doi}
       \verb 10.1142/8449
       \endverb
@@ -732,7 +728,6 @@
       \field{edition}{2}
       \field{title}{An Introduction to Copulas}
       \field{year}{2006}
-      \true{nocite}
       \verb{doi}
       \verb 10.1007/0-387-28678-0
       \endverb
