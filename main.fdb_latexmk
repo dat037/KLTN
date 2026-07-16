@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1784225872.99271 "main.bcf" "main.bbl" "main" 1784229019.16834 0
-  "main.bcf" 1784229018 111327 e6f7b7ff65b2bf3a3640698e968ab656 "pdflatex"
+["biber main"] 1784230213.3041 "main.bcf" "main.bbl" "main" 1784230238.30234 0
+  "main.bcf" 1784230237 111485 18952f15ce1f66fd6170d38719661c27 "pdflatex"
   "ref.bib" 1784224863 11347 ac102331b003befa6c7e9783b0c1c5e0 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1784229010.9445 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1784229019.16972 0
+["pdflatex"] 1784230230.07449 "c:/Users/Admin/Documents/GitHub/KLTN/main.tex" "main.pdf" "main" 1784230238.30453 0
   "1.1.1.tex" 1784221520 1789 3b0544e1e437a29d75e4da25838bbafc ""
   "1.1.2.tex" 1779812338 504 5c3fcc844d6c47fbf2c30319f3ea6dec ""
   "1.1.3.tex" 1782496122 1401 7b4c3f357aa7beb229bbbe3b999fe9ab ""
@@ -31,9 +31,9 @@
   "3.4.tex" 1784228826 1330 ed7827110e0250b67ae855197d2ecdfc ""
   "3.5.tex" 1779823740 741 4db6ff7c8330caedf3471d3ff4309dcd ""
   "3.tex" 1784225862 2544 5c6a0a8c1d8c613b79dd20f63c234e39 ""
-  "4.1.tex" 1784227767 3348 0f7143bc912a0592cd4336207942ba64 ""
+  "4.1.tex" 1784230202 3378 02636b65dd26d7614eb3263cc4df411f ""
   "4.2.1.tex" 1784227767 3008 d93b651f585b12e08f32c420bee790a6 ""
-  "4.2.tex" 1784227767 2325 bdd0e02b8ecb2aaba3a407cd3c88fc7a ""
+  "4.2.tex" 1784230202 2357 f9bb176f7be93b33d8f178f31d5b5112 ""
   "4.3.tex" 1784227767 1378 113f1e84455e00610a3bb056e34fc2ea ""
   "4.4.tex" 1782726946 3066 2ecb810016269be96149fc9aeef9a2bd ""
   "4.5.tex" 1784222021 1678 425731a03ce2494a2c60216558ee710b ""
@@ -288,14 +288,14 @@
   "efficient_frontier_with_cml.png" 1782805183 95696 dbd937d294afb003d8145f15c065e357 ""
   "final_asset_distribution.png" 1782862524 50792 1511f716d7768f44ace4714bc70a7a0b ""
   "icon KHTN.png" 1769974894 258629 122747e63e393f11b7f15571540c7d20 ""
-  "main.aux" 1784229018 25006 b1128a5a0d3134fafca7465c38083f40 "pdflatex"
-  "main.bbl" 1784225878 49583 da374c1b5e38558b594ffaa4c7dffd93 "biber main"
-  "main.lof" 1784229018 790 913140aaee7cfc2934e5186518bf3ae2 "pdflatex"
-  "main.lot" 1784229018 782 b0eefb0df3b0bdf87497f704d4a9cc3b "pdflatex"
-  "main.out" 1784229018 15160 3e6b387182098a1195c7744992c2675a "pdflatex"
-  "main.run.xml" 1784229018 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
+  "main.aux" 1784230237 25180 df7a1491cbd23e7b928850e286fd548a "pdflatex"
+  "main.bbl" 1784230229 49583 da374c1b5e38558b594ffaa4c7dffd93 "biber main"
+  "main.lof" 1784230237 790 913140aaee7cfc2934e5186518bf3ae2 "pdflatex"
+  "main.lot" 1784230237 782 b0eefb0df3b0bdf87497f704d4a9cc3b "pdflatex"
+  "main.out" 1784230237 15160 3e6b387182098a1195c7744992c2675a "pdflatex"
+  "main.run.xml" 1784230237 2298 9255f4d2cb39a5ffeeda22d5a40b248a "pdflatex"
   "main.tex" 1783880823 23181 8260e584b81fdd6ab89a96d976d466eb ""
-  "main.toc" 1784229018 10811 4c309ad6ee5beee2040964c9ec4cf434 "pdflatex"
+  "main.toc" 1784230237 10811 4c309ad6ee5beee2040964c9ec4cf434 "pdflatex"
   "monte_carlo_paths_1year.png" 1782862523 203803 9b87471da303c90031c0be3623b74573 ""
   "optimal_cvar_portfolio_fixed.png" 1782805185 44292 5558505ecde575dc2eb1477b641fe1a2 ""
   "tstudent_sim_returns_var.png" 1782805184 37610 da2417fed3c1361ba6ae1c29465eb615 ""

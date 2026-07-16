@@ -2403,13 +2403,15 @@
     <bcf:citekey order="27" intorder="1">mai2012simulating</bcf:citekey>
     <bcf:citekey order="28" intorder="1">hofert2008sampling</bcf:citekey>
     <bcf:citekey order="29" intorder="1">black1973pricing</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">ruschendorf2009distributional</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">genest2009goodness</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">jorion2006value</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">acerbi2002coherence</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">rockafellar2000optimization</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">artzner1999coherent</bcf:citekey>
-    <bcf:citekey order="36" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">mcneil2015quantitative</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">arratia2014computational</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">ruschendorf2009distributional</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">genest2009goodness</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">jorion2006value</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">acerbi2002coherence</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">rockafellar2000optimization</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">artzner1999coherent</bcf:citekey>
+    <bcf:citekey order="38" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
