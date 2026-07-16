@@ -3,7 +3,9 @@ Phương pháp này sử dụng biến đổi Laplace-Stieltjes để tạo ra c
     \item Tạo một biến ngẫu nhiên $V$ có hàm phân phối $G$ sao cho biến đổi Laplace-Stieltjes $\hat{G}$ của nó chính là nghịch đảo của hàm sinh Copula $\phi = \hat{G}^{-1}$.
     \item Tạo các biến ngẫu nhiên đều tiêu chuẩn độc lập $X_1, \dots, X_d$.
     \item Trả về vectơ kết quả được tính theo biểu thức:
-    $$U = \left(\hat{G}\left(-\frac{\ln(X_1)}{V}\right), \dots, \hat{G}\left(-\frac{\ln(X_d)}{V}\right)\right)^T$$
+    \bea
+     U = \left(\hat{G}\left(-\frac{\ln(X_1)}{V}\right), \dots, \hat{G}\left(-\frac{\ln(X_d)}{V}\right)\right)^T . 
+    \eea
 \end{itemize}
 
 Đối với các trường hợp cụ thể, cấu trúc của biến trộn $V$ được xác định riêng biệt cho từng loại Copula:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  17 JUL 2026 01:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  17 JUL 2026 02:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1289,31 +1289,31 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has 
                    \relax 
 l.5 ...rận tương quan tuyến tính (Pearson)}
                                                    [36]) (5.3.tex
-<efficient_frontier_with_cml.png, id=723, 722.7pt x 433.62pt>
+<efficient_frontier_with_cml.png, id=724, 722.7pt x 433.62pt>
 File: efficient_frontier_with_cml.png Graphic file (type png)
 <use efficient_frontier_with_cml.png>
 Package pdftex.def Info: efficient_frontier_with_cml.png  used on input line 27.
 (pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
  [37]) (5.4.tex [38 <./efficient_frontier_with_cml.png>]) (5.5.1.tex [39]
-<tstudent_sim_returns_var.png, id=741, 722.7pt x 433.62pt>
+<tstudent_sim_returns_var.png, id=742, 722.7pt x 433.62pt>
 File: tstudent_sim_returns_var.png Graphic file (type png)
 <use tstudent_sim_returns_var.png>
 Package pdftex.def Info: tstudent_sim_returns_var.png  used on input line 9.
 (pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
 ) (5.5.2.tex
-<optimal_cvar_portfolio_fixed.png, id=743, 722.7pt x 433.62pt>
+<optimal_cvar_portfolio_fixed.png, id=744, 722.7pt x 433.62pt>
 File: optimal_cvar_portfolio_fixed.png Graphic file (type png)
 <use optimal_cvar_portfolio_fixed.png>
 Package pdftex.def Info: optimal_cvar_portfolio_fixed.png  used on input line 5.
 (pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
  [40 <./tstudent_sim_returns_var.png>]) (5.6.tex
-<monte_carlo_paths_1year.png, id=752, 722.7pt x 433.62pt>
+<monte_carlo_paths_1year.png, id=753, 722.7pt x 433.62pt>
 File: monte_carlo_paths_1year.png Graphic file (type png)
 <use monte_carlo_paths_1year.png>
 Package pdftex.def Info: monte_carlo_paths_1year.png  used on input line 5.
 (pdftex.def)             Requested size: 409.71692pt x 245.82944pt.
  [41 <./optimal_cvar_portfolio_fixed.png>]
-<final_asset_distribution.png, id=760, 722.7pt x 433.62pt>
+<final_asset_distribution.png, id=761, 722.7pt x 433.62pt>
 File: final_asset_distribution.png Graphic file (type png)
 <use final_asset_distribution.png>
 Package pdftex.def Info: final_asset_distribution.png  used on input line 14.
@@ -1346,17 +1346,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 37984 strings out of 467870
- 747638 string characters out of 5428423
- 1919256 words of memory out of 5000000
+ 37985 strings out of 467870
+ 747649 string characters out of 5428423
+ 1920256 words of memory out of 5000000
  65627 multiletter control sequences out of 15000+600000
  646614 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,14n,96p,1396b,2274s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vncsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Program Files/MiKTeX/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (55 pages, 1176322 bytes).
+Output written on main.pdf (55 pages, 1176580 bytes).
 PDF statistics:
- 1335 PDF objects out of 1440 (max. 8388607)
- 546 named destinations out of 1000 (max. 500000)
+ 1337 PDF objects out of 1440 (max. 8388607)
+ 547 named destinations out of 1000 (max. 500000)
  691 words of extra memory for PDF output out of 10000 (max. 10000000)
 
